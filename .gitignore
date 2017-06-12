@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 usa00006_processed.csv
 usa_00006_filtered.csv
+.RData
+.Rhistory
