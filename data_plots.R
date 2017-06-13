@@ -7,6 +7,9 @@ setwd('~/insight/tech_cities/')
 metro.data <- read_csv('metro_summary_data.csv')
 str(metro.data)
 
+high.tech <- metro.data %>%
+    filter(PercentTech > 3)
+
 ggplot(metro.data, aes(x=TotalPeople, y=TotalTech)) +
     geom_point() +
     scale_x_log10() +
@@ -16,7 +19,8 @@ metro.data %>%
     filter(TotalPeople > 10000000)
 metro.data %>%
     ggplot(aes(x=MedianAge)) +
-    geom_histogram()
+    geom_histogram() +
+    geom_vline(data = high.tech, aes(xintercept = MedianAge), linetype='dotted')
 metro.data %>%
     filter(MedianAge > 50)
 metro.data %>%
@@ -39,12 +43,16 @@ metro.data %>%
 metro.data %>% filter(PercentHighSchool < .8)
 
 metro.data %>%
-    filter(PercentHighSchool > 1)
+    ggplot(aes(x=PercentCollege)) +
+    geom_histogram() +
+    geom_vline(data = high.tech, aes(xintercept = PercentCollege), linetype='dotted')
 
 ggplot(metro.data, aes(x=MedianIncome)) +
-    geom_histogram(binwidth = 1000)
+    geom_histogram(binwidth = 1000) +
+    geom_vline(data = high.tech, aes(xintercept = MedianIncome), linetype='dotted')
 ggplot(metro.data, aes(x=PercentFemale)) +
-    geom_histogram()
+    geom_histogram() +
+    geom_vline(data = high.tech, aes(xintercept = PercentFemale), linetype='dotted')
 metro.data %>%
     filter(PercentFemale < 0.48)
 metro.data %>%
@@ -82,5 +90,10 @@ metro.data %>%
 metro.data %>%
     ggplot(aes(x=DiversityIndex)) +
     geom_histogram()
+
+metro.data %>%
+    ggplot(aes(x=Percent18to35)) +
+    geom_histogram() +
+    geom_vline(data = high.tech, aes(xintercept = Percent18to35), linetype='dotted')
 
 
