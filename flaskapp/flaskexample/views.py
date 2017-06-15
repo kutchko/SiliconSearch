@@ -30,6 +30,10 @@ def cities_input():
 
         return render_template('input.html', cities = cities)
 
+@app.route('/map')
+def mappage():
+    return render_template('map.html')
+
 @app.route('/output')
 def cities_output():
     recommended_city = ''
