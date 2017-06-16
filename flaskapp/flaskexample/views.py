@@ -26,7 +26,8 @@ def cities_input():
             "from metro_counties t1 left join metro_data t2 on t1.CBSA=t2.CBSA"
         cursor.execute(data_query)
         df = pd.DataFrame(cursor.fetchall())
-        df['fips_id'] = df['StateFIPS'] * 1000 + df['CountyFIPS']
+        dfseries = df['StateFIPS'] * 1000 + df['CountyFIPS']
+        df['id'] = dfseries.apply(lambda x: "%05d" % x)
         df.to_csv("flaskexample/static/county_data.tsv", sep="\t")
 
     with connection.cursor() as cursor:

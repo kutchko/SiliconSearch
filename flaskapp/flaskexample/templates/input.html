@@ -103,14 +103,14 @@
     <style>
 
     .counties {
-fill: none;
+        fill: none;
     }
 
-.states {
-fill: none;
-stroke: #fff;
+    .states {
+        fill: none;
+        stroke: #fff;
         stroke-linejoin: round;
-}
+    }
 
 </style>
 <svg width="960" height="600"></svg>
@@ -123,65 +123,111 @@ var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-var unemployment = d3.map();
+//var unemployment = d3.map();
+var county_data = d3.map();
 
 var path = d3.geoPath();
 
-    var x = d3.scaleLinear()
-.domain([1, 10])
+var x = d3.scaleLinear()
+    .domain([1, 10])
     .rangeRound([600, 860]);
 
-    var color = d3.scaleThreshold()
-.domain(d3.range(2, 10))
-    .range(d3.schemeBlues[9]);
+    //var color = d3.scaleThreshold()
+    //.domain(d3.range(2, 10))
+    //.range(d3.schemeBlues[9]);
+    var color_yes = d3.scaleLinear()
+        .domain([1, 20000000])
+        .range(['#fee6ce','#e6550d'])
+    var color_no = d3.scaleLinear()
+        .domain([1, 20000000])
+        .range(['#deebf7','#3182bd'])
+
 
     var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
-    g.selectAll("rect")
-    .data(color.range().map(function(d) {
-                d = color.invertExtent(d);
-                if (d[0] == null) d[0] = x.domain()[0];
-                if (d[1] == null) d[1] = x.domain()[1];
-                return d;
-                }))
-.enter().append("rect")
-.attr("height", 8)
-.attr("x", function(d) { return x(d[0]); })
-.attr("width", function(d) { return x(d[1]) - x(d[0]); })
-.attr("fill", function(d) { return color(d[0]); });
+//    g.selectAll("rect")
+//    .data(color.range().map(function(d) {
+//                d = color.invertExtent(d);
+//                if (d[0] == null) d[0] = x.domain()[0];
+//                if (d[1] == null) d[1] = x.domain()[1];
+//                return d;
+//                }))
+//.enter().append("rect")
+//.attr("height", 8)
+//.attr("x", function(d) { return x(d[0]); })
+//.attr("width", function(d) { return x(d[1]) - x(d[0]); })
+//.attr("fill", function(d) { return color(d[0]); });
 
-g.append("text")
-.attr("class", "caption")
-.attr("x", x.range()[0])
-.attr("y", -6)
-.attr("fill", "#000")
-.attr("text-anchor", "start")
-.attr("font-weight", "bold")
-.text("Unemployment rate");
+//g.append("text")
+//.attr("class", "caption")
+//.attr("x", x.range()[0])
+//.attr("y", -6)
+//.attr("fill", "#000")
+//.attr("text-anchor", "start")
+//.attr("font-weight", "bold")
+//.text("Unemployment rate");
 
-    g.call(d3.axisBottom(x)
-            .tickSize(13)
-            .tickFormat(function(x, i) { return i ? x : x + "%"; })
-            .tickValues(color.domain()))
-    .select(".domain")
-    .remove();
+//    g.call(d3.axisBottom(x)
+//            .tickSize(13)
+//            .tickFormat(function(x, i) { return i ? x : x + "%"; })
+//            .tickValues(color.domain()))
+//    .select(".domain")
+//    .remove();
 
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
-    .defer(d3.tsv, "../static/unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+    //.defer(d3.tsv, "../static/county_data.tsv", function(d) {
+    //         county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
+    .defer(d3.tsv, "../static/county_data.tsv")
+        //function(data) {
+        //      county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
+        //data.forEach(function(d) {
+        //    d.id = d.id,
+        //    d.TotalPeople = +d.TotalPeople,
+        //    d.CBSA = d.CBSA,
+        //    d.GoodForTech = d.GoodForTech
+      //}); console.log(data[0])} )
     .await(ready);
 
-    function ready(error, us) {
+
+    function ready(error, us, csv) {
         if (error) throw error;
+        console.log(csv);
+
+        var hasColor = {};
+        var pop = {};
+        var goodForTech = {};
+        csv.forEach(function(d) {
+            if (d.GoodForTech == '' || d.TotalPeople == 0) {
+                hasColor[d.id] = 'No';
+            } else {
+                hasColor[d.id] = 'Yes';
+                pop[d.id] = +d.TotalPeople;
+            }
+            goodForTech[d.id] = d.GoodForTech;
+        });
+        console.log(hasColor);
+        console.log(pop);
 
         svg.append("g")
             .attr("class", "counties")
             .selectAll("path")
             .data(topojson.feature(us, us.objects.counties).features)
             .enter().append("path")
-            .attr("fill", function(d) { return color(d.rate = unemployment.get(d.id)); })
+            .attr("fill", function(d) {
+                //return color(d.rate = unemployment.get(d.id));
+                if (hasColor[d.id] == 'Yes') {
+                    if (goodForTech[d.id] == 'Yes') {
+                        return color_yes(pop[d.id]);
+                    } else {
+                        return color_no(pop[d.id]);
+                    }
+                } else {
+                    return '#999';
+                }
+            })
             .attr("d", path)
             .append("title")
             .text(function(d) { return d.rate + "%"; });

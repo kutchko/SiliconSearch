@@ -1,0 +1,1900 @@
+	CBSA	CountyFIPS	DiversityIndex	GoodForTech	MedianRent	Percent18to35	PercentCollege	StateFIPS	TotalPeople	t2.CBSA	id
+0	Montgomery, AL	1						1			01001
+1	Daphne-Fairhope-Foley, AL	3	0.2983	No	700.0	19.6731	21.8907	1	203771.0	Daphne-Fairhope-Foley, AL	01003
+2	Eufaula, AL-GA	5						1			01005
+3	Birmingham-Hoover, AL	7	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01007
+4	Birmingham-Hoover, AL	9	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01009
+5	Anniston-Oxford-Jacksonville, AL	15	0.4365	No	500.0	24.4664	11.8852	1	115497.0	Anniston-Oxford-Jacksonville, AL	01015
+6	Valley, AL	17						1			01017
+7	Birmingham-Hoover, AL	21	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01021
+8	Enterprise, AL	31						1			01031
+9	Florence-Muscle Shoals, AL	33						1			01033
+10	Talladega-Sylacauga, AL	37						1			01037
+11	Cullman, AL	43						1			01043
+12	Ozark, AL	45						1			01045
+13	Selma, AL	47						1			01047
+14	Fort Payne, AL	49						1			01049
+15	Montgomery, AL	51						1			01051
+16	Atmore, AL	53						1			01053
+17	Gadsden, AL	55	0.3593	No	450.0	20.7209	12.9370	1	103007.0	Gadsden, AL	01055
+18	Dothan, AL	61						1			01061
+19	Tuscaloosa, AL	65						1			01065
+20	Dothan, AL	67						1			01067
+21	Dothan, AL	69						1			01069
+22	Scottsboro, AL	71						1			01071
+23	Birmingham-Hoover, AL	73	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01073
+24	Florence-Muscle Shoals, AL	77						1			01077
+25	Decatur, AL	79						1			01079
+26	Auburn-Opelika, AL	81	0.4930	No	640.0	35.1993	21.5532	1	157327.0	Auburn-Opelika, AL	01081
+27	Huntsville, AL	83						1			01083
+28	Montgomery, AL	85						1			01085
+29	Huntsville, AL	89						1			01089
+30	Albertville, AL	95						1			01095
+31	Mobile, AL	97	0.5439	No	600.0	24.4109	16.0977	1	415090.0	Mobile, AL	01097
+32	Montgomery, AL	101						1			01101
+33	Decatur, AL	103						1			01103
+34	Tuscaloosa, AL	107						1			01107
+35	Troy, AL	109						1			01109
+36	Columbus, GA-AL	113						1			01113
+37	Birmingham-Hoover, AL	115	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01115
+38	Birmingham-Hoover, AL	117	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01117
+39	Talladega-Sylacauga, AL	121						1			01121
+40	Alexander City, AL	123						1			01123
+41	Tuscaloosa, AL	125						1			01125
+42	Birmingham-Hoover, AL	127	0.5443	No	600.0	23.7164	23.7672	1	868795.0	Birmingham-Hoover, AL	01127
+43	Anchorage, AK	20	0.6067	No	1200.0	32.0566	23.4298	2	299286.0	Anchorage, AK	02020
+44	Fairbanks, AK	90						2			02090
+45	Juneau, AK	110						2			02110
+46	Ketchikan, AK	130						2			02130
+47	Anchorage, AK	170	0.6067	No	1200.0	32.0566	23.4298	2	299286.0	Anchorage, AK	02170
+48	Sierra Vista-Douglas, AZ	3						4			04003
+49	Flagstaff, AZ	5	0.5955	No	1000.0	36.0391	20.5841	4	139457.0	Flagstaff, AZ	04005
+50	Payson, AZ	7						4			04007
+51	Safford, AZ	9						4			04009
+52	Phoenix-Mesa-Scottsdale, AZ	13	0.5833	No	830.0	24.9803	21.2652	4	4168340.0	Phoenix-Mesa-Scottsdale, AZ	04013
+53	Lake Havasu City-Kingman, AZ	15						4			04015
+54	Show Low, AZ	17						4			04017
+55	Tucson, AZ	19	0.5847	No	690.0	25.5473	21.7748	4	1009377.0	Tucson, AZ	04019
+56	Phoenix-Mesa-Scottsdale, AZ	21	0.5833	No	830.0	24.9803	21.2652	4	4168340.0	Phoenix-Mesa-Scottsdale, AZ	04021
+57	Nogales, AZ	23						4			04023
+58	Prescott, AZ	25	0.3285	No	700.0	15.7602	19.8251	4	222047.0	Prescott, AZ	04025
+59	Yuma, AZ	27	0.5098	No	600.0	26.0137	10.3615	4	204777.0	Yuma, AZ	04027
+60	Mountain Home, AR	5						5			05005
+61	Fayetteville-Springdale-Rogers, AR-MO	7	0.4368	No	600.0	27.3083	20.8674	5	474380.0	Fayetteville-Springdale-Rogers, AR-MO	05007
+62	Harrison, AR	9						5			05009
+63	Camden, AR	13						5			05013
+64	Arkadelphia, AR	19						5			05019
+65	Pine Bluff, AR	25						5			05025
+66	Magnolia, AR	27						5			05027
+67	Jonesboro, AR	31						5			05031
+68	Fort Smith, AR-OK	33						5			05033
+69	Memphis, TN-MS-AR	35	0.5910	No	650.0	25.4038	19.5977	5	1111005.0	Memphis, TN-MS-AR	05035
+70	Little Rock-North Little Rock-Conway, AR	45	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05045
+71	Hot Springs, AR	51						5			05051
+72	Little Rock-North Little Rock-Conway, AR	53	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05053
+73	Paragould, AR	55						5			05055
+74	Hope, AR	57						5			05057
+75	Malvern, AR	59						5			05059
+76	Batesville, AR	63						5			05063
+77	Pine Bluff, AR	69						5			05069
+78	Pine Bluff, AR	79						5			05079
+79	Texarkana, TX-AR	81						5			05081
+80	Little Rock-North Little Rock-Conway, AR	85	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05085
+81	Fayetteville-Springdale-Rogers, AR-MO	87	0.4368	No	600.0	27.3083	20.8674	5	474380.0	Fayetteville-Springdale-Rogers, AR-MO	05087
+82	Texarkana, TX-AR	91						5			05091
+83	Blytheville, AR	93						5			05093
+84	Hope, AR	99						5			05099
+85	Harrison, AR	101						5			05101
+86	Camden, AR	103						5			05103
+87	Little Rock-North Little Rock-Conway, AR	105	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05105
+88	Helena-West Helena, AR	107						5			05107
+89	Jonesboro, AR	111						5			05111
+90	Russellville, AR	115						5			05115
+91	Little Rock-North Little Rock-Conway, AR	119	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05119
+92	Forrest City, AR	123						5			05123
+93	Little Rock-North Little Rock-Conway, AR	125	0.5412	No	640.0	25.4290	22.1318	5	509891.0	Little Rock-North Little Rock-Conway, AR	05125
+94	Fort Smith, AR-OK	131						5			05131
+95	El Dorado, AR	139						5			05139
+96	Fayetteville-Springdale-Rogers, AR-MO	143	0.4368	No	600.0	27.3083	20.8674	5	474380.0	Fayetteville-Springdale-Rogers, AR-MO	05143
+97	Searcy, AR	145						5			05145
+98	Russellville, AR	149						5			05149
+99	San Francisco-Oakland-Hayward, CA	1	0.7150	Yes	1500.0	25.5497	35.4305	6	4656199.0	San Francisco-Oakland-Hayward, CA	06001
+100	Chico, CA	7	0.4402	No	830.0	28.6141	18.4437	6	225508.0	Chico, CA	06007
+101	San Francisco-Oakland-Hayward, CA	13	0.7150	Yes	1500.0	25.5497	35.4305	6	4656199.0	San Francisco-Oakland-Hayward, CA	06013
+102	Crescent City, CA	15						6			06015
+103	Sacramento--Roseville--Arden-Arcade, CA	17	0.6453	No	950.0	25.1939	22.3364	6	2276103.0	Sacramento--Roseville--Arden-Arcade, CA	06017
+104	Fresno, CA	19	0.6202	No	750.0	27.2830	11.9225	6	973514.0	Fresno, CA	06019
+105	Eureka-Arcata-Fortuna, CA	23	0.4160	No	827.0	27.9064	19.6053	6	135055.0	Eureka-Arcata-Fortuna, CA	06023
+106	El Centro, CA	25	0.3005	No	610.0	26.5593	9.9182	6	180355.0	El Centro, CA	06025
+107	Bakersfield, CA	29	0.5970	No	750.0	27.3998	9.9032	6	880536.0	Bakersfield, CA	06029
+108	Hanford-Corcoran, CA	31	0.5994	No	750.0	30.2784	10.5958	6	151088.0	Hanford-Corcoran, CA	06031
+109	Clearlake, CA	33						6			06033
+110	Susanville, CA	35						6			06035
+111	Los Angeles-Long Beach-Anaheim, CA	37	0.6774	No	1200.0	26.8985	23.1673	6	13342144.0	Los Angeles-Long Beach-Anaheim, CA	06037
+112	Madera, CA	39	0.5531	No	800.0	25.6288	9.5511	6	154139.0	Madera, CA	06039
+113	San Francisco-Oakland-Hayward, CA	41	0.7150	Yes	1500.0	25.5497	35.4305	6	4656199.0	San Francisco-Oakland-Hayward, CA	06041
+114	Ukiah, CA	45						6			06045
+115	Merced, CA	47	0.5704	No	707.0	27.1555	9.0306	6	268553.0	Merced, CA	06047
+116	Salinas, CA	53						6			06053
+117	Napa, CA	55	0.5994	No	1400.0	23.6547	24.2639	6	142162.0	Napa, CA	06055
+118	Truckee-Grass Valley, CA	57						6			06057
+119	Los Angeles-Long Beach-Anaheim, CA	59	0.6774	No	1200.0	26.8985	23.1673	6	13342144.0	Los Angeles-Long Beach-Anaheim, CA	06059
+120	Sacramento--Roseville--Arden-Arcade, CA	61	0.6453	No	950.0	25.1939	22.3364	6	2276103.0	Sacramento--Roseville--Arden-Arcade, CA	06061
+121	Riverside-San Bernardino-Ontario, CA	65	0.6287	No	1000.0	26.2219	13.2928	6	4490854.0	Riverside-San Bernardino-Ontario, CA	06065
+122	Sacramento--Roseville--Arden-Arcade, CA	67	0.6453	No	950.0	25.1939	22.3364	6	2276103.0	Sacramento--Roseville--Arden-Arcade, CA	06067
+123	San Jose-Sunnyvale-Santa Clara, CA	69	0.7011	Yes	1800.0	25.5370	35.3995	6	1916862.0	San Jose-Sunnyvale-Santa Clara, CA	06069
+124	Riverside-San Bernardino-Ontario, CA	71	0.6287	No	1000.0	26.2219	13.2928	6	4490854.0	Riverside-San Bernardino-Ontario, CA	06071
+125	San Diego-Carlsbad, CA	73	0.6594	Yes	1300.0	28.7053	25.9734	6	3299170.0	San Diego-Carlsbad, CA	06073
+126	San Francisco-Oakland-Hayward, CA	75	0.7150	Yes	1500.0	25.5497	35.4305	6	4656199.0	San Francisco-Oakland-Hayward, CA	06075
+127	Stockton-Lodi, CA	77	0.6941	No	850.0	25.2498	11.9062	6	726209.0	Stockton-Lodi, CA	06077
+128	San Luis Obispo-Paso Robles-Arroyo Grande, CA	79	0.4711	No	1200.0	28.2318	22.1391	6	281240.0	San Luis Obispo-Paso Robles-Arroyo Grande, CA	06079
+129	San Francisco-Oakland-Hayward, CA	81	0.7150	Yes	1500.0	25.5497	35.4305	6	4656199.0	San Francisco-Oakland-Hayward, CA	06081
+130	Santa Maria-Santa Barbara, CA	83	0.5896	No	1300.0	30.2425	22.0224	6	444239.0	Santa Maria-Santa Barbara, CA	06083
+131	San Jose-Sunnyvale-Santa Clara, CA	85	0.7011	Yes	1800.0	25.5370	35.3995	6	1916862.0	San Jose-Sunnyvale-Santa Clara, CA	06085
+132	Santa Cruz-Watsonville, CA	87	0.5571	Yes	1400.0	29.4878	25.9985	6	275158.0	Santa Cruz-Watsonville, CA	06087
+133	Redding, CA	89	0.3420	No	750.0	21.9724	16.1458	6	178783.0	Redding, CA	06089
+134	Vallejo-Fairfield, CA	95	0.7358	No	1200.0	25.6146	19.1308	6	435920.0	Vallejo-Fairfield, CA	06095
+135	Santa Rosa, CA	97	0.5186	No	1200.0	23.1912	24.0395	6	502191.0	Santa Rosa, CA	06097
+136	Modesto, CA	99	0.6058	No	820.0	25.6973	10.2345	6	538021.0	Modesto, CA	06099
+137	Yuba City, CA	101						6			06101
+138	Red Bluff, CA	103						6			06103
+139	Visalia-Porterville, CA	107	0.5066	No	700.0	26.0116	9.2285	6	459902.0	Visalia-Porterville, CA	06107
+140	Sonora, CA	109						6			06109
+141	Oxnard-Thousand Oaks-Ventura, CA	111	0.6028	No	1500.0	24.4520	22.0934	6	850494.0	Oxnard-Thousand Oaks-Ventura, CA	06111
+142	Sacramento--Roseville--Arden-Arcade, CA	113	0.6453	No	950.0	25.1939	22.3364	6	2276103.0	Sacramento--Roseville--Arden-Arcade, CA	06113
+143	Yuba City, CA	115						6			06115
+144	Denver-Aurora-Lakewood, CO	1						8			08001
+145	Denver-Aurora-Lakewood, CO	5						8			08005
+146	Boulder, CO	13						8			08013
+147	Denver-Aurora-Lakewood, CO	14						8			08014
+148	Denver-Aurora-Lakewood, CO	19						8			08019
+149	Denver-Aurora-Lakewood, CO	31						8			08031
+150	Denver-Aurora-Lakewood, CO	35						8			08035
+151	Edwards, CO	37						8			08037
+152	Denver-Aurora-Lakewood, CO	39						8			08039
+153	Colorado Springs, CO	41						8			08041
+154	Cañon City, CO	43						8			08043
+155	Glenwood Springs, CO	45						8			08045
+156	Denver-Aurora-Lakewood, CO	47						8			08047
+157	Denver-Aurora-Lakewood, CO	59						8			08059
+158	Durango, CO	67						8			08067
+159	Fort Collins, CO	69	0.2968	Yes	992.0	30.7001	32.5691	8	333813.0	Fort Collins, CO	08069
+160	Sterling, CO	75						8			08075
+161	Grand Junction, CO	77						8			08077
+162	Craig, CO	81						8			08081
+163	Montrose, CO	85						8			08085
+164	Fort Morgan, CO	87						8			08087
+165	Denver-Aurora-Lakewood, CO	93						8			08093
+166	Glenwood Springs, CO	97						8			08097
+167	Pueblo, CO	101						8			08101
+168	Steamboat Springs, CO	107						8			08107
+169	Breckenridge, CO	117						8			08117
+170	Colorado Springs, CO	119						8			08119
+171	Greeley, CO	123						8			08123
+172	Bridgeport-Stamford-Norwalk, CT	1	0.5583	Yes	1200.0	21.8696	33.1467	9	947268.0	Bridgeport-Stamford-Norwalk, CT	09001
+173	Hartford-West Hartford-East Hartford, CT	3	0.4987	Yes	870.0	23.8075	27.4832	9	1212693.0	Hartford-West Hartford-East Hartford, CT	09003
+174	Torrington, CT	5	0.1944	No	800.0	17.9655	26.6797	9	183619.0	Torrington, CT	09005
+175	Hartford-West Hartford-East Hartford, CT	7	0.4987	Yes	870.0	23.8075	27.4832	9	1212693.0	Hartford-West Hartford-East Hartford, CT	09007
+176	New Haven-Milford, CT	9	0.5414	Yes	880.0	24.6550	25.3575	9	858244.0	New Haven-Milford, CT	09009
+177	Norwich-New London, CT	11	0.4082	No	880.0	24.4213	23.6235	9	272385.0	Norwich-New London, CT	09011
+178	Hartford-West Hartford-East Hartford, CT	13	0.4987	Yes	870.0	23.8075	27.4832	9	1212693.0	Hartford-West Hartford-East Hartford, CT	09013
+179	Worcester, MA-CT	15	0.2897	No	780.0	24.7795	17.5630	9	116677.0	Worcester, MA-CT	09015
+180	Dover, DE	1	0.5389	No	850.0	25.6077	15.0150	10	173819.0	Dover, DE	10001
+181	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	3	0.5575	Yes	880.0	24.6955	26.2700	10	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	10003
+182	Salisbury, MD-DE	5	0.4211	No	800.0	17.4661	20.1139	10	215761.0	Salisbury, MD-DE	10005
+183	Washington-Arlington-Alexandria, DC-VA-MD-WV	1	0.7031	Yes	1400.0	27.2231	36.8529	11	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	11001
+184	Gainesville, FL	1	0.5612	Yes	730.0	38.2575	29.5714	12	260383.0	Gainesville, FL	12001
+185	Jacksonville, FL	3	0.5881	No	800.0	26.0173	20.2896	12	1116318.0	Jacksonville, FL	12003
+186	Panama City, FL	5						12			12005
+187	Palm Bay-Melbourne-Titusville, FL	9	0.4130	No	800.0	20.0496	21.2083	12	568140.0	Palm Bay-Melbourne-Titusville, FL	12009
+188	Miami-Fort Lauderdale-West Palm Beach, FL	11	0.6681	No	1100.0	21.9051	24.7436	12	3319110.0	Miami-Fort Lauderdale-West Palm Beach, FL	12011
+189	Punta Gorda, FL	15	0.2790	No	780.0	12.9433	16.8383	12	172761.0	Punta Gorda, FL	12015
+190	Homosassa Springs, FL	17	0.2148	No	580.0	13.9525	12.8031	12	141208.0	Homosassa Springs, FL	12017
+191	Jacksonville, FL	19	0.5881	No	800.0	26.0173	20.2896	12	1116318.0	Jacksonville, FL	12019
+192	Naples-Immokalee-Marco Island, FL	21	0.5141	No	1000.0	17.9142	27.7954	12	357170.0	Naples-Immokalee-Marco Island, FL	12021
+193	Lake City, FL	23						12			12023
+194	Arcadia, FL	27						12			12027
+195	Jacksonville, FL	31	0.5881	No	800.0	26.0173	20.2896	12	1116318.0	Jacksonville, FL	12031
+196	Pensacola-Ferry Pass-Brent, FL	33	0.4619	No	710.0	26.7541	18.8869	12	477224.0	Pensacola-Ferry Pass-Brent, FL	12033
+197	Deltona-Daytona Beach-Ormond Beach, FL	35						12			12035
+198	Tallahassee, FL	39	0.5739	Yes	750.0	38.5956	28.4629	12	286605.0	Tallahassee, FL	12039
+199	Gainesville, FL	41	0.5612	Yes	730.0	38.2575	29.5714	12	260383.0	Gainesville, FL	12041
+200	Panama City, FL	45						12			12045
+201	Wauchula, FL	49						12			12049
+202	Clewiston, FL	51						12			12051
+203	Tampa-St. Petersburg-Clearwater, FL	53	0.5378	No	820.0	22.5159	21.5897	12	2975023.0	Tampa-St. Petersburg-Clearwater, FL	12053
+204	Sebring, FL	55						12			12055
+205	Tampa-St. Petersburg-Clearwater, FL	57	0.5378	No	820.0	22.5159	21.5897	12	2975023.0	Tampa-St. Petersburg-Clearwater, FL	12057
+206	Sebastian-Vero Beach, FL	61	0.3988	No	769.0	17.4457	20.1112	12	147853.0	Sebastian-Vero Beach, FL	12061
+207	Tallahassee, FL	65	0.5739	Yes	750.0	38.5956	28.4629	12	286605.0	Tallahassee, FL	12065
+208	Orlando-Kissimmee-Sanford, FL	69	0.6691	No	900.0	27.9191	22.1308	12	2060121.0	Orlando-Kissimmee-Sanford, FL	12069
+209	Cape Coral-Fort Myers, FL	71	0.4820	No	839.0	19.1911	19.7463	12	701529.0	Cape Coral-Fort Myers, FL	12071
+210	Tallahassee, FL	73	0.5739	Yes	750.0	38.5956	28.4629	12	286605.0	Tallahassee, FL	12073
+211	North Port-Sarasota-Bradenton, FL	81	0.3727	No	900.0	16.7527	24.6572	12	770618.0	North Port-Sarasota-Bradenton, FL	12081
+212	Ocala, FL	83	0.4527	No	600.0	18.4985	14.7140	12	343055.0	Ocala, FL	12083
+213	Port St. Lucie, FL	85	0.5181	No	840.0	19.1070	18.1284	12	454750.0	Port St. Lucie, FL	12085
+214	Miami-Fort Lauderdale-West Palm Beach, FL	86	0.6681	No	1100.0	21.9051	24.7436	12	3319110.0	Miami-Fort Lauderdale-West Palm Beach, FL	12086
+215	Key West, FL	87						12			12087
+216	Jacksonville, FL	89	0.5881	No	800.0	26.0173	20.2896	12	1116318.0	Jacksonville, FL	12089
+217	Crestview-Fort Walton Beach-Destin, FL	91	0.4288	No	850.0	27.3361	20.8440	12	198690.0	Crestview-Fort Walton Beach-Destin, FL	12091
+218	Okeechobee, FL	93						12			12093
+219	Orlando-Kissimmee-Sanford, FL	95	0.6691	No	900.0	27.9191	22.1308	12	2060121.0	Orlando-Kissimmee-Sanford, FL	12095
+220	Orlando-Kissimmee-Sanford, FL	97	0.6691	No	900.0	27.9191	22.1308	12	2060121.0	Orlando-Kissimmee-Sanford, FL	12097
+221	Miami-Fort Lauderdale-West Palm Beach, FL	99	0.6681	No	1100.0	21.9051	24.7436	12	3319110.0	Miami-Fort Lauderdale-West Palm Beach, FL	12099
+222	Tampa-St. Petersburg-Clearwater, FL	101	0.5378	No	820.0	22.5159	21.5897	12	2975023.0	Tampa-St. Petersburg-Clearwater, FL	12101
+223	Tampa-St. Petersburg-Clearwater, FL	103	0.5378	No	820.0	22.5159	21.5897	12	2975023.0	Tampa-St. Petersburg-Clearwater, FL	12103
+224	Lakeland-Winter Haven, FL	105	0.5623	No	736.0	22.1966	14.0661	12	650324.0	Lakeland-Winter Haven, FL	12105
+225	Palatka, FL	107						12			12107
+226	Jacksonville, FL	109	0.5881	No	800.0	26.0173	20.2896	12	1116318.0	Jacksonville, FL	12109
+227	Port St. Lucie, FL	111	0.5181	No	840.0	19.1070	18.1284	12	454750.0	Port St. Lucie, FL	12111
+228	Pensacola-Ferry Pass-Brent, FL	113	0.4619	No	710.0	26.7541	18.8869	12	477224.0	Pensacola-Ferry Pass-Brent, FL	12113
+229	North Port-Sarasota-Bradenton, FL	115	0.3727	No	900.0	16.7527	24.6572	12	770618.0	North Port-Sarasota-Bradenton, FL	12115
+230	Orlando-Kissimmee-Sanford, FL	117	0.6691	No	900.0	27.9191	22.1308	12	2060121.0	Orlando-Kissimmee-Sanford, FL	12117
+231	The Villages, FL	119						12			12119
+232	Deltona-Daytona Beach-Ormond Beach, FL	127						12			12127
+233	Tallahassee, FL	129	0.5739	Yes	750.0	38.5956	28.4629	12	286605.0	Tallahassee, FL	12129
+234	Crestview-Fort Walton Beach-Destin, FL	131	0.4288	No	850.0	27.3361	20.8440	12	198690.0	Crestview-Fort Walton Beach-Destin, FL	12131
+235	Albany, GA	7						13			13007
+236	Milledgeville, GA	9						13			13009
+237	Atlanta-Sandy Springs-Roswell, GA	13	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13013
+238	Atlanta-Sandy Springs-Roswell, GA	15	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13015
+239	Fitzgerald, GA	17						13			13017
+240	Macon-Bibb County, GA	21	0.5457	No	540.0	25.3977	17.2573	13	154207.0	Macon-Bibb County, GA	13021
+241	Brunswick, GA	25						13			13025
+242	Valdosta, GA	27	0.5658	No	550.0	32.9241	14.4723	13	112574.0	Valdosta, GA	13027
+243	Savannah, GA	29	0.6009	No	800.0	29.3500	22.2843	13	286763.0	Savannah, GA	13029
+244	Statesboro, GA	31						13			13031
+245	Augusta-Richmond County, GA-SC	33	0.5967	No	680.0	27.3924	18.1643	13	345789.0	Augusta-Richmond County, GA-SC	13033
+246	Atlanta-Sandy Springs-Roswell, GA	35	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13035
+247	St. Marys, GA	39						13			13039
+248	Atlanta-Sandy Springs-Roswell, GA	45	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13045
+249	Chattanooga, TN-GA	47	0.4506	No	600.0	24.5757	22.9200	13	354598.0	Chattanooga, TN-GA	13047
+250	Savannah, GA	51	0.6009	No	800.0	29.3500	22.2843	13	286763.0	Savannah, GA	13051
+251	Columbus, GA-AL	53						13			13053
+252	Summerville, GA	55						13			13055
+253	Atlanta-Sandy Springs-Roswell, GA	57	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13057
+254	Athens-Clarke County, GA	59	0.6019	Yes	600.0	45.7900	27.3824	13	123481.0	Athens-Clarke County, GA	13059
+255	Atlanta-Sandy Springs-Roswell, GA	63	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13063
+256	Atlanta-Sandy Springs-Roswell, GA	67	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13067
+257	Douglas, GA	69						13			13069
+258	Moultrie, GA	71						13			13071
+259	Augusta-Richmond County, GA-SC	73	0.5967	No	680.0	27.3924	18.1643	13	345789.0	Augusta-Richmond County, GA-SC	13073
+260	Atlanta-Sandy Springs-Roswell, GA	77	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13077
+261	Macon-Bibb County, GA	79	0.5457	No	540.0	25.3977	17.2573	13	154207.0	Macon-Bibb County, GA	13079
+262	Cordele, GA	81						13			13081
+263	Chattanooga, TN-GA	83	0.4506	No	600.0	24.5757	22.9200	13	354598.0	Chattanooga, TN-GA	13083
+264	Atlanta-Sandy Springs-Roswell, GA	85	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13085
+265	Bainbridge, GA	87						13			13087
+266	Atlanta-Sandy Springs-Roswell, GA	89	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13089
+267	Albany, GA	95						13			13095
+268	Atlanta-Sandy Springs-Roswell, GA	97	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13097
+269	Valdosta, GA	101	0.5658	No	550.0	32.9241	14.4723	13	112574.0	Valdosta, GA	13101
+270	Savannah, GA	103	0.6009	No	800.0	29.3500	22.2843	13	286763.0	Savannah, GA	13103
+271	Atlanta-Sandy Springs-Roswell, GA	113	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13113
+272	Rome, GA	115						13			13115
+273	Atlanta-Sandy Springs-Roswell, GA	117	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13117
+274	Atlanta-Sandy Springs-Roswell, GA	121	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13121
+275	Brunswick, GA	127						13			13127
+276	Calhoun, GA	129						13			13129
+277	Atlanta-Sandy Springs-Roswell, GA	135	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13135
+278	Cornelia, GA	137						13			13137
+279	Gainesville, GA	139	0.5392	No	680.0	23.7611	14.8827	13	193674.0	Gainesville, GA	13139
+280	Milledgeville, GA	141						13			13141
+281	Atlanta-Sandy Springs-Roswell, GA	143	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13143
+282	Columbus, GA-AL	145						13			13145
+283	Atlanta-Sandy Springs-Roswell, GA	149	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13149
+284	Atlanta-Sandy Springs-Roswell, GA	151	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13151
+285	Warner Robins, GA	153						13			13153
+286	Jefferson, GA	157						13			13157
+287	Atlanta-Sandy Springs-Roswell, GA	159	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13159
+288	Dublin, GA	167						13			13167
+289	Macon-Bibb County, GA	169	0.5457	No	540.0	25.3977	17.2573	13	154207.0	Macon-Bibb County, GA	13169
+290	Atlanta-Sandy Springs-Roswell, GA	171	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13171
+291	Valdosta, GA	173	0.5658	No	550.0	32.9241	14.4723	13	112574.0	Valdosta, GA	13173
+292	Dublin, GA	175						13			13175
+293	Albany, GA	177						13			13177
+294	Hinesville, GA	179						13			13179
+295	Augusta-Richmond County, GA-SC	181	0.5967	No	680.0	27.3924	18.1643	13	345789.0	Augusta-Richmond County, GA-SC	13181
+296	Hinesville, GA	183						13			13183
+297	Valdosta, GA	185	0.5658	No	550.0	32.9241	14.4723	13	112574.0	Valdosta, GA	13185
+298	Augusta-Richmond County, GA-SC	189	0.5967	No	680.0	27.3924	18.1643	13	345789.0	Augusta-Richmond County, GA-SC	13189
+299	Brunswick, GA	191						13			13191
+300	Athens-Clarke County, GA	195	0.6019	Yes	600.0	45.7900	27.3824	13	123481.0	Athens-Clarke County, GA	13195
+301	Columbus, GA-AL	197						13			13197
+302	Atlanta-Sandy Springs-Roswell, GA	199	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13199
+303	Macon-Bibb County, GA	207	0.5457	No	540.0	25.3977	17.2573	13	154207.0	Macon-Bibb County, GA	13207
+304	Vidalia, GA	209						13			13209
+305	Atlanta-Sandy Springs-Roswell, GA	211	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13211
+306	Dalton, GA	213	0.5322	No	529.0	25.1330	10.0645	13	104138.0	Dalton, GA	13213
+307	Columbus, GA-AL	215						13			13215
+308	Atlanta-Sandy Springs-Roswell, GA	217	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13217
+309	Athens-Clarke County, GA	219	0.6019	Yes	600.0	45.7900	27.3824	13	123481.0	Athens-Clarke County, GA	13219
+310	Athens-Clarke County, GA	221	0.6019	Yes	600.0	45.7900	27.3824	13	123481.0	Athens-Clarke County, GA	13221
+311	Atlanta-Sandy Springs-Roswell, GA	223	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13223
+312	Warner Robins, GA	225						13			13225
+313	Atlanta-Sandy Springs-Roswell, GA	227	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13227
+314	Waycross, GA	229						13			13229
+315	Atlanta-Sandy Springs-Roswell, GA	231	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13231
+316	Cedartown, GA	233						13			13233
+317	Warner Robins, GA	235						13			13235
+318	Eufaula, AL-GA	239						13			13239
+319	Augusta-Richmond County, GA-SC	245	0.5967	No	680.0	27.3924	18.1643	13	345789.0	Augusta-Richmond County, GA-SC	13245
+320	Atlanta-Sandy Springs-Roswell, GA	247	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13247
+321	Americus, GA	249						13			13249
+322	Atlanta-Sandy Springs-Roswell, GA	255	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13255
+323	Toccoa, GA	257						13			13257
+324	Americus, GA	261						13			13261
+325	Albany, GA	273						13			13273
+326	Thomasville, GA	275						13			13275
+327	Tifton, GA	277						13			13277
+328	Vidalia, GA	279						13			13279
+329	LaGrange, GA	285						13			13285
+330	Macon-Bibb County, GA	289	0.5457	No	540.0	25.3977	17.2573	13	154207.0	Macon-Bibb County, GA	13289
+331	Thomaston, GA	293						13			13293
+332	Chattanooga, TN-GA	295	0.4506	No	600.0	24.5757	22.9200	13	354598.0	Chattanooga, TN-GA	13295
+333	Atlanta-Sandy Springs-Roswell, GA	297	0.6384	No	820.0	23.4583	23.5012	13	3335670.0	Atlanta-Sandy Springs-Roswell, GA	13297
+334	Waycross, GA	299						13			13299
+335	Jesup, GA	305						13			13305
+336	Dalton, GA	313	0.5322	No	529.0	25.1330	10.0645	13	104138.0	Dalton, GA	13313
+337	Albany, GA	321						13			13321
+338	Hilo, HI	1	0.7308	No	1000.0	21.3975	20.1888	15	196257.0	Hilo, HI	15001
+339	Urban Honolulu, HI	3	0.6864	No	1500.0	27.4096	23.6683	15	998556.0	Urban Honolulu, HI	15003
+340	Kahului-Wailuku-Lahaina, HI	5						15			15005
+341	Kapaa, HI	7						15			15007
+342	Kahului-Wailuku-Lahaina, HI	9						15			15009
+343	Boise City, ID	1						16			16001
+344	Pocatello, ID	5						16			16005
+345	Blackfoot, ID	11						16			16011
+346	Hailey, ID	13						16			16013
+347	Boise City, ID	15						16			16015
+348	Sandpoint, ID	17						16			16017
+349	Idaho Falls, ID	19	0.2876	No	614.0	24.4559	17.7301	16	109994.0	Idaho Falls, ID	16019
+350	Idaho Falls, ID	23	0.2876	No	614.0	24.4559	17.7301	16	109994.0	Idaho Falls, ID	16023
+351	Hailey, ID	25						16			16025
+352	Boise City, ID	27						16			16027
+353	Burley, ID	31						16			16031
+354	Mountain Home, ID	39						16			16039
+355	Logan, UT-ID	41						16			16041
+356	Rexburg, ID	43						16			16043
+357	Boise City, ID	45						16			16045
+358	Idaho Falls, ID	51	0.2876	No	614.0	24.4559	17.7301	16	109994.0	Idaho Falls, ID	16051
+359	Twin Falls, ID	53						16			16053
+360	Coeur d'Alene, ID	55						16			16055
+361	Moscow, ID	57						16			16057
+362	Hailey, ID	63						16			16063
+363	Rexburg, ID	65						16			16065
+364	Burley, ID	67						16			16067
+365	Lewiston, ID-WA	69						16			16069
+366	Boise City, ID	73						16			16073
+367	Ontario, OR-ID	75						16			16075
+368	Jackson, WY-ID	81						16			16081
+369	Twin Falls, ID	83						16			16083
+370	Quincy, IL-MO	1						17			17001
+371	Cape Girardeau, MO-IL	3						17			17003
+372	St. Louis, MO-IL	5	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17005
+373	Rockford, IL	7						17			17007
+374	Ottawa-Peru, IL	11	0.2453	No	590.0	22.0250	12.5606	17	110942.0	Ottawa-Peru, IL	17011
+375	St. Louis, MO-IL	13	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17013
+376	Champaign-Urbana, IL	19	0.5060	Yes	700.0	39.5440	28.6980	17	208363.0	Champaign-Urbana, IL	17019
+377	Taylorville, IL	21						17			17021
+378	St. Louis, MO-IL	27	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17027
+379	Charleston-Mattoon, IL	29						17			17029
+380	Chicago-Naperville-Elgin, IL-IN-WI	31	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17031
+381	Charleston-Mattoon, IL	35						17			17035
+382	Chicago-Naperville-Elgin, IL-IN-WI	37	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17037
+383	Bloomington, IL	39	0.3472	Yes	700.0	32.5857	29.2554	17	173828.0	Bloomington, IL	17039
+384	Chicago-Naperville-Elgin, IL-IN-WI	43	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17043
+385	Effingham, IL	49						17			17049
+386	Champaign-Urbana, IL	53	0.5060	Yes	700.0	39.5440	28.6980	17	208363.0	Champaign-Urbana, IL	17053
+387	Canton, IL	57						17			17057
+388	Chicago-Naperville-Elgin, IL-IN-WI	63	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17063
+389	Fort Madison-Keokuk, IA-IL-MO	67						17			17067
+390	Burlington, IA-IL	71						17			17071
+391	Davenport-Moline-Rock Island, IA-IL	73	0.3869	No	600.0	22.4175	20.1829	17	318185.0	Davenport-Moline-Rock Island, IA-IL	17073
+392	Carbondale-Marion, IL	77						17			17077
+393	Mount Vernon, IL	81						17			17081
+394	St. Louis, MO-IL	83	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17083
+395	Chicago-Naperville-Elgin, IL-IN-WI	89	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17089
+396	Kankakee, IL	91	0.4482	No	700.0	23.4557	14.8017	17	111521.0	Kankakee, IL	17091
+397	Chicago-Naperville-Elgin, IL-IN-WI	93	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17093
+398	Galesburg, IL	95						17			17095
+399	Chicago-Naperville-Elgin, IL-IN-WI	97	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17097
+400	Ottawa-Peru, IL	99	0.2453	No	590.0	22.0250	12.5606	17	110942.0	Ottawa-Peru, IL	17099
+401	Dixon, IL	103						17			17103
+402	Pontiac, IL	105						17			17105
+403	Lincoln, IL	107						17			17107
+404	Macomb, IL	109						17			17109
+405	Chicago-Naperville-Elgin, IL-IN-WI	111	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17111
+406	Bloomington, IL	113	0.3472	Yes	700.0	32.5857	29.2554	17	173828.0	Bloomington, IL	17113
+407	Decatur, IL	115	0.3840	No	492.0	23.0538	14.2468	17	107245.0	Decatur, IL	17115
+408	St. Louis, MO-IL	117	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17117
+409	St. Louis, MO-IL	119	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17119
+410	Centralia, IL	121						17			17121
+411	Peoria, IL	123	0.3399	No	600.0	23.2184	20.6573	17	321736.0	Peoria, IL	17123
+412	Paducah, KY-IL	127						17			17127
+413	Springfield, IL	129	0.3380	No	580.0	22.6025	24.6191	17	198801.0	Springfield, IL	17129
+414	Davenport-Moline-Rock Island, IA-IL	131	0.3869	No	600.0	22.4175	20.1829	17	318185.0	Davenport-Moline-Rock Island, IA-IL	17131
+415	St. Louis, MO-IL	133	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17133
+416	Jacksonville, IL	137						17			17137
+417	Rochelle, IL	141						17			17141
+418	Peoria, IL	143	0.3399	No	600.0	23.2184	20.6573	17	321736.0	Peoria, IL	17143
+419	Champaign-Urbana, IL	147	0.5060	Yes	700.0	39.5440	28.6980	17	208363.0	Champaign-Urbana, IL	17147
+420	Ottawa-Peru, IL	155	0.2453	No	590.0	22.0250	12.5606	17	110942.0	Ottawa-Peru, IL	17155
+421	Davenport-Moline-Rock Island, IA-IL	161	0.3869	No	600.0	22.4175	20.1829	17	318185.0	Davenport-Moline-Rock Island, IA-IL	17161
+422	St. Louis, MO-IL	163	0.4373	No	650.0	23.7940	24.1520	17	2561726.0	St. Louis, MO-IL	17163
+423	Springfield, IL	167	0.3380	No	580.0	22.6025	24.6191	17	198801.0	Springfield, IL	17167
+424	Jacksonville, IL	171						17			17171
+425	Peoria, IL	175	0.3399	No	600.0	23.2184	20.6573	17	321736.0	Peoria, IL	17175
+426	Freeport, IL	177						17			17177
+427	Peoria, IL	179	0.3399	No	600.0	23.2184	20.6573	17	321736.0	Peoria, IL	17179
+428	Danville, IL	183						17			17183
+429	Sterling, IL	195						17			17195
+430	Chicago-Naperville-Elgin, IL-IN-WI	197	0.6407	Yes	880.0	25.0705	25.7386	17	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	17197
+431	Carbondale-Marion, IL	199						17			17199
+432	Rockford, IL	201						17			17201
+433	Peoria, IL	203	0.3399	No	600.0	23.2184	20.6573	17	321736.0	Peoria, IL	17203
+434	Decatur, IN	1						18			18001
+435	Fort Wayne, IN	3	0.4256	No	570.0	24.3227	18.8709	18	368939.0	Fort Wayne, IN	18003
+436	Columbus, IN	5						18			18005
+437	Lafayette-West Lafayette, IN	7	0.3864	No	652.0	40.1150	22.4647	18	185629.0	Lafayette-West Lafayette, IN	18007
+438	Indianapolis-Carmel-Anderson, IN	11	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18011
+439	Indianapolis-Carmel-Anderson, IN	13	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18013
+440	Lafayette-West Lafayette, IN	15	0.3864	No	652.0	40.1150	22.4647	18	185629.0	Lafayette-West Lafayette, IN	18015
+441	Logansport, IN	17						18			18017
+442	Louisville/Jefferson County, KY-IN	19	0.4601	No	630.0	24.1176	22.6309	18	879444.0	Louisville/Jefferson County, KY-IN	18019
+443	Terre Haute, IN	21	0.2608	No	500.0	30.3452	17.8291	18	108508.0	Terre Haute, IN	18021
+444	Frankfort, IN	23						18			18023
+445	Washington, IN	27						18			18027
+446	Cincinnati, OH-KY-IN	29	0.3920	No	630.0	24.4122	23.9928	18	1700997.0	Cincinnati, OH-KY-IN	18029
+447	Greensburg, IN	31						18			18031
+448	Auburn, IN	33						18			18033
+449	Muncie, IN	35	0.2387	No	530.0	30.7664	15.4769	18	116910.0	Muncie, IN	18035
+450	Jasper, IN	37						18			18037
+451	Elkhart-Goshen, IN	39	0.4030	No	600.0	23.0323	12.1016	18	203601.0	Elkhart-Goshen, IN	18039
+452	Connersville, IN	41						18			18041
+453	Louisville/Jefferson County, KY-IN	43	0.4601	No	630.0	24.1176	22.6309	18	879444.0	Louisville/Jefferson County, KY-IN	18043
+454	Marion, IN	53						18			18053
+455	Indianapolis-Carmel-Anderson, IN	57	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18057
+456	Indianapolis-Carmel-Anderson, IN	59	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18059
+457	Louisville/Jefferson County, KY-IN	61	0.4601	No	630.0	24.1176	22.6309	18	879444.0	Louisville/Jefferson County, KY-IN	18061
+458	Indianapolis-Carmel-Anderson, IN	63	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18063
+459	New Castle, IN	65						18			18065
+460	Kokomo, IN	67						18			18067
+461	Huntington, IN	69						18			18069
+462	Seymour, IN	71						18			18071
+463	Chicago-Naperville-Elgin, IL-IN-WI	73	0.6407	Yes	880.0	25.0705	25.7386	18	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	18073
+464	Madison, IN	77						18			18077
+465	North Vernon, IN	79						18			18079
+466	Indianapolis-Carmel-Anderson, IN	81	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18081
+467	Vincennes, IN	83						18			18083
+468	Warsaw, IN	85						18			18085
+469	Chicago-Naperville-Elgin, IL-IN-WI	89	0.6407	Yes	880.0	25.0705	25.7386	18	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	18089
+470	Michigan City-La Porte, IN	91	0.3464	No	529.0	22.5179	13.2775	18	110774.0	Michigan City-La Porte, IN	18091
+471	Bedford, IN	93						18			18093
+472	Indianapolis-Carmel-Anderson, IN	95	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18095
+473	Indianapolis-Carmel-Anderson, IN	97	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18097
+474	Plymouth, IN	99						18			18099
+475	Peru, IN	103						18			18103
+476	Bloomington, IN	105	0.2907	Yes	700.0	43.5546	28.4366	18	144444.0	Bloomington, IN	18105
+477	Crawfordsville, IN	107						18			18107
+478	Indianapolis-Carmel-Anderson, IN	109	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18109
+479	Chicago-Naperville-Elgin, IL-IN-WI	111	0.6407	Yes	880.0	25.0705	25.7386	18	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	18111
+480	Kendallville, IN	113						18			18113
+481	Cincinnati, OH-KY-IN	115	0.3920	No	630.0	24.4122	23.9928	18	1700997.0	Cincinnati, OH-KY-IN	18115
+482	Bloomington, IN	119	0.2907	Yes	700.0	43.5546	28.4366	18	144444.0	Bloomington, IN	18119
+483	Jasper, IN	125						18			18125
+484	Chicago-Naperville-Elgin, IL-IN-WI	127	0.6407	Yes	880.0	25.0705	25.7386	18	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	18127
+485	Evansville, IN-KY	129	0.2867	No	500.0	25.3380	17.6009	18	181786.0	Evansville, IN-KY	18129
+486	Indianapolis-Carmel-Anderson, IN	133	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18133
+487	South Bend-Mishawaka, IN-MI	141	0.4313	No	590.0	25.7307	19.1488	18	269056.0	South Bend-Mishawaka, IN-MI	18141
+488	Louisville/Jefferson County, KY-IN	143	0.4601	No	630.0	24.1176	22.6309	18	879444.0	Louisville/Jefferson County, KY-IN	18143
+489	Indianapolis-Carmel-Anderson, IN	145	0.5084	No	640.0	26.3971	20.7457	18	1377318.0	Indianapolis-Carmel-Anderson, IN	18145
+490	Angola, IN	151						18			18151
+491	Terre Haute, IN	153	0.2608	No	500.0	30.3452	17.8291	18	108508.0	Terre Haute, IN	18153
+492	Lafayette-West Lafayette, IN	157	0.3864	No	652.0	40.1150	22.4647	18	185629.0	Lafayette-West Lafayette, IN	18157
+493	Cincinnati, OH-KY-IN	161	0.3920	No	630.0	24.4122	23.9928	18	1700997.0	Cincinnati, OH-KY-IN	18161
+494	Evansville, IN-KY	163	0.2867	No	500.0	25.3380	17.6009	18	181786.0	Evansville, IN-KY	18163
+495	Terre Haute, IN	165	0.2608	No	500.0	30.3452	17.8291	18	108508.0	Terre Haute, IN	18165
+496	Terre Haute, IN	167	0.2608	No	500.0	30.3452	17.8291	18	108508.0	Terre Haute, IN	18167
+497	Wabash, IN	169						18			18169
+498	Evansville, IN-KY	173	0.2867	No	500.0	25.3380	17.6009	18	181786.0	Evansville, IN-KY	18173
+499	Louisville/Jefferson County, KY-IN	175	0.4601	No	630.0	24.1176	22.6309	18	879444.0	Louisville/Jefferson County, KY-IN	18175
+500	Richmond, IN	177						18			18177
+501	Fort Wayne, IN	179	0.4256	No	570.0	24.3227	18.8709	18	368939.0	Fort Wayne, IN	18179
+502	Fort Wayne, IN	183	0.4256	No	570.0	24.3227	18.8709	18	368939.0	Fort Wayne, IN	18183
+503	Cedar Rapids, IA	11	0.2292	No	550.0	24.8941	22.1230	19	220052.0	Cedar Rapids, IA	19011
+504	Waterloo-Cedar Falls, IA	13	0.3084	No	550.0	30.6889	19.4533	19	133576.0	Waterloo-Cedar Falls, IA	19013
+505	Boone, IA	15						19			19015
+506	Waterloo-Cedar Falls, IA	17	0.3084	No	550.0	30.6889	19.4533	19	133576.0	Waterloo-Cedar Falls, IA	19017
+507	Storm Lake, IA	21						19			19021
+508	Carroll, IA	27						19			19027
+509	Mason City, IA	33						19			19033
+510	Spencer, IA	41						19			19041
+511	Clinton, IA	45						19			19045
+512	Des Moines-West Des Moines, IA	49						19			19049
+513	Ottumwa, IA	51						19			19051
+514	Burlington, IA-IL	57						19			19057
+515	Spirit Lake, IA	59						19			19059
+516	Dubuque, IA	61						19			19061
+517	Waterloo-Cedar Falls, IA	75	0.3084	No	550.0	30.6889	19.4533	19	133576.0	Waterloo-Cedar Falls, IA	19075
+518	Des Moines-West Des Moines, IA	77						19			19077
+519	Omaha-Council Bluffs, NE-IA	85	0.4423	Yes	717.0	26.2769	25.4940	19	726026.0	Omaha-Council Bluffs, NE-IA	19085
+520	Newton, IA	99						19			19099
+521	Fairfield, IA	101						19			19101
+522	Iowa City, IA	103	0.3521	Yes	722.0	38.6857	30.3978	19	143981.0	Iowa City, IA	19103
+523	Cedar Rapids, IA	105	0.2292	No	550.0	24.8941	22.1230	19	220052.0	Cedar Rapids, IA	19105
+524	Fort Madison-Keokuk, IA-IL-MO	111						19			19111
+525	Cedar Rapids, IA	113	0.2292	No	550.0	24.8941	22.1230	19	220052.0	Cedar Rapids, IA	19113
+526	Des Moines-West Des Moines, IA	121						19			19121
+527	Oskaloosa, IA	123						19			19123
+528	Pella, IA	125						19			19125
+529	Marshalltown, IA	127						19			19127
+530	Omaha-Council Bluffs, NE-IA	129	0.4423	Yes	717.0	26.2769	25.4940	19	726026.0	Omaha-Council Bluffs, NE-IA	19129
+531	Muscatine, IA	139						19			19139
+532	Sioux City, IA-NE-SD	149						19			19149
+533	Des Moines-West Des Moines, IA	153						19			19153
+534	Omaha-Council Bluffs, NE-IA	155	0.4423	Yes	717.0	26.2769	25.4940	19	726026.0	Omaha-Council Bluffs, NE-IA	19155
+535	Davenport-Moline-Rock Island, IA-IL	163	0.3869	No	600.0	22.4175	20.1829	19	318185.0	Davenport-Moline-Rock Island, IA-IL	19163
+536	Ames, IA	169						19			19169
+537	Ottumwa, IA	179						19			19179
+538	Des Moines-West Des Moines, IA	181						19			19181
+539	Iowa City, IA	183	0.3521	Yes	722.0	38.6857	30.3978	19	143981.0	Iowa City, IA	19183
+540	Fort Dodge, IA	187						19			19187
+541	Sioux City, IA-NE-SD	193						19			19193
+542	Mason City, IA	195						19			19195
+543	Atchison, KS	5						20			20005
+544	Great Bend, KS	9						20			20009
+545	Wichita, KS	15						20			20015
+546	Arkansas City-Winfield, KS	35						20			20035
+547	Pittsburg, KS	37						20			20037
+548	St. Joseph, MO-KS	43						20			20043
+549	Lawrence, KS	45	0.3722	Yes	700.0	39.8363	30.1513	20	118048.0	Lawrence, KS	20045
+550	Hays, KS	51						20			20051
+551	Garden City, KS	55						20			20055
+552	Dodge City, KS	57						20			20057
+553	Ottawa, KS	59						20			20059
+554	Junction City, KS	61						20			20061
+555	Wichita, KS	79						20			20079
+556	Topeka, KS	85						20			20085
+557	Topeka, KS	87						20			20087
+558	Kansas City, MO-KS	91	0.5065	Yes	680.0	24.3055	27.1237	20	1431690.0	Kansas City, MO-KS	20091
+559	Garden City, KS	93						20			20093
+560	Wichita, KS	95						20			20095
+561	Parsons, KS	99						20			20099
+562	Kansas City, MO-KS	103	0.5065	Yes	680.0	24.3055	27.1237	20	1431690.0	Kansas City, MO-KS	20103
+563	Kansas City, MO-KS	107	0.5065	Yes	680.0	24.3055	27.1237	20	1431690.0	Kansas City, MO-KS	20107
+564	Emporia, KS	111						20			20111
+565	McPherson, KS	113						20			20113
+566	Kansas City, MO-KS	121	0.5065	Yes	680.0	24.3055	27.1237	20	1431690.0	Kansas City, MO-KS	20121
+567	Coffeyville, KS	125						20			20125
+568	Topeka, KS	139						20			20139
+569	Salina, KS	143						20			20143
+570	Manhattan, KS	149						20			20149
+571	Hutchinson, KS	155						20			20155
+572	Manhattan, KS	161						20			20161
+573	Salina, KS	169						20			20169
+574	Wichita, KS	173						20			20173
+575	Liberal, KS	175						20			20175
+576	Topeka, KS	177						20			20177
+577	Wichita, KS	191						20			20191
+578	Topeka, KS	197						20			20197
+579	Kansas City, MO-KS	209	0.5065	Yes	680.0	24.3055	27.1237	20	1431690.0	Kansas City, MO-KS	20209
+580	Bowling Green, KY	3	0.3521	No	550.0	32.0979	21.1787	21	123114.0	Bowling Green, KY	21003
+581	Frankfort, KY	5						21			21005
+582	Paducah, KY-IL	7						21			21007
+583	Glasgow, KY	9						21			21009
+584	Mount Sterling, KY	11						21			21011
+585	Middlesborough, KY	13						21			21013
+586	Cincinnati, OH-KY-IN	15	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21015
+587	Lexington-Fayette, KY	17	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21017
+588	Huntington-Ashland, WV-KY-OH	19						21			21019
+589	Danville, KY	21						21			21021
+590	Cincinnati, OH-KY-IN	23	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21023
+591	Louisville/Jefferson County, KY-IN	29	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21029
+592	Bowling Green, KY	31	0.3521	No	550.0	32.0979	21.1787	21	123114.0	Bowling Green, KY	21031
+593	Murray, KY	35						21			21035
+594	Cincinnati, OH-KY-IN	37	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21037
+595	Clarksville, TN-KY	47						21			21047
+596	Lexington-Fayette, KY	49	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21049
+597	Owensboro, KY	59						21			21059
+598	Bowling Green, KY	61	0.3521	No	550.0	32.0979	21.1787	21	123114.0	Bowling Green, KY	21061
+599	Lexington-Fayette, KY	67	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21067
+600	Frankfort, KY	73						21			21073
+601	Union City, TN-KY	75						21			21075
+602	Cincinnati, OH-KY-IN	77	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21077
+603	Cincinnati, OH-KY-IN	81	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21081
+604	Mayfield, KY	83						21			21083
+605	Huntington-Ashland, WV-KY-OH	89						21			21089
+606	Owensboro, KY	91						21			21091
+607	Elizabethtown-Fort Knox, KY	93						21			21093
+608	Evansville, IN-KY	101	0.2867	No	500.0	25.3380	17.6009	21	181786.0	Evansville, IN-KY	21101
+609	Louisville/Jefferson County, KY-IN	103	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21103
+610	Madisonville, KY	107						21			21107
+611	Louisville/Jefferson County, KY-IN	111	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21111
+612	Lexington-Fayette, KY	113	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21113
+613	Cincinnati, OH-KY-IN	117	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21117
+614	London, KY	121						21			21121
+615	Elizabethtown-Fort Knox, KY	123						21			21123
+616	London, KY	125						21			21125
+617	Danville, KY	137						21			21137
+618	Paducah, KY-IL	139						21			21139
+619	Paducah, KY-IL	145						21			21145
+620	Owensboro, KY	149						21			21149
+621	Richmond-Berea, KY	151						21			21151
+622	Maysville, KY	161						21			21161
+623	Elizabethtown-Fort Knox, KY	163						21			21163
+624	Mount Sterling, KY	165						21			21165
+625	Glasgow, KY	169						21			21169
+626	Mount Sterling, KY	173						21			21173
+627	Central City, KY	177						21			21177
+628	Bardstown, KY	179						21			21179
+629	Louisville/Jefferson County, KY-IN	185	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21185
+630	Cincinnati, OH-KY-IN	191	0.3920	No	630.0	24.4122	23.9928	21	1700997.0	Cincinnati, OH-KY-IN	21191
+631	Somerset, KY	199						21			21199
+632	Richmond-Berea, KY	203						21			21203
+633	Lexington-Fayette, KY	209	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21209
+634	Louisville/Jefferson County, KY-IN	211	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21211
+635	Louisville/Jefferson County, KY-IN	215	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21215
+636	Campbellsville, KY	217						21			21217
+637	Clarksville, TN-KY	221						21			21221
+638	Louisville/Jefferson County, KY-IN	223	0.4601	No	630.0	24.1176	22.6309	21	879444.0	Louisville/Jefferson County, KY-IN	21223
+639	Bowling Green, KY	227	0.3521	No	550.0	32.0979	21.1787	21	123114.0	Bowling Green, KY	21227
+640	London, KY	235						21			21235
+641	Lexington-Fayette, KY	239	0.4543	Yes	650.0	31.0837	28.4046	21	314689.0	Lexington-Fayette, KY	21239
+642	Lafayette, LA	1	0.4924	No	644.0	28.9996	20.3996	22	240162.0	Lafayette, LA	22001
+643	Baton Rouge, LA	5	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22005
+644	DeRidder, LA	11						22			22011
+645	Shreveport-Bossier City, LA	15	0.5536	No	580.0	24.4068	15.8543	22	252467.0	Shreveport-Bossier City, LA	22015
+646	Shreveport-Bossier City, LA	17	0.5536	No	580.0	24.4068	15.8543	22	252467.0	Shreveport-Bossier City, LA	22017
+647	Lake Charles, LA	19						22			22019
+648	Lake Charles, LA	23						22			22023
+649	Natchez, MS-LA	29						22			22029
+650	Shreveport-Bossier City, LA	31	0.5536	No	580.0	24.4068	15.8543	22	252467.0	Shreveport-Bossier City, LA	22031
+651	Baton Rouge, LA	33	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22033
+652	Baton Rouge, LA	37	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22037
+653	Alexandria, LA	43						22			22043
+654	Lafayette, LA	45	0.4924	No	644.0	28.9996	20.3996	22	240162.0	Lafayette, LA	22045
+655	Baton Rouge, LA	47	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22047
+656	New Orleans-Metairie, LA	51	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22051
+657	Jennings, LA	53						22			22053
+658	Lafayette, LA	55	0.4924	No	644.0	28.9996	20.3996	22	240162.0	Lafayette, LA	22055
+659	Houma-Thibodaux, LA	57	0.5072	No	700.0	24.3949	11.2163	22	113745.0	Houma-Thibodaux, LA	22057
+660	Ruston, LA	61						22			22061
+661	Baton Rouge, LA	63	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22063
+662	Bastrop, LA	67						22			22067
+663	Natchitoches, LA	69						22			22069
+664	New Orleans-Metairie, LA	71	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22071
+665	Monroe, LA	73	0.5165	No	496.0	26.1402	18.6580	22	157118.0	Monroe, LA	22073
+666	New Orleans-Metairie, LA	75	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22075
+667	Baton Rouge, LA	77	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22077
+668	Alexandria, LA	79						22			22079
+669	New Orleans-Metairie, LA	87	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22087
+670	New Orleans-Metairie, LA	89	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22089
+671	Baton Rouge, LA	91	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22091
+672	New Orleans-Metairie, LA	93	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22093
+673	New Orleans-Metairie, LA	95	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22095
+674	Opelousas, LA	97						22			22097
+675	Lafayette, LA	99	0.4924	No	644.0	28.9996	20.3996	22	240162.0	Lafayette, LA	22099
+676	Morgan City, LA	101						22			22101
+677	New Orleans-Metairie, LA	103	0.5870	Yes	800.0	26.3846	25.0461	22	638758.0	New Orleans-Metairie, LA	22103
+678	Hammond, LA	105						22			22105
+679	Houma-Thibodaux, LA	109	0.5072	No	700.0	24.3949	11.2163	22	113745.0	Houma-Thibodaux, LA	22109
+680	Monroe, LA	111	0.5165	No	496.0	26.1402	18.6580	22	157118.0	Monroe, LA	22111
+681	Lafayette, LA	113	0.4924	No	644.0	28.9996	20.3996	22	240162.0	Lafayette, LA	22113
+682	Fort Polk South, LA	115						22			22115
+683	Bogalusa, LA	117						22			22117
+684	Shreveport-Bossier City, LA	119	0.5536	No	580.0	24.4068	15.8543	22	252467.0	Shreveport-Bossier City, LA	22119
+685	Baton Rouge, LA	121	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22121
+686	Baton Rouge, LA	125	0.5791	No	720.0	29.6431	21.6706	22	565369.0	Baton Rouge, LA	22125
+687	Lewiston-Auburn, ME	1	0.1685	No	650.0	22.3497	17.2810	23	106892.0	Lewiston-Auburn, ME	23001
+688	Portland-South Portland, ME	5						23			23005
+689	Augusta-Waterville, ME	11	0.1029	No	600.0	21.0874	20.7128	23	120138.0	Augusta-Waterville, ME	23011
+690	Bangor, ME	19	0.1198	No	680.0	25.6999	18.6478	23	152919.0	Bangor, ME	23019
+691	Portland-South Portland, ME	23						23			23023
+692	Portland-South Portland, ME	31						23			23031
+693	Cumberland, MD-WV	1						24			24001
+694	Baltimore-Columbia-Towson, MD	3	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24003
+695	Baltimore-Columbia-Towson, MD	5	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24005
+696	Washington-Arlington-Alexandria, DC-VA-MD-WV	9	0.7031	Yes	1400.0	27.2231	36.8529	24	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	24009
+697	Baltimore-Columbia-Towson, MD	13	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24013
+698	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	15	0.5575	Yes	880.0	24.6955	26.2700	24	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	24015
+699	Washington-Arlington-Alexandria, DC-VA-MD-WV	17	0.7031	Yes	1400.0	27.2231	36.8529	24	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	24017
+700	Cambridge, MD	19						24			24019
+701	Washington-Arlington-Alexandria, DC-VA-MD-WV	21	0.7031	Yes	1400.0	27.2231	36.8529	24	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	24021
+702	Baltimore-Columbia-Towson, MD	25	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24025
+703	Baltimore-Columbia-Towson, MD	27	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24027
+704	Washington-Arlington-Alexandria, DC-VA-MD-WV	31	0.7031	Yes	1400.0	27.2231	36.8529	24	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	24031
+705	Washington-Arlington-Alexandria, DC-VA-MD-WV	33	0.7031	Yes	1400.0	27.2231	36.8529	24	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	24033
+706	Baltimore-Columbia-Towson, MD	35	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24035
+707	California-Lexington Park, MD	37						24			24037
+708	Salisbury, MD-DE	39	0.4211	No	800.0	17.4661	20.1139	24	215761.0	Salisbury, MD-DE	24039
+709	Easton, MD	41						24			24041
+710	Hagerstown-Martinsburg, MD-WV	43	0.3410	No	747.0	23.1251	14.5855	24	149902.0	Hagerstown-Martinsburg, MD-WV	24043
+711	Salisbury, MD-DE	45	0.4211	No	800.0	17.4661	20.1139	24	215761.0	Salisbury, MD-DE	24045
+712	Salisbury, MD-DE	47	0.4211	No	800.0	17.4661	20.1139	24	215761.0	Salisbury, MD-DE	24047
+713	Baltimore-Columbia-Towson, MD	510	0.5852	Yes	1000.0	25.1907	27.7056	24	2748731.0	Baltimore-Columbia-Towson, MD	24510
+714	Barnstable Town, MA	1						25			25001
+715	Pittsfield, MA	3	0.1999	No	700.0	21.7623	24.9594	25	128585.0	Pittsfield, MA	25003
+716	Providence-Warwick, RI-MA	5	0.4629	No	800.0	26.2434	22.6004	25	924698.0	Providence-Warwick, RI-MA	25005
+717	Vineyard Haven, MA	7						25			25007
+718	Boston-Cambridge-Newton, MA-NH	9	0.6950	Yes	1300.0	38.4827	32.2699	25	778589.0	Boston-Cambridge-Newton, MA-NH	25009
+719	Greenfield Town, MA	11						25			25011
+720	Springfield, MA	13						25			25013
+721	Springfield, MA	15						25			25015
+722	Boston-Cambridge-Newton, MA-NH	17	0.6950	Yes	1300.0	38.4827	32.2699	25	778589.0	Boston-Cambridge-Newton, MA-NH	25017
+723	Boston-Cambridge-Newton, MA-NH	21	0.6950	Yes	1300.0	38.4827	32.2699	25	778589.0	Boston-Cambridge-Newton, MA-NH	25021
+724	Boston-Cambridge-Newton, MA-NH	23	0.6950	Yes	1300.0	38.4827	32.2699	25	778589.0	Boston-Cambridge-Newton, MA-NH	25023
+725	Boston-Cambridge-Newton, MA-NH	25	0.6950	Yes	1300.0	38.4827	32.2699	25	778589.0	Boston-Cambridge-Newton, MA-NH	25025
+726	Worcester, MA-CT	27	0.2897	No	780.0	24.7795	17.5630	25	116677.0	Worcester, MA-CT	25027
+727	Holland, MI	5	0.2113	No	560.0	21.5023	13.7698	26	114388.0	Holland, MI	26005
+728	Alpena, MI	7						26			26007
+729	Grand Rapids-Wyoming, MI	15	0.3836	No	690.0	27.0191	21.9503	26	916174.0	Grand Rapids-Wyoming, MI	26015
+730	Bay City, MI	17						26			26017
+731	Traverse City, MI	19						26			26019
+732	Niles-Benton Harbor, MI	21	0.4104	No	540.0	21.1676	20.6481	26	154552.0	Niles-Benton Harbor, MI	26021
+733	Coldwater, MI	23						26			26023
+734	Battle Creek, MI	25						26			26025
+735	South Bend-Mishawaka, IN-MI	27	0.4313	No	590.0	25.7307	19.1488	26	269056.0	South Bend-Mishawaka, IN-MI	26027
+736	Sault Ste. Marie, MI	33						26			26033
+737	Lansing-East Lansing, MI	37	0.4810	Yes	680.0	35.1472	25.8655	26	286188.0	Lansing-East Lansing, MI	26037
+738	Escanaba, MI	41						26			26041
+739	Iron Mountain, MI-WI	43						26			26043
+740	Lansing-East Lansing, MI	45	0.4810	Yes	680.0	35.1472	25.8655	26	286188.0	Lansing-East Lansing, MI	26045
+741	Flint, MI	49						26			26049
+742	Traverse City, MI	55						26			26055
+743	Alma, MI	57						26			26057
+744	Hillsdale, MI	59						26			26059
+745	Houghton, MI	61						26			26061
+746	Lansing-East Lansing, MI	65	0.4810	Yes	680.0	35.1472	25.8655	26	286188.0	Lansing-East Lansing, MI	26065
+747	Ionia, MI	67						26			26067
+748	Mount Pleasant, MI	73						26			26073
+749	Jackson, MI	75	0.2664	No	600.0	22.2178	15.3498	26	159422.0	Jackson, MI	26075
+750	Kalamazoo-Portage, MI	77	0.3717	Yes	620.0	30.3093	26.6958	26	260577.0	Kalamazoo-Portage, MI	26077
+751	Traverse City, MI	79						26			26079
+752	Grand Rapids-Wyoming, MI	81	0.3836	No	690.0	27.0191	21.9503	26	916174.0	Grand Rapids-Wyoming, MI	26081
+753	Houghton, MI	83						26			26083
+754	Detroit-Warren-Dearborn, MI	87	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26087
+755	Traverse City, MI	89						26			26089
+756	Adrian, MI	91						26			26091
+757	Detroit-Warren-Dearborn, MI	93	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26093
+758	Detroit-Warren-Dearborn, MI	99	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26099
+759	Marquette, MI	103						26			26103
+760	Ludington, MI	105						26			26105
+761	Big Rapids, MI	107						26			26107
+762	Marinette, WI-MI	109						26			26109
+763	Midland, MI	111						26			26111
+764	Cadillac, MI	113						26			26113
+765	Monroe, MI	115	0.1581	No	636.0	20.4365	13.4099	26	149419.0	Monroe, MI	26115
+766	Grand Rapids-Wyoming, MI	117	0.3836	No	690.0	27.0191	21.9503	26	916174.0	Grand Rapids-Wyoming, MI	26117
+767	Muskegon, MI	121	0.3896	No	500.0	23.3090	12.9659	26	173208.0	Muskegon, MI	26121
+768	Detroit-Warren-Dearborn, MI	125	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26125
+769	Grand Rapids-Wyoming, MI	139	0.3836	No	690.0	27.0191	21.9503	26	916174.0	Grand Rapids-Wyoming, MI	26139
+770	Saginaw, MI	145	0.4745	No	600.0	23.0335	13.6256	26	193614.0	Saginaw, MI	26145
+771	Detroit-Warren-Dearborn, MI	147	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26147
+772	Sturgis, MI	149						26			26149
+773	Owosso, MI	155						26			26155
+774	Kalamazoo-Portage, MI	159	0.3717	Yes	620.0	30.3093	26.6958	26	260577.0	Kalamazoo-Portage, MI	26159
+775	Ann Arbor, MI	161	0.4833	Yes	870.0	34.3348	38.5930	26	358039.0	Ann Arbor, MI	26161
+776	Detroit-Warren-Dearborn, MI	163	0.5043	No	700.0	22.6667	21.8635	26	4214912.0	Detroit-Warren-Dearborn, MI	26163
+777	Cadillac, MI	165						26			26165
+778	Minneapolis-St. Paul-Bloomington, MN-WI	3	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27003
+779	Bemidji, MN	7						27			27007
+780	St. Cloud, MN	9	0.2080	No	656.0	28.9437	18.5408	27	154130.0	St. Cloud, MN	27009
+781	Mankato-North Mankato, MN	13						27			27013
+782	New Ulm, MN	15						27			27015
+783	Duluth, MN-WI	17						27			27017
+784	Minneapolis-St. Paul-Bloomington, MN-WI	19	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27019
+785	Brainerd, MN	21						27			27021
+786	Minneapolis-St. Paul-Bloomington, MN-WI	25	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27025
+787	Fargo, ND-MN	27	0.2328	No	690.0	34.7665	22.6968	27	172249.0	Fargo, ND-MN	27027
+788	Brainerd, MN	35						27			27035
+789	Minneapolis-St. Paul-Bloomington, MN-WI	37	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27037
+790	Rochester, MN	39	0.3293	Yes	750.0	24.2075	31.6052	27	151453.0	Rochester, MN	27039
+791	Alexandria, MN	41						27			27041
+792	Rochester, MN	45	0.3293	Yes	750.0	24.2075	31.6052	27	151453.0	Rochester, MN	27045
+793	Albert Lea, MN	47						27			27047
+794	Red Wing, MN	49						27			27049
+795	Minneapolis-St. Paul-Bloomington, MN-WI	53	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27053
+796	La Crosse-Onalaska, WI-MN	55	0.1844	No	650.0	28.8245	20.3769	27	118507.0	La Crosse-Onalaska, WI-MN	27055
+797	Minneapolis-St. Paul-Bloomington, MN-WI	59	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27059
+798	Grand Rapids, MN	61						27			27061
+799	Willmar, MN	67						27			27067
+800	Minneapolis-St. Paul-Bloomington, MN-WI	79	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27079
+801	Marshall, MN	83						27			27083
+802	Hutchinson, MN	85						27			27085
+803	Fairmont, MN	91						27			27091
+804	Minneapolis-St. Paul-Bloomington, MN-WI	95	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27095
+805	Austin, MN	99						27			27099
+806	Mankato-North Mankato, MN	103						27			27103
+807	Worthington, MN	105						27			27105
+808	Rochester, MN	109	0.3293	Yes	750.0	24.2075	31.6052	27	151453.0	Rochester, MN	27109
+809	Fergus Falls, MN	111						27			27111
+810	Grand Forks, ND-MN	119						27			27119
+811	Minneapolis-St. Paul-Bloomington, MN-WI	123	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27123
+812	Faribault-Northfield, MN	131						27			27131
+813	Duluth, MN-WI	137						27			27137
+814	Minneapolis-St. Paul-Bloomington, MN-WI	139	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27139
+815	Minneapolis-St. Paul-Bloomington, MN-WI	141	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27141
+816	Minneapolis-St. Paul-Bloomington, MN-WI	143	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27143
+817	St. Cloud, MN	145	0.2080	No	656.0	28.9437	18.5408	27	154130.0	St. Cloud, MN	27145
+818	Owatonna, MN	147						27			27147
+819	Rochester, MN	157	0.3293	Yes	750.0	24.2075	31.6052	27	151453.0	Rochester, MN	27157
+820	Minneapolis-St. Paul-Bloomington, MN-WI	163	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27163
+821	Wahpeton, ND-MN	167						27			27167
+822	Winona, MN	169						27			27169
+823	Minneapolis-St. Paul-Bloomington, MN-WI	171	0.4375	Yes	900.0	25.2731	30.7880	27	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	27171
+824	Natchez, MS-LA	1						28			28001
+825	Corinth, MS	3						28			28003
+826	McComb, MS	5						28			28005
+827	Memphis, TN-MS-AR	9	0.5910	No	650.0	25.4038	19.5977	28	1111005.0	Memphis, TN-MS-AR	28009
+828	Cleveland, MS	11						28			28011
+829	Greenwood, MS	15						28			28015
+830	Vicksburg, MS	21						28			28021
+831	Meridian, MS	23						28			28023
+832	West Point, MS	25						28			28025
+833	Clarksdale, MS	27						28			28027
+834	Jackson, MS	29						28			28029
+835	Memphis, TN-MS-AR	33	0.5910	No	650.0	25.4038	19.5977	28	1111005.0	Memphis, TN-MS-AR	28033
+836	Hattiesburg, MS	35						28			28035
+837	Grenada, MS	43						28			28043
+838	Gulfport-Biloxi-Pascagoula, MS	45	0.5092	No	630.0	24.1046	14.3590	28	342922.0	Gulfport-Biloxi-Pascagoula, MS	28045
+839	Gulfport-Biloxi-Pascagoula, MS	47	0.5092	No	630.0	24.1046	14.3590	28	342922.0	Gulfport-Biloxi-Pascagoula, MS	28047
+840	Jackson, MS	49						28			28049
+841	Tupelo, MS	57						28			28057
+842	Gulfport-Biloxi-Pascagoula, MS	59	0.5092	No	630.0	24.1046	14.3590	28	342922.0	Gulfport-Biloxi-Pascagoula, MS	28059
+843	Laurel, MS	61						28			28061
+844	Laurel, MS	67						28			28067
+845	Meridian, MS	69						28			28069
+846	Oxford, MS	71						28			28071
+847	Hattiesburg, MS	73						28			28073
+848	Meridian, MS	75						28			28075
+849	Tupelo, MS	81						28			28081
+850	Greenwood, MS	83						28			28083
+851	Brookhaven, MS	85						28			28085
+852	Columbus, MS	87						28			28087
+853	Jackson, MS	89						28			28089
+854	Memphis, TN-MS-AR	93	0.5910	No	650.0	25.4038	19.5977	28	1111005.0	Memphis, TN-MS-AR	28093
+855	Starkville, MS	105						28			28105
+856	Picayune, MS	109						28			28109
+857	Hattiesburg, MS	111						28			28111
+858	McComb, MS	113						28			28113
+859	Tupelo, MS	115						28			28115
+860	Jackson, MS	121						28			28121
+861	Jackson, MS	127						28			28127
+862	Indianola, MS	133						28			28133
+863	Memphis, TN-MS-AR	137	0.5910	No	650.0	25.4038	19.5977	28	1111005.0	Memphis, TN-MS-AR	28137
+864	Memphis, TN-MS-AR	143	0.5910	No	650.0	25.4038	19.5977	28	1111005.0	Memphis, TN-MS-AR	28143
+865	Vicksburg, MS	149						28			28149
+866	Greenville, MS	151						28			28151
+867	Jackson, MS	163						28			28163
+868	Kirksville, MO	1						29			29001
+869	St. Joseph, MO-KS	3						29			29003
+870	Mexico, MO	7						29			29007
+871	Kansas City, MO-KS	13	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29013
+872	Cape Girardeau, MO-IL	17						29			29017
+873	Columbia, MO	19	0.3566	Yes	630.0	36.7907	33.2949	29	175096.0	Columbia, MO	29019
+874	St. Joseph, MO-KS	21						29			29021
+875	Poplar Bluff, MO	23						29			29023
+876	Kansas City, MO-KS	25	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29025
+877	Jefferson City, MO	27						29			29027
+878	Cape Girardeau, MO-IL	31						29			29031
+879	Kansas City, MO-KS	37	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29037
+880	Springfield, MO	43						29			29043
+881	Fort Madison-Keokuk, IA-IL-MO	45						29			29045
+882	Kansas City, MO-KS	47	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29047
+883	Kansas City, MO-KS	49	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29049
+884	Jefferson City, MO	51						29			29051
+885	Springfield, MO	59						29			29059
+886	St. Joseph, MO-KS	63						29			29063
+887	Kennett, MO	69						29			29069
+888	St. Louis, MO-IL	71	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29071
+889	Springfield, MO	77						29			29077
+890	West Plains, MO	91						29			29091
+891	Kansas City, MO-KS	95	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29095
+892	Joplin, MO	97						29			29097
+893	St. Louis, MO-IL	99	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29099
+894	Warrensburg, MO	101						29			29101
+895	Lebanon, MO	105						29			29105
+896	Kansas City, MO-KS	107	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29107
+897	Quincy, IL-MO	111						29			29111
+898	St. Louis, MO-IL	113	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29113
+899	Fayetteville-Springdale-Rogers, AR-MO	119	0.4368	No	600.0	27.3083	20.8674	29	474380.0	Fayetteville-Springdale-Rogers, AR-MO	29119
+900	Hannibal, MO	127						29			29127
+901	Jefferson City, MO	135						29			29135
+902	Joplin, MO	145						29			29145
+903	Maryville, MO	147						29			29147
+904	Jefferson City, MO	151						29			29151
+905	Sedalia, MO	159						29			29159
+906	Rolla, MO	161						29			29161
+907	Kansas City, MO-KS	165	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29165
+908	Springfield, MO	167						29			29167
+909	Fort Leonard Wood, MO	169						29			29169
+910	Hannibal, MO	173						29			29173
+911	Moberly, MO	175						29			29175
+912	Kansas City, MO-KS	177	0.5065	Yes	680.0	24.3055	27.1237	29	1431690.0	Kansas City, MO-KS	29177
+913	St. Louis, MO-IL	183	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29183
+914	Farmington, MO	187						29			29187
+915	St. Louis, MO-IL	189	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29189
+916	Marshall, MO	195						29			29195
+917	Kirksville, MO	197						29			29197
+918	Sikeston, MO	201						29			29201
+919	Branson, MO	209						29			29209
+920	Branson, MO	213						29			29213
+921	St. Louis, MO-IL	219	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29219
+922	Springfield, MO	225						29			29225
+923	St. Louis, MO-IL	510	0.4373	No	650.0	23.7940	24.1520	29	2561726.0	St. Louis, MO-IL	29510
+924	Billings, MT	9						30			30009
+925	Great Falls, MT	13						30			30013
+926	Kalispell, MT	29						30			30029
+927	Bozeman, MT	31						30			30031
+928	Billings, MT	37						30			30037
+929	Helena, MT	43						30			30043
+930	Helena, MT	49						30			30049
+931	Missoula, MT	63						30			30063
+932	Butte-Silver Bow, MT	93						30			30093
+933	Billings, MT	111						30			30111
+934	Hastings, NE	1						31			31001
+935	Scottsbluff, NE	7						31			31007
+936	Kearney, NE	19						31			31019
+937	Omaha-Council Bluffs, NE-IA	25	0.4423	Yes	717.0	26.2769	25.4940	31	726026.0	Omaha-Council Bluffs, NE-IA	31025
+938	Sioux City, IA-NE-SD	43						31			31043
+939	Lexington, NE	47						31			31047
+940	Sioux City, IA-NE-SD	51						31			31051
+941	Fremont, NE	53						31			31053
+942	Omaha-Council Bluffs, NE-IA	55	0.4423	Yes	717.0	26.2769	25.4940	31	726026.0	Omaha-Council Bluffs, NE-IA	31055
+943	Beatrice, NE	67						31			31067
+944	Lexington, NE	73						31			31073
+945	Grand Island, NE	79						31			31079
+946	Grand Island, NE	81						31			31081
+947	Grand Island, NE	93						31			31093
+948	Kearney, NE	99						31			31099
+949	Lincoln, NE	109	0.3147	Yes	639.0	31.8830	25.4537	31	306502.0	Lincoln, NE	31109
+950	North Platte, NE	111						31			31111
+951	North Platte, NE	113						31			31113
+952	North Platte, NE	117						31			31117
+953	Norfolk, NE	119						31			31119
+954	Grand Island, NE	121						31			31121
+955	Norfolk, NE	139						31			31139
+956	Columbus, NE	141						31			31141
+957	Omaha-Council Bluffs, NE-IA	153	0.4423	Yes	717.0	26.2769	25.4940	31	726026.0	Omaha-Council Bluffs, NE-IA	31153
+958	Omaha-Council Bluffs, NE-IA	155	0.4423	Yes	717.0	26.2769	25.4940	31	726026.0	Omaha-Council Bluffs, NE-IA	31155
+959	Scottsbluff, NE	157						31			31157
+960	Lincoln, NE	159	0.3147	Yes	639.0	31.8830	25.4537	31	306502.0	Lincoln, NE	31159
+961	Scottsbluff, NE	165						31			31165
+962	Norfolk, NE	167						31			31167
+963	Omaha-Council Bluffs, NE-IA	177	0.4423	Yes	717.0	26.2769	25.4940	31	726026.0	Omaha-Council Bluffs, NE-IA	31177
+964	Fallon, NV	1						32			32001
+965	Las Vegas-Henderson-Paradise, NV	3	0.6872	No	850.0	25.0088	16.2120	32	2114886.0	Las Vegas-Henderson-Paradise, NV	32003
+966	Gardnerville Ranchos, NV	5						32			32005
+967	Elko, NV	7						32			32007
+968	Elko, NV	11						32			32011
+969	Winnemucca, NV	13						32			32013
+970	Fernley, NV	19						32			32019
+971	Pahrump, NV	23						32			32023
+972	Reno, NV	29	0.5345	No	790.0	25.0485	21.1454	32	446968.0	Reno, NV	32029
+973	Reno, NV	31	0.5345	No	790.0	25.0485	21.1454	32	446968.0	Reno, NV	32031
+974	Carson City, NV	510						32			32510
+975	Laconia, NH	1						33			33001
+976	Keene, NH	5						33			33005
+977	Berlin, NH-VT	7						33			33007
+978	Claremont-Lebanon, NH-VT	9						33			33009
+979	Manchester-Nashua, NH	11						33			33011
+980	Concord, NH	13						33			33013
+981	Boston-Cambridge-Newton, MA-NH	15	0.6950	Yes	1300.0	38.4827	32.2699	33	778589.0	Boston-Cambridge-Newton, MA-NH	33015
+982	Boston-Cambridge-Newton, MA-NH	17	0.6950	Yes	1300.0	38.4827	32.2699	33	778589.0	Boston-Cambridge-Newton, MA-NH	33017
+983	Claremont-Lebanon, NH-VT	19						33			33019
+984	Atlantic City-Hammonton, NJ	1						34			34001
+985	New York-Newark-Jersey City, NY-NJ-PA	3	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34003
+986	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	5	0.5575	Yes	880.0	24.6955	26.2700	34	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	34005
+987	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	7	0.5575	Yes	880.0	24.6955	26.2700	34	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	34007
+988	Ocean City, NJ	9						34			34009
+989	Vineland-Bridgeton, NJ	11						34			34011
+990	New York-Newark-Jersey City, NY-NJ-PA	13	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34013
+991	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	15	0.5575	Yes	880.0	24.6955	26.2700	34	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	34015
+992	New York-Newark-Jersey City, NY-NJ-PA	17	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34017
+993	New York-Newark-Jersey City, NY-NJ-PA	19	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34019
+994	Trenton, NJ	21	0.6618	Yes	1000.0	24.9377	27.1919	34	370588.0	Trenton, NJ	34021
+995	New York-Newark-Jersey City, NY-NJ-PA	23	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34023
+996	New York-Newark-Jersey City, NY-NJ-PA	25	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34025
+997	New York-Newark-Jersey City, NY-NJ-PA	27	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34027
+998	New York-Newark-Jersey City, NY-NJ-PA	29	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34029
+999	New York-Newark-Jersey City, NY-NJ-PA	31	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34031
+1000	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	33	0.5575	Yes	880.0	24.6955	26.2700	34	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	34033
+1001	New York-Newark-Jersey City, NY-NJ-PA	35	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34035
+1002	New York-Newark-Jersey City, NY-NJ-PA	37	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34037
+1003	New York-Newark-Jersey City, NY-NJ-PA	39	0.6887	Yes	1200.0	25.5181	27.9240	34	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	34039
+1004	Allentown-Bethlehem-Easton, PA-NJ	41	0.3073	No	930.0	19.2377	24.8237	34	106894.0	Allentown-Bethlehem-Easton, PA-NJ	34041
+1005	Albuquerque, NM	1	0.6388	No	873.0	20.4235	19.6498	35	139452.0	Albuquerque, NM	35001
+1006	Roswell, NM	5						35			35005
+1007	Grants, NM	6						35			35006
+1008	Clovis, NM	9						35			35009
+1009	Las Cruces, NM	13	0.4690	No	596.0	27.7383	16.0053	35	214429.0	Las Cruces, NM	35013
+1010	Carlsbad-Artesia, NM	15						35			35015
+1011	Silver City, NM	17						35			35017
+1012	Hobbs, NM	25						35			35025
+1013	Ruidoso, NM	27						35			35027
+1014	Los Alamos, NM	28						35			35028
+1015	Deming, NM	29						35			35029
+1016	Gallup, NM	31						35			35031
+1017	Alamogordo, NM	35						35			35035
+1018	Española, NM	39						35			35039
+1019	Portales, NM	41						35			35041
+1020	Albuquerque, NM	43	0.6388	No	873.0	20.4235	19.6498	35	139452.0	Albuquerque, NM	35043
+1021	Farmington, NM	45						35			35045
+1022	Las Vegas, NM	47						35			35047
+1023	Santa Fe, NM	49	0.5535	Yes	800.0	19.9577	30.4582	35	148840.0	Santa Fe, NM	35049
+1024	Taos, NM	55						35			35055
+1025	Albuquerque, NM	57	0.6388	No	873.0	20.4235	19.6498	35	139452.0	Albuquerque, NM	35057
+1026	Albuquerque, NM	61	0.6388	No	873.0	20.4235	19.6498	35	139452.0	Albuquerque, NM	35061
+1027	Albany-Schenectady-Troy, NY	1	0.3473	Yes	800.0	25.2013	26.6409	36	849702.0	Albany-Schenectady-Troy, NY	36001
+1028	New York-Newark-Jersey City, NY-NJ-PA	5	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36005
+1029	Binghamton, NY	7						36			36007
+1030	Olean, NY	9						36			36009
+1031	Auburn, NY	11						36			36011
+1032	Jamestown-Dunkirk-Fredonia, NY	13	0.2249	No	460.0	23.0887	15.6198	36	130930.0	Jamestown-Dunkirk-Fredonia, NY	36013
+1033	Elmira, NY	15						36			36015
+1034	Plattsburgh, NY	19						36			36019
+1035	Hudson, NY	21						36			36021
+1036	Cortland, NY	23						36			36023
+1037	New York-Newark-Jersey City, NY-NJ-PA	27	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36027
+1038	Buffalo-Cheektowaga-Niagara Falls, NY	29	0.3788	No	600.0	24.2821	22.7505	36	1135415.0	Buffalo-Cheektowaga-Niagara Falls, NY	36029
+1039	Malone, NY	33						36			36033
+1040	Gloversville, NY	35						36			36035
+1041	Batavia, NY	37						36			36037
+1042	Utica-Rome, NY	43						36			36043
+1043	Watertown-Fort Drum, NY	45						36			36045
+1044	New York-Newark-Jersey City, NY-NJ-PA	47	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36047
+1045	Rochester, NY	51	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36051
+1046	Syracuse, NY	53	0.1108	No	550.0	24.1260	10.7972	36	119846.0	Syracuse, NY	36053
+1047	Rochester, NY	55	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36055
+1048	Amsterdam, NY	57						36			36057
+1049	New York-Newark-Jersey City, NY-NJ-PA	59	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36059
+1050	New York-Newark-Jersey City, NY-NJ-PA	61	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36061
+1051	Buffalo-Cheektowaga-Niagara Falls, NY	63	0.3788	No	600.0	24.2821	22.7505	36	1135415.0	Buffalo-Cheektowaga-Niagara Falls, NY	36063
+1052	Utica-Rome, NY	65						36			36065
+1053	Syracuse, NY	67	0.1108	No	550.0	24.1260	10.7972	36	119846.0	Syracuse, NY	36067
+1054	Rochester, NY	69	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36069
+1055	New York-Newark-Jersey City, NY-NJ-PA	71	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36071
+1056	Rochester, NY	73	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36073
+1057	Syracuse, NY	75	0.1108	No	550.0	24.1260	10.7972	36	119846.0	Syracuse, NY	36075
+1058	Oneonta, NY	77						36			36077
+1059	New York-Newark-Jersey City, NY-NJ-PA	79	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36079
+1060	New York-Newark-Jersey City, NY-NJ-PA	81	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36081
+1061	Albany-Schenectady-Troy, NY	83	0.3473	Yes	800.0	25.2013	26.6409	36	849702.0	Albany-Schenectady-Troy, NY	36083
+1062	New York-Newark-Jersey City, NY-NJ-PA	85	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36085
+1063	New York-Newark-Jersey City, NY-NJ-PA	87	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36087
+1064	Ogdensburg-Massena, NY	89	0.1551	No	588.0	27.0813	15.5595	36	111302.0	Ogdensburg-Massena, NY	36089
+1065	Albany-Schenectady-Troy, NY	91	0.3473	Yes	800.0	25.2013	26.6409	36	849702.0	Albany-Schenectady-Troy, NY	36091
+1066	Albany-Schenectady-Troy, NY	93	0.3473	Yes	800.0	25.2013	26.6409	36	849702.0	Albany-Schenectady-Troy, NY	36093
+1067	Albany-Schenectady-Troy, NY	95	0.3473	Yes	800.0	25.2013	26.6409	36	849702.0	Albany-Schenectady-Troy, NY	36095
+1068	Seneca Falls, NY	99						36			36099
+1069	Corning, NY	101						36			36101
+1070	New York-Newark-Jersey City, NY-NJ-PA	103	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36103
+1071	Binghamton, NY	107						36			36107
+1072	Ithaca, NY	109	0.3971	Yes	980.0	43.4754	35.0607	36	105554.0	Ithaca, NY	36109
+1073	Kingston, NY	111						36			36111
+1074	Glens Falls, NY	113						36			36113
+1075	Glens Falls, NY	115						36			36115
+1076	Rochester, NY	117	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36117
+1077	New York-Newark-Jersey City, NY-NJ-PA	119	0.6887	Yes	1200.0	25.5181	27.9240	36	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	36119
+1078	Rochester, NY	123	0.4635	Yes	737.0	25.6235	26.2057	36	750191.0	Rochester, NY	36123
+1079	Burlington, NC	1	0.5299	No	580.0	23.5292	15.6441	37	157842.0	Burlington, NC	37001
+1080	Hickory-Lenoir-Morganton, NC	3	0.4015	No	500.0	20.7040	17.2889	37	155076.0	Hickory-Lenoir-Morganton, NC	37003
+1081	Washington, NC	13						37			37013
+1082	Myrtle Beach-Conway-North Myrtle Beach, SC-NC	19	0.3715	No	700.0	19.7263	19.5373	37	432153.0	Myrtle Beach-Conway-North Myrtle Beach, SC-NC	37019
+1083	Asheville, NC	21	0.2953	Yes	700.0	23.4319	27.2417	37	253347.0	Asheville, NC	37021
+1084	Hickory-Lenoir-Morganton, NC	23	0.4015	No	500.0	20.7040	17.2889	37	155076.0	Hickory-Lenoir-Morganton, NC	37023
+1085	Charlotte-Concord-Gastonia, NC-SC	25	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37025
+1086	Hickory-Lenoir-Morganton, NC	27	0.4015	No	500.0	20.7040	17.2889	37	155076.0	Hickory-Lenoir-Morganton, NC	37027
+1087	Elizabeth City, NC	29						37			37029
+1088	Morehead City, NC	31						37			37031
+1089	Hickory-Lenoir-Morganton, NC	35	0.4015	No	500.0	20.7040	17.2889	37	155076.0	Hickory-Lenoir-Morganton, NC	37035
+1090	Durham-Chapel Hill, NC	37	0.6417	Yes	780.0	30.9805	35.6132	37	443333.0	Durham-Chapel Hill, NC	37037
+1091	Shelby, NC	45						37			37045
+1092	New Bern, NC	49	0.5019	No	684.0	27.2906	16.9210	37	103457.0	New Bern, NC	37049
+1093	Fayetteville, NC	51	0.6583	No	700.0	30.7711	16.9618	37	324801.0	Fayetteville, NC	37051
+1094	Virginia Beach-Norfolk-Newport News, VA-NC	53	0.6042	No	948.0	28.3040	20.6088	37	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	37053
+1095	Kill Devil Hills, NC	55						37			37055
+1096	Winston-Salem, NC	57	0.5296	No	530.0	23.0665	21.4578	37	533476.0	Winston-Salem, NC	37057
+1097	Winston-Salem, NC	59	0.5296	No	530.0	23.0665	21.4578	37	533476.0	Winston-Salem, NC	37059
+1098	Durham-Chapel Hill, NC	63	0.6417	Yes	780.0	30.9805	35.6132	37	443333.0	Durham-Chapel Hill, NC	37063
+1099	Rocky Mount, NC	65						37			37065
+1100	Winston-Salem, NC	67	0.5296	No	530.0	23.0665	21.4578	37	533476.0	Winston-Salem, NC	37067
+1101	Raleigh, NC	69	0.5653	Yes	830.0	24.9252	31.2101	37	1209514.0	Raleigh, NC	37069
+1102	Charlotte-Concord-Gastonia, NC-SC	71	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37071
+1103	Virginia Beach-Norfolk-Newport News, VA-NC	73	0.6042	No	948.0	28.3040	20.6088	37	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	37073
+1104	Oxford, NC	77						37			37077
+1105	Greensboro-High Point, NC	81	0.5830	No	600.0	24.6544	20.7314	37	659590.0	Greensboro-High Point, NC	37081
+1106	Roanoke Rapids, NC	83						37			37083
+1107	Dunn, NC	85	0.5653	No	576.0	26.8225	12.7126	37	128392.0	Dunn, NC	37085
+1108	Asheville, NC	87	0.2953	Yes	700.0	23.4319	27.2417	37	253347.0	Asheville, NC	37087
+1109	Asheville, NC	89	0.2953	Yes	700.0	23.4319	27.2417	37	253347.0	Asheville, NC	37089
+1110	Fayetteville, NC	93	0.6583	No	700.0	30.7711	16.9618	37	324801.0	Fayetteville, NC	37093
+1111	Charlotte-Concord-Gastonia, NC-SC	97	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37097
+1112	Cullowhee, NC	99						37			37099
+1113	Raleigh, NC	101	0.5653	Yes	830.0	24.9252	31.2101	37	1209514.0	Raleigh, NC	37101
+1114	New Bern, NC	103	0.5019	No	684.0	27.2906	16.9210	37	103457.0	New Bern, NC	37103
+1115	Sanford, NC	105						37			37105
+1116	Kinston, NC	107						37			37107
+1117	Charlotte-Concord-Gastonia, NC-SC	109	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37109
+1118	Marion, NC	111						37			37111
+1119	Asheville, NC	115	0.2953	Yes	700.0	23.4319	27.2417	37	253347.0	Asheville, NC	37115
+1120	Charlotte-Concord-Gastonia, NC-SC	119	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37119
+1121	Pinehurst-Southern Pines, NC	125						37			37125
+1122	Rocky Mount, NC	127						37			37127
+1123	Wilmington, NC	129						37			37129
+1124	Roanoke Rapids, NC	131						37			37131
+1125	Jacksonville, NC	133						37			37133
+1126	Durham-Chapel Hill, NC	135	0.6417	Yes	780.0	30.9805	35.6132	37	443333.0	Durham-Chapel Hill, NC	37135
+1127	New Bern, NC	137	0.5019	No	684.0	27.2906	16.9210	37	103457.0	New Bern, NC	37137
+1128	Elizabeth City, NC	139						37			37139
+1129	Wilmington, NC	141						37			37141
+1130	Elizabeth City, NC	143						37			37143
+1131	Durham-Chapel Hill, NC	145	0.6417	Yes	780.0	30.9805	35.6132	37	443333.0	Durham-Chapel Hill, NC	37145
+1132	Greenville, NC	147	0.5704	No	520.0	32.8972	18.9096	37	176471.0	Greenville, NC	37147
+1133	Greensboro-High Point, NC	151	0.5830	No	600.0	24.6544	20.7314	37	659590.0	Greensboro-High Point, NC	37151
+1134	Rockingham, NC	153						37			37153
+1135	Lumberton, NC	155						37			37155
+1136	Greensboro-High Point, NC	157	0.5830	No	600.0	24.6544	20.7314	37	659590.0	Greensboro-High Point, NC	37157
+1137	Charlotte-Concord-Gastonia, NC-SC	159	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37159
+1138	Forest City, NC	161						37			37161
+1139	Laurinburg, NC	165						37			37165
+1140	Albemarle, NC	167						37			37167
+1141	Winston-Salem, NC	169	0.5296	No	530.0	23.0665	21.4578	37	533476.0	Winston-Salem, NC	37169
+1142	Mount Airy, NC	171						37			37171
+1143	Brevard, NC	175						37			37175
+1144	Kill Devil Hills, NC	177						37			37177
+1145	Charlotte-Concord-Gastonia, NC-SC	179	0.5931	Yes	750.0	25.8123	25.6823	37	1637488.0	Charlotte-Concord-Gastonia, NC-SC	37179
+1146	Henderson, NC	181						37			37181
+1147	Raleigh, NC	183	0.5653	Yes	830.0	24.9252	31.2101	37	1209514.0	Raleigh, NC	37183
+1148	Boone, NC	189						37			37189
+1149	Goldsboro, NC	191	0.5964	No	531.0	24.2765	15.5795	37	123951.0	Goldsboro, NC	37191
+1150	North Wilkesboro, NC	193						37			37193
+1151	Wilson, NC	195						37			37195
+1152	Winston-Salem, NC	197	0.5296	No	530.0	23.0665	21.4578	37	533476.0	Winston-Salem, NC	37197
+1153	Bismarck, ND	15						38			38015
+1154	Fargo, ND-MN	17	0.2328	No	690.0	34.7665	22.6968	38	172249.0	Fargo, ND-MN	38017
+1155	Grand Forks, ND-MN	35						38			38035
+1156	Minot, ND	49						38			38049
+1157	Bismarck, ND	59						38			38059
+1158	Bismarck, ND	65						38			38065
+1159	Minot, ND	75						38			38075
+1160	Wahpeton, ND-MN	77						38			38077
+1161	Bismarck, ND	85						38			38085
+1162	Dickinson, ND	89						38			38089
+1163	Jamestown, ND	93						38			38093
+1164	Minot, ND	101						38			38101
+1165	Williston, ND	105						38			38105
+1166	Lima, OH	3	0.3263	No	480.0	23.8995	13.7079	39	104203.0	Lima, OH	39003
+1167	Ashland, OH	5						39			39005
+1168	Ashtabula, OH	7	0.1833	No	500.0	20.5368	9.3177	39	98243.0	Ashtabula, OH	39007
+1169	Athens, OH	9						39			39009
+1170	Wapakoneta, OH	11						39			39011
+1171	Wheeling, WV-OH	13						39			39013
+1172	Cincinnati, OH-KY-IN	15	0.3920	No	630.0	24.4122	23.9928	39	1700997.0	Cincinnati, OH-KY-IN	39015
+1173	Cincinnati, OH-KY-IN	17	0.3920	No	630.0	24.4122	23.9928	39	1700997.0	Cincinnati, OH-KY-IN	39017
+1174	Canton-Massillon, OH	19						39			39019
+1175	Urbana, OH	21						39			39021
+1176	Springfield, OH	23	0.2839	No	550.0	20.4899	13.2299	39	135579.0	Springfield, OH	39023
+1177	Cincinnati, OH-KY-IN	25	0.3920	No	630.0	24.4122	23.9928	39	1700997.0	Cincinnati, OH-KY-IN	39025
+1178	Wilmington, OH	27						39			39027
+1179	Salem, OH	29	0.1113	No	400.0	19.5456	10.7056	39	104796.0	Salem, OH	39029
+1180	Coshocton, OH	31						39			39031
+1181	Bucyrus, OH	33						39			39033
+1182	Cleveland-Elyria, OH	35	0.5004	No	600.0	22.9579	21.6210	39	1737420.0	Cleveland-Elyria, OH	39035
+1183	Greenville, OH	37						39			39037
+1184	Defiance, OH	39						39			39039
+1185	Columbus, OH	41	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39041
+1186	Sandusky, OH	43						39			39043
+1187	Columbus, OH	45	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39045
+1188	Washington Court House, OH	47						39			39047
+1189	Columbus, OH	49	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39049
+1190	Toledo, OH	51						39			39051
+1191	Point Pleasant, WV-OH	53						39			39053
+1192	Cleveland-Elyria, OH	55	0.5004	No	600.0	22.9579	21.6210	39	1737420.0	Cleveland-Elyria, OH	39055
+1193	Dayton, OH	57	0.3850	No	600.0	24.0035	20.5102	39	800700.0	Dayton, OH	39057
+1194	Cambridge, OH	59						39			39059
+1195	Cincinnati, OH-KY-IN	61	0.3920	No	630.0	24.4122	23.9928	39	1700997.0	Cincinnati, OH-KY-IN	39061
+1196	Findlay, OH	63						39			39063
+1197	Columbus, OH	73	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39073
+1198	Norwalk, OH	77						39			39077
+1199	Jackson, OH	79						39			39079
+1200	Weirton-Steubenville, WV-OH	81						39			39081
+1201	Mount Vernon, OH	83						39			39083
+1202	Cleveland-Elyria, OH	85	0.5004	No	600.0	22.9579	21.6210	39	1737420.0	Cleveland-Elyria, OH	39085
+1203	Huntington-Ashland, WV-KY-OH	87						39			39087
+1204	Columbus, OH	89	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39089
+1205	Bellefontaine, OH	91						39			39091
+1206	Cleveland-Elyria, OH	93	0.5004	No	600.0	22.9579	21.6210	39	1737420.0	Cleveland-Elyria, OH	39093
+1207	Toledo, OH	95						39			39095
+1208	Columbus, OH	97	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39097
+1209	Youngstown-Warren-Boardman, OH-PA	99	0.1840	No	480.0	19.6342	18.1552	39	113929.0	Youngstown-Warren-Boardman, OH-PA	39099
+1210	Marion, OH	101						39			39101
+1211	Cleveland-Elyria, OH	103	0.5004	No	600.0	22.9579	21.6210	39	1737420.0	Cleveland-Elyria, OH	39103
+1212	Celina, OH	107						39			39107
+1213	Dayton, OH	109	0.3850	No	600.0	24.0035	20.5102	39	800700.0	Dayton, OH	39109
+1214	Dayton, OH	113	0.3850	No	600.0	24.0035	20.5102	39	800700.0	Dayton, OH	39113
+1215	Columbus, OH	117	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39117
+1216	Zanesville, OH	119						39			39119
+1217	Port Clinton, OH	123						39			39123
+1218	Columbus, OH	127	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39127
+1219	Columbus, OH	129	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39129
+1220	Akron, OH	133	0.3334	No	600.0	24.0106	21.8241	39	704634.0	Akron, OH	39133
+1221	Mansfield, OH	139	0.2568	No	480.0	22.4626	10.0274	39	121727.0	Mansfield, OH	39139
+1222	Chillicothe, OH	141						39			39141
+1223	Fremont, OH	143						39			39143
+1224	Portsmouth, OH	145						39			39145
+1225	Tiffin, OH	147						39			39147
+1226	Sidney, OH	149						39			39149
+1227	Canton-Massillon, OH	151						39			39151
+1228	Akron, OH	153	0.3334	No	600.0	24.0106	21.8241	39	704634.0	Akron, OH	39153
+1229	Youngstown-Warren-Boardman, OH-PA	155	0.1840	No	480.0	19.6342	18.1552	39	113929.0	Youngstown-Warren-Boardman, OH-PA	39155
+1230	New Philadelphia-Dover, OH	157						39			39157
+1231	Columbus, OH	159	0.4553	Yes	700.0	26.9439	26.0977	39	1765795.0	Columbus, OH	39159
+1232	Van Wert, OH	161						39			39161
+1233	Cincinnati, OH-KY-IN	165	0.3920	No	630.0	24.4122	23.9928	39	1700997.0	Cincinnati, OH-KY-IN	39165
+1234	Marietta, OH	167						39			39167
+1235	Wooster, OH	169	0.1153	No	530.0	22.3766	14.6013	39	116202.0	Wooster, OH	39169
+1236	Toledo, OH	173						39			39173
+1237	Elk City, OK	9						40			40009
+1238	Durant, OK	13						40			40013
+1239	Oklahoma City, OK	17	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40017
+1240	Ardmore, OK	19						40			40019
+1241	Tahlequah, OK	21						40			40021
+1242	Oklahoma City, OK	27	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40027
+1243	Lawton, OK	31						40			40031
+1244	Lawton, OK	33						40			40033
+1245	Tulsa, OK	37						40			40037
+1246	Weatherford, OK	39						40			40039
+1247	Enid, OK	47						40			40047
+1248	Oklahoma City, OK	51	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40051
+1249	Altus, OK	65						40			40065
+1250	Ponca City, OK	71						40			40071
+1251	Fort Smith, AR-OK	79						40			40079
+1252	Oklahoma City, OK	81	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40081
+1253	Oklahoma City, OK	83	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40083
+1254	Oklahoma City, OK	87	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40087
+1255	Muskogee, OK	101						40			40101
+1256	Oklahoma City, OK	109	0.5669	No	650.0	27.5272	21.4959	40	1185769.0	Oklahoma City, OK	40109
+1257	Tulsa, OK	111						40			40111
+1258	Tulsa, OK	113						40			40113
+1259	Miami, OK	115						40			40115
+1260	Tulsa, OK	117						40			40117
+1261	Stillwater, OK	119						40			40119
+1262	McAlester, OK	121						40			40121
+1263	Ada, OK	123						40			40123
+1264	Shawnee, OK	125						40			40125
+1265	Tulsa, OK	131						40			40131
+1266	Fort Smith, AR-OK	135						40			40135
+1267	Duncan, OK	137						40			40137
+1268	Guymon, OK	139						40			40139
+1269	Tulsa, OK	143						40			40143
+1270	Tulsa, OK	145						40			40145
+1271	Bartlesville, OK	147						40			40147
+1272	Woodward, OK	153						40			40153
+1273	Corvallis, OR	3						41			41003
+1274	Portland-Vancouver-Hillsboro, OR-WA	5	0.4353	Yes	950.0	25.1656	27.8454	41	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	41005
+1275	Astoria, OR	7						41			41007
+1276	Portland-Vancouver-Hillsboro, OR-WA	9	0.4353	Yes	950.0	25.1656	27.8454	41	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	41009
+1277	Coos Bay, OR	11						41			41011
+1278	Prineville, OR	13						41			41013
+1279	Brookings, OR	15						41			41015
+1280	Bend-Redmond, OR	17	0.2234	Yes	882.0	20.0409	28.9688	41	175351.0	Bend-Redmond, OR	41017
+1281	Roseburg, OR	19	0.2179	No	560.0	20.4531	11.4999	41	107079.0	Roseburg, OR	41019
+1282	Hood River, OR	27						41			41027
+1283	Medford, OR	29	0.3192	No	730.0	22.0298	18.5881	41	212335.0	Medford, OR	41029
+1284	Grants Pass, OR	33						41			41033
+1285	Klamath Falls, OR	35						41			41035
+1286	Eugene, OR	39	0.3074	No	760.0	27.1677	21.5268	41	363328.0	Eugene, OR	41039
+1287	Newport, OR	41						41			41041
+1288	Albany, OR	43						41			41043
+1289	Ontario, OR-ID	45						41			41045
+1290	Salem, OR	47	0.4884	No	700.0	24.2701	14.9705	41	330938.0	Salem, OR	41047
+1291	Hermiston-Pendleton, OR	49						41			41049
+1292	Portland-Vancouver-Hillsboro, OR-WA	51	0.4353	Yes	950.0	25.1656	27.8454	41	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	41051
+1293	Salem, OR	53	0.4884	No	700.0	24.2701	14.9705	41	330938.0	Salem, OR	41053
+1294	Hermiston-Pendleton, OR	59						41			41059
+1295	La Grande, OR	61						41			41061
+1296	The Dalles, OR	65						41			41065
+1297	Portland-Vancouver-Hillsboro, OR-WA	67	0.4353	Yes	950.0	25.1656	27.8454	41	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	41067
+1298	Portland-Vancouver-Hillsboro, OR-WA	71	0.4353	Yes	950.0	25.1656	27.8454	41	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	41071
+1299	Gettysburg, PA	1						42			42001
+1300	Pittsburgh, PA	3	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42003
+1301	Pittsburgh, PA	5	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42005
+1302	Pittsburgh, PA	7	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42007
+1303	Reading, PA	11	0.4223	No	700.0	23.4322	17.6663	42	415334.0	Reading, PA	42011
+1304	Altoona, PA	13						42			42013
+1305	Sayre, PA	15						42			42015
+1306	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	17	0.5575	Yes	880.0	24.6955	26.2700	42	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	42017
+1307	Pittsburgh, PA	19	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42019
+1308	Johnstown, PA	21	0.1341	No	450.0	21.2368	15.2626	42	136857.0	Johnstown, PA	42021
+1309	Allentown-Bethlehem-Easton, PA-NJ	25	0.3073	No	930.0	19.2377	24.8237	42	106894.0	Allentown-Bethlehem-Easton, PA-NJ	42025
+1310	State College, PA	27	0.2776	Yes	830.0	40.8584	27.9113	42	160978.0	State College, PA	42027
+1311	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	29	0.5575	Yes	880.0	24.6955	26.2700	42	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	42029
+1312	DuBois, PA	33						42			42033
+1313	Lock Haven, PA	35						42			42035
+1314	Bloomsburg-Berwick, PA	37						42			42037
+1315	Meadville, PA	39						42			42039
+1316	Harrisburg-Carlisle, PA	41	0.5021	No	740.0	23.1987	19.7587	42	273115.0	Harrisburg-Carlisle, PA	42041
+1317	Harrisburg-Carlisle, PA	43	0.5021	No	740.0	23.1987	19.7587	42	273115.0	Harrisburg-Carlisle, PA	42043
+1318	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	45	0.5575	Yes	880.0	24.6955	26.2700	42	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	42045
+1319	St. Marys, PA	47						42			42047
+1320	Erie, PA	49	0.2725	No	524.0	23.8610	18.4721	42	278144.0	Erie, PA	42049
+1321	Pittsburgh, PA	51	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42051
+1322	Chambersburg-Waynesboro, PA	55						42			42055
+1323	Huntingdon, PA	61						42			42061
+1324	Indiana, PA	63						42			42063
+1325	Scranton--Wilkes-Barre--Hazleton, PA	69						42			42069
+1326	Lancaster, PA	71	0.3076	No	790.0	22.8591	19.2365	42	537212.0	Lancaster, PA	42071
+1327	New Castle, PA	73						42			42073
+1328	Lebanon, PA	75	0.2863	No	649.0	21.0542	12.6419	42	137274.0	Lebanon, PA	42075
+1329	Allentown-Bethlehem-Easton, PA-NJ	77	0.3073	No	930.0	19.2377	24.8237	42	106894.0	Allentown-Bethlehem-Easton, PA-NJ	42077
+1330	Scranton--Wilkes-Barre--Hazleton, PA	79						42			42079
+1331	Williamsport, PA	81						42			42081
+1332	Bradford, PA	83						42			42083
+1333	Youngstown-Warren-Boardman, OH-PA	85	0.1840	No	480.0	19.6342	18.1552	42	113929.0	Youngstown-Warren-Boardman, OH-PA	42085
+1334	Lewistown, PA	87						42			42087
+1335	East Stroudsburg, PA	89	0.5105	No	738.0	23.2171	18.7903	42	166692.0	East Stroudsburg, PA	42089
+1336	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	91	0.5575	Yes	880.0	24.6955	26.2700	42	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	42091
+1337	Bloomsburg-Berwick, PA	93						42			42093
+1338	Allentown-Bethlehem-Easton, PA-NJ	95	0.3073	No	930.0	19.2377	24.8237	42	106894.0	Allentown-Bethlehem-Easton, PA-NJ	42095
+1339	Sunbury, PA	97						42			42097
+1340	Harrisburg-Carlisle, PA	99	0.5021	No	740.0	23.1987	19.7587	42	273115.0	Harrisburg-Carlisle, PA	42099
+1341	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	101	0.5575	Yes	880.0	24.6955	26.2700	42	6004656.0	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	42101
+1342	New York-Newark-Jersey City, NY-NJ-PA	103	0.6887	Yes	1200.0	25.5181	27.9240	42	19051133.0	New York-Newark-Jersey City, NY-NJ-PA	42103
+1343	Pottsville, PA	107	0.1570	No	500.0	19.6249	11.5604	42	144857.0	Pottsville, PA	42107
+1344	Selinsgrove, PA	109						42			42109
+1345	Somerset, PA	111						42			42111
+1346	Lewisburg, PA	119						42			42119
+1347	Oil City, PA	121						42			42121
+1348	Warren, PA	123						42			42123
+1349	Pittsburgh, PA	125	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42125
+1350	Pittsburgh, PA	129	0.2797	Yes	620.0	23.3819	26.2803	42	1906016.0	Pittsburgh, PA	42129
+1351	Scranton--Wilkes-Barre--Hazleton, PA	131						42			42131
+1352	York-Hanover, PA	133	0.2850	No	700.0	22.0599	15.0816	42	443261.0	York-Hanover, PA	42133
+1353	Providence-Warwick, RI-MA	1	0.4629	No	800.0	26.2434	22.6004	44	924698.0	Providence-Warwick, RI-MA	44001
+1354	Providence-Warwick, RI-MA	3	0.4629	No	800.0	26.2434	22.6004	44	924698.0	Providence-Warwick, RI-MA	44003
+1355	Providence-Warwick, RI-MA	5	0.4629	No	800.0	26.2434	22.6004	44	924698.0	Providence-Warwick, RI-MA	44005
+1356	Providence-Warwick, RI-MA	7	0.4629	No	800.0	26.2434	22.6004	44	924698.0	Providence-Warwick, RI-MA	44007
+1357	Providence-Warwick, RI-MA	9	0.4629	No	800.0	26.2434	22.6004	44	924698.0	Providence-Warwick, RI-MA	44009
+1358	Greenwood, SC	1						45			45001
+1359	Augusta-Richmond County, GA-SC	3	0.5967	No	680.0	27.3924	18.1643	45	345789.0	Augusta-Richmond County, GA-SC	45003
+1360	Greenville-Anderson-Mauldin, SC	7	0.3712	No	500.0	20.1686	14.1420	45	194471.0	Greenville-Anderson-Mauldin, SC	45007
+1361	Hilton Head Island-Bluffton-Beaufort, SC	13						45			45013
+1362	Charleston-North Charleston, SC	15						45			45015
+1363	Columbia, SC	17						45			45017
+1364	Charleston-North Charleston, SC	19						45			45019
+1365	Gaffney, SC	21						45			45021
+1366	Charlotte-Concord-Gastonia, NC-SC	23	0.5931	Yes	750.0	25.8123	25.6823	45	1637488.0	Charlotte-Concord-Gastonia, NC-SC	45023
+1367	Florence, SC	31						45			45031
+1368	Charleston-North Charleston, SC	35						45			45035
+1369	Augusta-Richmond County, GA-SC	37	0.5967	No	680.0	27.3924	18.1643	45	345789.0	Augusta-Richmond County, GA-SC	45037
+1370	Columbia, SC	39						45			45039
+1371	Florence, SC	41						45			45041
+1372	Georgetown, SC	43						45			45043
+1373	Greenville-Anderson-Mauldin, SC	45	0.3712	No	500.0	20.1686	14.1420	45	194471.0	Greenville-Anderson-Mauldin, SC	45045
+1374	Greenwood, SC	47						45			45047
+1375	Myrtle Beach-Conway-North Myrtle Beach, SC-NC	51	0.3715	No	700.0	19.7263	19.5373	45	432153.0	Myrtle Beach-Conway-North Myrtle Beach, SC-NC	45051
+1376	Hilton Head Island-Bluffton-Beaufort, SC	53						45			45053
+1377	Columbia, SC	55						45			45055
+1378	Charlotte-Concord-Gastonia, NC-SC	57	0.5931	Yes	750.0	25.8123	25.6823	45	1637488.0	Charlotte-Concord-Gastonia, NC-SC	45057
+1379	Greenville-Anderson-Mauldin, SC	59	0.3712	No	500.0	20.1686	14.1420	45	194471.0	Greenville-Anderson-Mauldin, SC	45059
+1380	Columbia, SC	63						45			45063
+1381	Bennettsville, SC	69						45			45069
+1382	Newberry, SC	71						45			45071
+1383	Seneca, SC	73						45			45073
+1384	Orangeburg, SC	75						45			45075
+1385	Greenville-Anderson-Mauldin, SC	77	0.3712	No	500.0	20.1686	14.1420	45	194471.0	Greenville-Anderson-Mauldin, SC	45077
+1386	Columbia, SC	79						45			45079
+1387	Columbia, SC	81						45			45081
+1388	Spartanburg, SC	83	0.4829	No	500.0	23.5123	15.8896	45	297546.0	Spartanburg, SC	45083
+1389	Sumter, SC	85						45			45085
+1390	Spartanburg, SC	87	0.4829	No	500.0	23.5123	15.8896	45	297546.0	Spartanburg, SC	45087
+1391	Charlotte-Concord-Gastonia, NC-SC	91	0.5931	Yes	750.0	25.8123	25.6823	45	1637488.0	Charlotte-Concord-Gastonia, NC-SC	45091
+1392	Huron, SD	5						46			46005
+1393	Brookings, SD	11						46			46011
+1394	Aberdeen, SD	13						46			46013
+1395	Vermillion, SD	27						46			46027
+1396	Watertown, SD	29						46			46029
+1397	Rapid City, SD	33						46			46033
+1398	Mitchell, SD	35						46			46035
+1399	Aberdeen, SD	45						46			46045
+1400	Mitchell, SD	61						46			46061
+1401	Pierre, SD	65						46			46065
+1402	Spearfish, SD	81						46			46081
+1403	Sioux Falls, SD	83						46			46083
+1404	Sioux Falls, SD	87						46			46087
+1405	Rapid City, SD	93						46			46093
+1406	Sioux Falls, SD	99						46			46099
+1407	Rapid City, SD	103						46			46103
+1408	Pierre, SD	117						46			46117
+1409	Pierre, SD	119						46			46119
+1410	Sioux Falls, SD	125						46			46125
+1411	Sioux City, IA-NE-SD	127						46			46127
+1412	Yankton, SD	135						46			46135
+1413	Knoxville, TN	1	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47001
+1414	Shelbyville, TN	3						47			47003
+1415	Knoxville, TN	9	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47009
+1416	Cleveland, TN	11						47			47011
+1417	Knoxville, TN	13	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47013
+1418	Nashville-Davidson--Murfreesboro--Franklin, TN	15	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47015
+1419	Johnson City, TN	19	0.2046	No	530.0	25.3813	21.0902	47	126727.0	Johnson City, TN	47019
+1420	Nashville-Davidson--Murfreesboro--Franklin, TN	21	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47021
+1421	Jackson, TN	23						47			47023
+1422	Newport, TN	29						47			47029
+1423	Tullahoma-Manchester, TN	31						47			47031
+1424	Jackson, TN	33						47			47033
+1425	Crossville, TN	35						47			47035
+1426	Nashville-Davidson--Murfreesboro--Franklin, TN	37	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47037
+1427	Nashville-Davidson--Murfreesboro--Franklin, TN	43	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47043
+1428	Dyersburg, TN	45						47			47045
+1429	Memphis, TN-MS-AR	47	0.5910	No	650.0	25.4038	19.5977	47	1111005.0	Memphis, TN-MS-AR	47047
+1430	Tullahoma-Manchester, TN	51						47			47051
+1431	Knoxville, TN	57	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47057
+1432	Greeneville, TN	59						47			47059
+1433	Morristown, TN	63						47			47063
+1434	Chattanooga, TN-GA	65	0.4506	No	600.0	24.5757	22.9200	47	354598.0	Chattanooga, TN-GA	47065
+1435	Kingsport-Bristol-Bristol, TN-VA	73						47			47073
+1436	Brownsville, TN	75						47			47075
+1437	Paris, TN	79						47			47079
+1438	Nashville-Davidson--Murfreesboro--Franklin, TN	81	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47081
+1439	Cookeville, TN	87						47			47087
+1440	Morristown, TN	89						47			47089
+1441	Knoxville, TN	93	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47093
+1442	Lawrenceburg, TN	99						47			47099
+1443	Knoxville, TN	105	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47105
+1444	Athens, TN	107						47			47107
+1445	Nashville-Davidson--Murfreesboro--Franklin, TN	111	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47111
+1446	Jackson, TN	113						47			47113
+1447	Chattanooga, TN-GA	115	0.4506	No	600.0	24.5757	22.9200	47	354598.0	Chattanooga, TN-GA	47115
+1448	Lewisburg, TN	117						47			47117
+1449	Nashville-Davidson--Murfreesboro--Franklin, TN	119	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47119
+1450	Clarksville, TN-KY	125						47			47125
+1451	Tullahoma-Manchester, TN	127						47			47127
+1452	Knoxville, TN	129	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47129
+1453	Union City, TN-KY	131						47			47131
+1454	Cookeville, TN	133						47			47133
+1455	Cleveland, TN	139						47			47139
+1456	Cookeville, TN	141						47			47141
+1457	Dayton, TN	143						47			47143
+1458	Knoxville, TN	145	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47145
+1459	Nashville-Davidson--Murfreesboro--Franklin, TN	147	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47147
+1460	Nashville-Davidson--Murfreesboro--Franklin, TN	149	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47149
+1461	Chattanooga, TN-GA	153	0.4506	No	600.0	24.5757	22.9200	47	354598.0	Chattanooga, TN-GA	47153
+1462	Sevierville, TN	155						47			47155
+1463	Memphis, TN-MS-AR	157	0.5910	No	650.0	25.4038	19.5977	47	1111005.0	Memphis, TN-MS-AR	47157
+1464	Nashville-Davidson--Murfreesboro--Franklin, TN	159	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47159
+1465	Kingsport-Bristol-Bristol, TN-VA	163						47			47163
+1466	Nashville-Davidson--Murfreesboro--Franklin, TN	165	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47165
+1467	Memphis, TN-MS-AR	167	0.5910	No	650.0	25.4038	19.5977	47	1111005.0	Memphis, TN-MS-AR	47167
+1468	Nashville-Davidson--Murfreesboro--Franklin, TN	169	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47169
+1469	Johnson City, TN	171	0.2046	No	530.0	25.3813	21.0902	47	126727.0	Johnson City, TN	47171
+1470	Knoxville, TN	173	0.1652	No	500.0	21.1804	17.4639	47	127028.0	Knoxville, TN	47173
+1471	McMinnville, TN	177						47			47177
+1472	Johnson City, TN	179	0.2046	No	530.0	25.3813	21.0902	47	126727.0	Johnson City, TN	47179
+1473	Martin, TN	183						47			47183
+1474	Nashville-Davidson--Murfreesboro--Franklin, TN	187	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47187
+1475	Nashville-Davidson--Murfreesboro--Franklin, TN	189	0.4781	Yes	800.0	26.4601	26.5628	47	1493733.0	Nashville-Davidson--Murfreesboro--Franklin, TN	47189
+1476	Palestine, TX	1						48			48001
+1477	Andrews, TX	3						48			48003
+1478	Lufkin, TX	5						48			48005
+1479	Corpus Christi, TX	7	0.5113	No	750.0	26.7466	13.9610	48	359093.0	Corpus Christi, TX	48007
+1480	Wichita Falls, TX	9	0.5180	No	580.0	30.1957	15.0459	48	132840.0	Wichita Falls, TX	48009
+1481	Amarillo, TX	11	0.5558	No	650.0	26.4932	16.0119	48	251850.0	Amarillo, TX	48011
+1482	San Antonio-New Braunfels, TX	13	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48013
+1483	Houston-The Woodlands-Sugar Land, TX	15	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48015
+1484	San Antonio-New Braunfels, TX	19	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48019
+1485	Austin-Round Rock, TX	21	0.6090	Yes	950.0	29.3115	30.2374	48	1881313.0	Austin-Round Rock, TX	48021
+1486	Beeville, TX	25						48			48025
+1487	Killeen-Temple, TX	27	0.6737	No	700.0	30.7422	16.0172	48	334771.0	Killeen-Temple, TX	48027
+1488	San Antonio-New Braunfels, TX	29	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48029
+1489	Texarkana, TX-AR	37						48			48037
+1490	Houston-The Woodlands-Sugar Land, TX	39	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48039
+1491	College Station-Bryan, TX	41	0.5988	Yes	700.0	44.4843	23.8885	48	215141.0	College Station-Bryan, TX	48041
+1492	Brownwood, TX	49						48			48049
+1493	College Station-Bryan, TX	51	0.5988	Yes	700.0	44.4843	23.8885	48	215141.0	College Station-Bryan, TX	48051
+1494	Austin-Round Rock, TX	55	0.6090	Yes	950.0	29.3115	30.2374	48	1881313.0	Austin-Round Rock, TX	48055
+1495	Port Lavaca, TX	57						48			48057
+1496	Abilene, TX	59	0.5208	No	610.0	29.4952	14.6422	48	135683.0	Abilene, TX	48059
+1497	Brownsville-Harlingen, TX	61	0.1998	No	500.0	24.2120	9.1800	48	422224.0	Brownsville-Harlingen, TX	48061
+1498	Amarillo, TX	65	0.5558	No	650.0	26.4932	16.0119	48	251850.0	Amarillo, TX	48065
+1499	Houston-The Woodlands-Sugar Land, TX	71	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48071
+1500	Jacksonville, TX	73						48			48073
+1501	Wichita Falls, TX	77	0.5180	No	580.0	30.1957	15.0459	48	132840.0	Wichita Falls, TX	48077
+1502	Dallas-Fort Worth-Arlington, TX	85	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48085
+1503	San Antonio-New Braunfels, TX	91	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48091
+1504	Gainesville, TX	97						48			48097
+1505	Killeen-Temple, TX	99	0.6737	No	700.0	30.7422	16.0172	48	334771.0	Killeen-Temple, TX	48099
+1506	Lubbock, TX	107	0.5793	No	670.0	34.0744	17.2845	48	299853.0	Lubbock, TX	48107
+1507	Dallas-Fort Worth-Arlington, TX	113	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48113
+1508	Lamesa, TX	115						48			48115
+1509	Hereford, TX	117						48			48117
+1510	Dallas-Fort Worth-Arlington, TX	121	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48121
+1511	Odessa, TX	135	0.5338	No	800.0	28.6898	10.2111	48	159611.0	Odessa, TX	48135
+1512	Dallas-Fort Worth-Arlington, TX	139	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48139
+1513	El Paso, TX	141	0.3197	No	650.0	27.2957	14.5543	48	835217.0	El Paso, TX	48141
+1514	Stephenville, TX	143						48			48143
+1515	Waco, TX	145	0.5904	No	650.0	29.5972	16.2602	48	246098.0	Waco, TX	48145
+1516	Bonham, TX	147						48			48147
+1517	Houston-The Woodlands-Sugar Land, TX	157	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48157
+1518	Houston-The Woodlands-Sugar Land, TX	167	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48167
+1519	Fredericksburg, TX	171						48			48171
+1520	Big Spring, TX	173						48			48173
+1521	Victoria, TX	175						48			48175
+1522	Pampa, TX	179						48			48179
+1523	Sherman-Denison, TX	181						48			48181
+1524	Longview, TX	183	0.5851	No	650.0	23.5937	14.2579	48	124135.0	Longview, TX	48183
+1525	San Antonio-New Braunfels, TX	187	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48187
+1526	Plainview, TX	189						48			48189
+1527	Beaumont-Port Arthur, TX	199	0.6719	No	650.0	27.1139	13.8842	48	255009.0	Beaumont-Port Arthur, TX	48199
+1528	Houston-The Woodlands-Sugar Land, TX	201	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48201
+1529	Marshall, TX	203						48			48203
+1530	Austin-Round Rock, TX	209	0.6090	Yes	950.0	29.3115	30.2374	48	1881313.0	Austin-Round Rock, TX	48209
+1531	Athens, TX	213						48			48213
+1532	McAllen-Edinburg-Mission, TX	215	0.1624	No	550.0	25.6787	10.0640	48	842623.0	McAllen-Edinburg-Mission, TX	48215
+1533	Levelland, TX	219						48			48219
+1534	Dallas-Fort Worth-Arlington, TX	221	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48221
+1535	Sulphur Springs, TX	223						48			48223
+1536	Big Spring, TX	227						48			48227
+1537	El Paso, TX	229	0.3197	No	650.0	27.2957	14.5543	48	835217.0	El Paso, TX	48229
+1538	Dallas-Fort Worth-Arlington, TX	231	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48231
+1539	Borger, TX	233						48			48233
+1540	San Angelo, TX	235	0.5550	No	680.0	29.5845	17.1905	48	117751.0	San Angelo, TX	48235
+1541	Beaumont-Port Arthur, TX	245	0.6719	No	650.0	27.1139	13.8842	48	255009.0	Beaumont-Port Arthur, TX	48245
+1542	Alice, TX	249						48			48249
+1543	Dallas-Fort Worth-Arlington, TX	251	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48251
+1544	Abilene, TX	253	0.5208	No	610.0	29.4952	14.6422	48	135683.0	Abilene, TX	48253
+1545	Dallas-Fort Worth-Arlington, TX	257	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48257
+1546	San Antonio-New Braunfels, TX	259	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48259
+1547	Kingsville, TX	261						48			48261
+1548	Kerrville, TX	265						48			48265
+1549	Kingsville, TX	273						48			48273
+1550	Paris, TX	277						48			48277
+1551	Killeen-Temple, TX	281	0.6737	No	700.0	30.7422	16.0172	48	334771.0	Killeen-Temple, TX	48281
+1552	Houston-The Woodlands-Sugar Land, TX	291	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48291
+1553	Lubbock, TX	303	0.5793	No	670.0	34.0744	17.2845	48	299853.0	Lubbock, TX	48303
+1554	Lubbock, TX	305	0.5793	No	670.0	34.0744	17.2845	48	299853.0	Lubbock, TX	48305
+1555	Waco, TX	309	0.5904	No	650.0	29.5972	16.2602	48	246098.0	Waco, TX	48309
+1556	Midland, TX	317	0.5828	No	1100.0	29.4077	16.3710	48	161029.0	Midland, TX	48317
+1557	Bay City, TX	321						48			48321
+1558	Eagle Pass, TX	323						48			48323
+1559	San Antonio-New Braunfels, TX	325	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48325
+1560	Midland, TX	329	0.5828	No	1100.0	29.4077	16.3710	48	161029.0	Midland, TX	48329
+1561	Houston-The Woodlands-Sugar Land, TX	339	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48339
+1562	Dumas, TX	341						48			48341
+1563	Nacogdoches, TX	347						48			48347
+1564	Corsicana, TX	349						48			48349
+1565	Beaumont-Port Arthur, TX	351	0.6719	No	650.0	27.1139	13.8842	48	255009.0	Beaumont-Port Arthur, TX	48351
+1566	Sweetwater, TX	353						48			48353
+1567	Corpus Christi, TX	355	0.5113	No	750.0	26.7466	13.9610	48	359093.0	Corpus Christi, TX	48355
+1568	Amarillo, TX	359	0.5558	No	650.0	26.4932	16.0119	48	251850.0	Amarillo, TX	48359
+1569	Beaumont-Port Arthur, TX	361	0.6719	No	650.0	27.1139	13.8842	48	255009.0	Beaumont-Port Arthur, TX	48361
+1570	Mineral Wells, TX	363						48			48363
+1571	Dallas-Fort Worth-Arlington, TX	367	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48367
+1572	Amarillo, TX	375	0.5558	No	650.0	26.4932	16.0119	48	251850.0	Amarillo, TX	48375
+1573	Amarillo, TX	381	0.5558	No	650.0	26.4932	16.0119	48	251850.0	Amarillo, TX	48381
+1574	Pecos, TX	389						48			48389
+1575	College Station-Bryan, TX	395	0.5988	Yes	700.0	44.4843	23.8885	48	215141.0	College Station-Bryan, TX	48395
+1576	Dallas-Fort Worth-Arlington, TX	397	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48397
+1577	Longview, TX	401	0.5851	No	650.0	23.5937	14.2579	48	124135.0	Longview, TX	48401
+1578	Corpus Christi, TX	409	0.5113	No	750.0	26.7466	13.9610	48	359093.0	Corpus Christi, TX	48409
+1579	Snyder, TX	415						48			48415
+1580	Tyler, TX	423	0.5691	No	700.0	25.1952	17.5666	48	222951.0	Tyler, TX	48423
+1581	Dallas-Fort Worth-Arlington, TX	425	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48425
+1582	Rio Grande City, TX	427						48			48427
+1583	Dallas-Fort Worth-Arlington, TX	439	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48439
+1584	Abilene, TX	441	0.5208	No	610.0	29.4952	14.6422	48	135683.0	Abilene, TX	48441
+1585	Mount Pleasant, TX	449						48			48449
+1586	San Angelo, TX	451	0.5550	No	680.0	29.5845	17.1905	48	117751.0	San Angelo, TX	48451
+1587	Austin-Round Rock, TX	453	0.6090	Yes	950.0	29.3115	30.2374	48	1881313.0	Austin-Round Rock, TX	48453
+1588	Huntsville, TX	455						48			48455
+1589	Longview, TX	459	0.5851	No	650.0	23.5937	14.2579	48	124135.0	Longview, TX	48459
+1590	Uvalde, TX	463						48			48463
+1591	Del Rio, TX	465						48			48465
+1592	Victoria, TX	469						48			48469
+1593	Huntsville, TX	471						48			48471
+1594	Houston-The Woodlands-Sugar Land, TX	473	0.6947	No	810.0	26.1165	21.4148	48	6460776.0	Houston-The Woodlands-Sugar Land, TX	48473
+1595	Brenham, TX	477						48			48477
+1596	Laredo, TX	479	0.0925	No	600.0	25.8881	9.6820	48	269521.0	Laredo, TX	48479
+1597	El Campo, TX	481						48			48481
+1598	Wichita Falls, TX	485	0.5180	No	580.0	30.1957	15.0459	48	132840.0	Wichita Falls, TX	48485
+1599	Vernon, TX	487						48			48487
+1600	Raymondville, TX	489						48			48489
+1601	Austin-Round Rock, TX	491	0.6090	Yes	950.0	29.3115	30.2374	48	1881313.0	Austin-Round Rock, TX	48491
+1602	San Antonio-New Braunfels, TX	493	0.5743	No	756.0	26.8042	17.8699	48	2175948.0	San Antonio-New Braunfels, TX	48493
+1603	Dallas-Fort Worth-Arlington, TX	497	0.6708	No	810.0	25.5271	22.3684	48	6793024.0	Dallas-Fort Worth-Arlington, TX	48497
+1604	Zapata, TX	505						48			48505
+1605	Ogden-Clearfield, UT	3	0.3270	No	750.0	25.8294	18.3791	49	578909.0	Ogden-Clearfield, UT	49003
+1606	Logan, UT-ID	5						49			49005
+1607	Price, UT	7						49			49007
+1608	Ogden-Clearfield, UT	11	0.3270	No	750.0	25.8294	18.3791	49	578909.0	Ogden-Clearfield, UT	49011
+1609	Cedar City, UT	21						49			49021
+1610	Provo-Orem, UT	23	0.2973	No	800.0	31.9407	19.9838	49	575320.0	Provo-Orem, UT	49023
+1611	Ogden-Clearfield, UT	29	0.3270	No	750.0	25.8294	18.3791	49	578909.0	Ogden-Clearfield, UT	49029
+1612	Salt Lake City, UT	35	0.4440	No	850.0	28.0419	21.0732	49	1107424.0	Salt Lake City, UT	49035
+1613	Summit Park, UT	43						49			49043
+1614	Salt Lake City, UT	45	0.4440	No	850.0	28.0419	21.0732	49	1107424.0	Salt Lake City, UT	49045
+1615	Vernal, UT	47						49			49047
+1616	Provo-Orem, UT	49	0.2973	No	800.0	31.9407	19.9838	49	575320.0	Provo-Orem, UT	49049
+1617	Heber, UT	51						49			49051
+1618	St. George, UT	53	0.2697	No	838.0	22.4388	16.1772	49	155824.0	St. George, UT	49053
+1619	Ogden-Clearfield, UT	57	0.3270	No	750.0	25.8294	18.3791	49	578909.0	Ogden-Clearfield, UT	49057
+1620	Bennington, VT	3						50			50003
+1621	Burlington-South Burlington, VT	7						50			50007
+1622	Berlin, NH-VT	9						50			50009
+1623	Burlington-South Burlington, VT	11						50			50011
+1624	Burlington-South Burlington, VT	13						50			50013
+1625	Claremont-Lebanon, NH-VT	17						50			50017
+1626	Rutland, VT	21						50			50021
+1627	Barre, VT	23						50			50023
+1628	Claremont-Lebanon, NH-VT	27						50			50027
+1629	Charlottesville, VA	3						51			51003
+1630	Richmond, VA	7	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51007
+1631	Lynchburg, VA	9						51			51009
+1632	Lynchburg, VA	11						51			51011
+1633	Washington-Arlington-Alexandria, DC-VA-MD-WV	13	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51013
+1634	Staunton-Waynesboro, VA	15						51			51015
+1635	Lynchburg, VA	19						51			51019
+1636	Roanoke, VA	23						51			51023
+1637	Charlottesville, VA	29						51			51029
+1638	Lynchburg, VA	31						51			51031
+1639	Richmond, VA	33	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51033
+1640	Richmond, VA	36	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51036
+1641	Richmond, VA	41	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51041
+1642	Washington-Arlington-Alexandria, DC-VA-MD-WV	43	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51043
+1643	Roanoke, VA	45						51			51045
+1644	Washington-Arlington-Alexandria, DC-VA-MD-WV	47	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51047
+1645	Big Stone Gap, VA	51						51			51051
+1646	Richmond, VA	53	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51053
+1647	Washington-Arlington-Alexandria, DC-VA-MD-WV	59	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51059
+1648	Washington-Arlington-Alexandria, DC-VA-MD-WV	61	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51061
+1649	Blacksburg-Christiansburg-Radford, VA	63						51			51063
+1650	Charlottesville, VA	65						51			51065
+1651	Roanoke, VA	67						51			51067
+1652	Winchester, VA-WV	69						51			51069
+1653	Blacksburg-Christiansburg-Radford, VA	71						51			51071
+1654	Virginia Beach-Norfolk-Newport News, VA-NC	73	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51073
+1655	Richmond, VA	75	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51075
+1656	Charlottesville, VA	79						51			51079
+1657	Richmond, VA	85	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51085
+1658	Richmond, VA	87	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51087
+1659	Martinsville, VA	89						51			51089
+1660	Virginia Beach-Norfolk-Newport News, VA-NC	93	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51093
+1661	Virginia Beach-Norfolk-Newport News, VA-NC	95	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51095
+1662	Richmond, VA	101	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51101
+1663	Washington-Arlington-Alexandria, DC-VA-MD-WV	107	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51107
+1664	Virginia Beach-Norfolk-Newport News, VA-NC	115	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51115
+1665	Blacksburg-Christiansburg-Radford, VA	121						51			51121
+1666	Charlottesville, VA	125						51			51125
+1667	Richmond, VA	127	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51127
+1668	Danville, VA	143						51			51143
+1669	Richmond, VA	145	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51145
+1670	Richmond, VA	149	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51149
+1671	Washington-Arlington-Alexandria, DC-VA-MD-WV	153	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51153
+1672	Blacksburg-Christiansburg-Radford, VA	155						51			51155
+1673	Washington-Arlington-Alexandria, DC-VA-MD-WV	157	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51157
+1674	Roanoke, VA	161						51			51161
+1675	Harrisonburg, VA	165						51			51165
+1676	Kingsport-Bristol-Bristol, TN-VA	169						51			51169
+1677	Washington-Arlington-Alexandria, DC-VA-MD-WV	177	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51177
+1678	Washington-Arlington-Alexandria, DC-VA-MD-WV	179	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51179
+1679	Richmond, VA	183	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51183
+1680	Bluefield, WV-VA	185						51			51185
+1681	Washington-Arlington-Alexandria, DC-VA-MD-WV	187	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51187
+1682	Kingsport-Bristol-Bristol, TN-VA	191						51			51191
+1683	Big Stone Gap, VA	195						51			51195
+1684	Virginia Beach-Norfolk-Newport News, VA-NC	199	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51199
+1685	Washington-Arlington-Alexandria, DC-VA-MD-WV	510	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51510
+1686	Kingsport-Bristol-Bristol, TN-VA	520						51			51520
+1687	Charlottesville, VA	540						51			51540
+1688	Virginia Beach-Norfolk-Newport News, VA-NC	550	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51550
+1689	Richmond, VA	570	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51570
+1690	Danville, VA	590						51			51590
+1691	Washington-Arlington-Alexandria, DC-VA-MD-WV	600	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51600
+1692	Washington-Arlington-Alexandria, DC-VA-MD-WV	610	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51610
+1693	Washington-Arlington-Alexandria, DC-VA-MD-WV	630	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51630
+1694	Virginia Beach-Norfolk-Newport News, VA-NC	650	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51650
+1695	Harrisonburg, VA	660						51			51660
+1696	Richmond, VA	670	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51670
+1697	Lynchburg, VA	680						51			51680
+1698	Washington-Arlington-Alexandria, DC-VA-MD-WV	683	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51683
+1699	Washington-Arlington-Alexandria, DC-VA-MD-WV	685	0.7031	Yes	1400.0	27.2231	36.8529	51	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	51685
+1700	Martinsville, VA	690						51			51690
+1701	Virginia Beach-Norfolk-Newport News, VA-NC	700	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51700
+1702	Virginia Beach-Norfolk-Newport News, VA-NC	710	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51710
+1703	Big Stone Gap, VA	720						51			51720
+1704	Richmond, VA	730	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51730
+1705	Virginia Beach-Norfolk-Newport News, VA-NC	735	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51735
+1706	Virginia Beach-Norfolk-Newport News, VA-NC	740	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51740
+1707	Blacksburg-Christiansburg-Radford, VA	750						51			51750
+1708	Richmond, VA	760	0.6015	Yes	880.0	26.4439	28.2255	51	880431.0	Richmond, VA	51760
+1709	Roanoke, VA	770						51			51770
+1710	Roanoke, VA	775						51			51775
+1711	Staunton-Waynesboro, VA	790						51			51790
+1712	Virginia Beach-Norfolk-Newport News, VA-NC	800	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51800
+1713	Virginia Beach-Norfolk-Newport News, VA-NC	810	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51810
+1714	Staunton-Waynesboro, VA	820						51			51820
+1715	Virginia Beach-Norfolk-Newport News, VA-NC	830	0.6042	No	948.0	28.3040	20.6088	51	1006872.0	Virginia Beach-Norfolk-Newport News, VA-NC	51830
+1716	Winchester, VA-WV	840						51			51840
+1717	Othello, WA	1						53			53001
+1718	Lewiston, ID-WA	3						53			53003
+1719	Kennewick-Richland, WA	5						53			53005
+1720	Wenatchee, WA	7						53			53007
+1721	Port Angeles, WA	9						53			53009
+1722	Portland-Vancouver-Hillsboro, OR-WA	11	0.4353	Yes	950.0	25.1656	27.8454	53	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	53011
+1723	Walla Walla, WA	13						53			53013
+1724	Longview, WA	15						53			53015
+1725	Wenatchee, WA	17						53			53017
+1726	Kennewick-Richland, WA	21						53			53021
+1727	Moses Lake, WA	25						53			53025
+1728	Aberdeen, WA	27						53			53027
+1729	Oak Harbor, WA	29						53			53029
+1730	Seattle-Tacoma-Bellevue, WA	33	0.5435	Yes	1100.0	26.3899	29.7356	53	3735393.0	Seattle-Tacoma-Bellevue, WA	53033
+1731	Bremerton-Silverdale, WA	35	0.3902	No	910.0	25.4072	21.5158	53	259749.0	Bremerton-Silverdale, WA	53035
+1732	Ellensburg, WA	37						53			53037
+1733	Centralia, WA	41						53			53041
+1734	Shelton, WA	45						53			53045
+1735	Spokane-Spokane Valley, WA	51	0.2712	No	690.0	26.3188	19.8649	53	490155.0	Spokane-Spokane Valley, WA	53051
+1736	Seattle-Tacoma-Bellevue, WA	53	0.5435	Yes	1100.0	26.3899	29.7356	53	3735393.0	Seattle-Tacoma-Bellevue, WA	53053
+1737	Mount Vernon-Anacortes, WA	57						53			53057
+1738	Portland-Vancouver-Hillsboro, OR-WA	59	0.4353	Yes	950.0	25.1656	27.8454	53	2224942.0	Portland-Vancouver-Hillsboro, OR-WA	53059
+1739	Seattle-Tacoma-Bellevue, WA	61	0.5435	Yes	1100.0	26.3899	29.7356	53	3735393.0	Seattle-Tacoma-Bellevue, WA	53061
+1740	Spokane-Spokane Valley, WA	63	0.2712	No	690.0	26.3188	19.8649	53	490155.0	Spokane-Spokane Valley, WA	53063
+1741	Spokane-Spokane Valley, WA	65	0.2712	No	690.0	26.3188	19.8649	53	490155.0	Spokane-Spokane Valley, WA	53065
+1742	Olympia-Tumwater, WA	67	0.4124	No	900.0	23.9512	22.7599	53	269711.0	Olympia-Tumwater, WA	53067
+1743	Walla Walla, WA	71						53			53071
+1744	Bellingham, WA	73	0.3541	No	837.0	30.0303	23.3796	53	211766.0	Bellingham, WA	53073
+1745	Pullman, WA	75						53			53075
+1746	Yakima, WA	77	0.5678	No	627.0	24.2647	9.1753	53	249103.0	Yakima, WA	53077
+1747	Hagerstown-Martinsburg, MD-WV	3	0.3410	No	747.0	23.1251	14.5855	54	149902.0	Hagerstown-Martinsburg, MD-WV	54003
+1748	Charleston, WV	5						54			54005
+1749	Weirton-Steubenville, WV-OH	9						54			54009
+1750	Huntington-Ashland, WV-KY-OH	11						54			54011
+1751	Charleston, WV	15						54			54015
+1752	Clarksburg, WV	17						54			54017
+1753	Beckley, WV	19						54			54019
+1754	Winchester, VA-WV	27						54			54027
+1755	Weirton-Steubenville, WV-OH	29						54			54029
+1756	Clarksburg, WV	33						54			54033
+1757	Washington-Arlington-Alexandria, DC-VA-MD-WV	37	0.7031	Yes	1400.0	27.2231	36.8529	54	3780523.0	Washington-Arlington-Alexandria, DC-VA-MD-WV	54037
+1758	Charleston, WV	39						54			54039
+1759	Huntington-Ashland, WV-KY-OH	43						54			54043
+1760	Logan, WV	45						54			54045
+1761	Fairmont, WV	49						54			54049
+1762	Wheeling, WV-OH	51						54			54051
+1763	Point Pleasant, WV-OH	53						54			54053
+1764	Bluefield, WV-VA	55						54			54055
+1765	Cumberland, MD-WV	57						54			54057
+1766	Morgantown, WV	61						54			54061
+1767	Wheeling, WV-OH	69						54			54069
+1768	Morgantown, WV	77						54			54077
+1769	Huntington-Ashland, WV-KY-OH	79						54			54079
+1770	Beckley, WV	81						54			54081
+1771	Elkins, WV	83						54			54083
+1772	Clarksburg, WV	91						54			54091
+1773	Huntington-Ashland, WV-KY-OH	99						54			54099
+1774	Parkersburg-Vienna, WV	105						54			54105
+1775	Parkersburg-Vienna, WV	107						54			54107
+1776	Green Bay, WI	9	0.3193	No	630.0	24.4591	20.2228	55	258174.0	Green Bay, WI	55009
+1777	Appleton, WI	15	0.2335	No	620.0	24.6010	22.2118	55	183326.0	Appleton, WI	55015
+1778	Eau Claire, WI	17						55			55017
+1779	Madison, WI	21	0.3444	Yes	850.0	29.9702	36.9048	55	523793.0	Madison, WI	55021
+1780	Madison, WI	25	0.3444	Yes	850.0	29.9702	36.9048	55	523793.0	Madison, WI	55025
+1781	Beaver Dam, WI	27						55			55027
+1782	Duluth, MN-WI	31						55			55031
+1783	Menomonie, WI	33						55			55033
+1784	Eau Claire, WI	35						55			55035
+1785	Iron Mountain, MI-WI	37						55			55037
+1786	Fond du Lac, WI	39						55			55039
+1787	Platteville, WI	43						55			55043
+1788	Madison, WI	45	0.3444	Yes	850.0	29.9702	36.9048	55	523793.0	Madison, WI	55045
+1789	Madison, WI	49	0.3444	Yes	850.0	29.9702	36.9048	55	523793.0	Madison, WI	55049
+1790	Watertown-Fort Atkinson, WI	55						55			55055
+1791	Chicago-Naperville-Elgin, IL-IN-WI	59	0.6407	Yes	880.0	25.0705	25.7386	55	9328552.0	Chicago-Naperville-Elgin, IL-IN-WI	55059
+1792	Green Bay, WI	61	0.3193	No	630.0	24.4591	20.2228	55	258174.0	Green Bay, WI	55061
+1793	La Crosse-Onalaska, WI-MN	63	0.1844	No	650.0	28.8245	20.3769	55	118507.0	La Crosse-Onalaska, WI-MN	55063
+1794	Merrill, WI	69						55			55069
+1795	Manitowoc, WI	71						55			55071
+1796	Wausau, WI	73	0.2028	No	596.0	19.8717	15.9132	55	136088.0	Wausau, WI	55073
+1797	Marinette, WI-MI	75						55			55075
+1798	Shawano, WI	78						55			55078
+1799	Milwaukee-Waukesha-West Allis, WI	79	0.5496	No	700.0	24.9963	23.7443	55	1354604.0	Milwaukee-Waukesha-West Allis, WI	55079
+1800	Green Bay, WI	83	0.3193	No	630.0	24.4591	20.2228	55	258174.0	Green Bay, WI	55083
+1801	Appleton, WI	87	0.2335	No	620.0	24.6010	22.2118	55	183326.0	Appleton, WI	55087
+1802	Milwaukee-Waukesha-West Allis, WI	89	0.5496	No	700.0	24.9963	23.7443	55	1354604.0	Milwaukee-Waukesha-West Allis, WI	55089
+1803	Minneapolis-St. Paul-Bloomington, MN-WI	93	0.4375	Yes	900.0	25.2731	30.7880	55	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	55093
+1804	Stevens Point, WI	97						55			55097
+1805	Racine, WI	101	0.4419	No	698.0	21.8608	15.8040	55	195084.0	Racine, WI	55101
+1806	Janesville-Beloit, WI	105	0.3003	No	630.0	22.1554	16.7636	55	161189.0	Janesville-Beloit, WI	55105
+1807	Minneapolis-St. Paul-Bloomington, MN-WI	109	0.4375	Yes	900.0	25.2731	30.7880	55	2903798.0	Minneapolis-St. Paul-Bloomington, MN-WI	55109
+1808	Baraboo, WI	111						55			55111
+1809	Shawano, WI	115						55			55115
+1810	Sheboygan, WI	117	0.2745	No	535.0	21.0330	18.5538	55	115119.0	Sheboygan, WI	55117
+1811	Whitewater-Elkhorn, WI	127	0.2579	No	735.0	25.4354	17.8112	55	103014.0	Whitewater-Elkhorn, WI	55127
+1812	Milwaukee-Waukesha-West Allis, WI	131	0.5496	No	700.0	24.9963	23.7443	55	1354604.0	Milwaukee-Waukesha-West Allis, WI	55131
+1813	Milwaukee-Waukesha-West Allis, WI	133	0.5496	No	700.0	24.9963	23.7443	55	1354604.0	Milwaukee-Waukesha-West Allis, WI	55133
+1814	Oshkosh-Neenah, WI	139	0.1989	No	600.0	27.4748	18.2338	55	169526.0	Oshkosh-Neenah, WI	55139
+1815	Wisconsin Rapids-Marshfield, WI	141						55			55141
+1816	Laramie, WY	1						56			56001
+1817	Gillette, WY	5						56			56005
+1818	Riverton, WY	13						56			56013
+1819	Cheyenne, WY	21						56			56021
+1820	Casper, WY	25						56			56025
+1821	Sheridan, WY	33						56			56033
+1822	Rock Springs, WY	37						56			56037
+1823	Jackson, WY-ID	39						56			56039
+1824	Evanston, WY	41						56			56041
+1825	Adjuntas, PR	1						72			72001
+1826	Aguadilla-Isabela, PR	3						72			72003
+1827	Aguadilla-Isabela, PR	5						72			72005
+1828	San Juan-Carolina-Caguas, PR	7						72			72007
+1829	San Juan-Carolina-Caguas, PR	9						72			72009
+1830	Aguadilla-Isabela, PR	11						72			72011
+1831	Arecibo, PR	13						72			72013
+1832	Guayama, PR	15						72			72015
+1833	San Juan-Carolina-Caguas, PR	17						72			72017
+1834	San Juan-Carolina-Caguas, PR	19						72			72019
+1835	San Juan-Carolina-Caguas, PR	21						72			72021
+1836	San Germán, PR	23						72			72023
+1837	San Juan-Carolina-Caguas, PR	25						72			72025
+1838	Arecibo, PR	27						72			72027
+1839	San Juan-Carolina-Caguas, PR	29						72			72029
+1840	San Juan-Carolina-Caguas, PR	31						72			72031
+1841	San Juan-Carolina-Caguas, PR	33						72			72033
+1842	San Juan-Carolina-Caguas, PR	35						72			72035
+1843	San Juan-Carolina-Caguas, PR	37						72			72037
+1844	San Juan-Carolina-Caguas, PR	39						72			72039
+1845	San Juan-Carolina-Caguas, PR	41						72			72041
+1846	Coamo, PR	43						72			72043
+1847	San Juan-Carolina-Caguas, PR	45						72			72045
+1848	San Juan-Carolina-Caguas, PR	47						72			72047
+1849	San Juan-Carolina-Caguas, PR	51						72			72051
+1850	San Juan-Carolina-Caguas, PR	53						72			72053
+1851	San Juan-Carolina-Caguas, PR	54						72			72054
+1852	Ponce, PR	55						72			72055
+1853	Guayama, PR	57						72			72057
+1854	Ponce, PR	59						72			72059
+1855	San Juan-Carolina-Caguas, PR	61						72			72061
+1856	San Juan-Carolina-Caguas, PR	63						72			72063
+1857	Arecibo, PR	65						72			72065
+1858	Mayagüez, PR	67						72			72067
+1859	San Juan-Carolina-Caguas, PR	69						72			72069
+1860	Aguadilla-Isabela, PR	71						72			72071
+1861	Jayuya, PR	73						72			72073
+1862	Ponce, PR	75						72			72075
+1863	San Juan-Carolina-Caguas, PR	77						72			72077
+1864	San Germán, PR	79						72			72079
+1865	Aguadilla-Isabela, PR	81						72			72081
+1866	San Juan-Carolina-Caguas, PR	85						72			72085
+1867	San Juan-Carolina-Caguas, PR	87						72			72087
+1868	San Juan-Carolina-Caguas, PR	89						72			72089
+1869	San Juan-Carolina-Caguas, PR	91						72			72091
+1870	San Juan-Carolina-Caguas, PR	95						72			72095
+1871	Mayagüez, PR	97						72			72097
+1872	Aguadilla-Isabela, PR	99						72			72099
+1873	San Juan-Carolina-Caguas, PR	101						72			72101
+1874	San Juan-Carolina-Caguas, PR	103						72			72103
+1875	San Juan-Carolina-Caguas, PR	105						72			72105
+1876	San Juan-Carolina-Caguas, PR	107						72			72107
+1877	Guayama, PR	109						72			72109
+1878	Ponce, PR	111						72			72111
+1879	Ponce, PR	113						72			72113
+1880	Arecibo, PR	115						72			72115
+1881	Aguadilla-Isabela, PR	117						72			72117
+1882	San Juan-Carolina-Caguas, PR	119						72			72119
+1883	San Germán, PR	121						72			72121
+1884	Coco, PR	123						72			72123
+1885	San Germán, PR	125						72			72125
+1886	San Juan-Carolina-Caguas, PR	127						72			72127
+1887	San Juan-Carolina-Caguas, PR	129						72			72129
+1888	Aguadilla-Isabela, PR	131						72			72131
+1889	Santa Isabel, PR	133						72			72133
+1890	San Juan-Carolina-Caguas, PR	135						72			72135
+1891	San Juan-Carolina-Caguas, PR	137						72			72137
+1892	San Juan-Carolina-Caguas, PR	139						72			72139
+1893	Aguadilla-Isabela, PR	141						72			72141
+1894	San Juan-Carolina-Caguas, PR	143						72			72143
+1895	San Juan-Carolina-Caguas, PR	145						72			72145
+1896	Ponce, PR	149						72			72149
+1897	San Juan-Carolina-Caguas, PR	151						72			72151
+1898	Ponce, PR	153						72			72153
