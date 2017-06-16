@@ -21,6 +21,14 @@ connection = pymysql.connect(host='localhost',
 @app.route('/index')
 @app.route('/input')
 def cities_input():
+    with connection.cursor() as cursor:  # TODO move this block to another file
+        data_query = "select t1.StateFIPS, t1.CountyFIPS, t1.CBSA, t2.* " +\
+            "from metro_counties t1 left join metro_data t2 on t1.CBSA=t2.CBSA"
+        cursor.execute(data_query)
+        df = pd.DataFrame(cursor.fetchall())
+        df['fips_id'] = df['StateFIPS'] * 1000 + df['CountyFIPS']
+        df.to_csv("flaskexample/static/county_data.tsv", sep="\t")
+
     with connection.cursor() as cursor:
         cities_query = "select distinct(CBSA) from metro_data";
         cursor.execute(cities_query)

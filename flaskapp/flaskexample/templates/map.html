@@ -52,7 +52,6 @@ stroke: #fff;
 fill: none;
 stroke: #fff;
 }
-
 </style>
 
 <title>D3 Simple Map Example by kutchko</title>
@@ -65,6 +64,7 @@ stroke: #fff;
 
 <script type='text/javascript'>//<![CDATA[
 window.onload=function(){
+
     var width = 720,
         height = 375;
 
@@ -87,14 +87,14 @@ window.onload=function(){
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
             .attr("d", path)
-            .style('fill', function(d) {
+            .style('fill', function(d){
 
-                })
+                })        
             .attr('class', 'state')
-            .on('click', function(d) {
+            .on('click', function(d){
                 //your code here 
                 })
-            .on('mouseover', function(d) {
+            .on('mouseover', function(d){
                 //your code here
                 });
 
@@ -146,7 +146,7 @@ window.onload=function(){
 if (window.parent && window.parent.parent){
     window.parent.parent.postMessage(["resultsFrame", {
 height: document.body.getBoundingClientRect().height,
-slug: "wkurucra"
+slug: "0Lxvcpk5"
 }], "*")
 }
 </script>
