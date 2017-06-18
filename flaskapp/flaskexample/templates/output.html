@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Expand experience</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -74,7 +74,17 @@
 <p class="lead">Below is the result of your query.</p>
 </div>
 
-<p>Recommended City: {{ reccity }}</p>
+<h4>You selected: {{ city1_row['CBSA'] }}</h4>
+<p>Median rent: {{ city1_row['MedianRent'] }}</p>
+<p>Diversity index: {{ city1_row['DiversityIndex'] }}</p>
+
+{% if reccity %}
+<h4>Recommended city: {{ city2_row['CBSA'] }}</h4>
+<p>Median rent: {{ city2_row['MedianRent'] }}</p>
+<p>Diversity index: {{ city2_row['DiversityIndex'] }}</p>
+{% else %}
+<h4>No cities meet criteria!</h4>
+{% endif %}
 
 
 </div><!-- /.container -->
@@ -87,6 +97,161 @@
 
 
 </div><!-- /.container -->
+
+
+
+<p></p>
+
+    <!--- D3 map -->
+    <style>
+
+    .counties {
+        fill: none;
+    }
+
+    .states {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+    }
+
+</style>
+<svg width="960" height="600"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+//var unemployment = d3.map();
+var county_data = d3.map();
+
+var path = d3.geoPath();
+
+var x = d3.scaleLinear()
+    .domain([1, 10])
+    .rangeRound([600, 860]);
+
+    //var color = d3.scaleThreshold()
+    //.domain(d3.range(2, 10))
+    //.range(d3.schemeBlues[9]);
+    var color = d3.scaleLinear()
+        .domain([0, .116])
+        .range(['#de2d26','#fee0d2']);
+
+
+    var g = svg.append("g")
+    .attr("class", "key")
+    .attr("transform", "translate(0,40)");
+
+
+d3.queue()
+    .defer(d3.json, "https://d3js.org/us-10m.v1.json")
+    //.defer(d3.tsv, "../static/county_data.tsv", function(d) {
+    //         county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
+    .defer(d3.tsv, "../static/county_data.tsv")
+        //function(data) {
+        //      county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
+        //data.forEach(function(d) {
+        //    d.id = d.id,
+        //    d.TotalPeople = +d.TotalPeople,
+        //    d.CBSA = d.CBSA,
+        //    d.GoodForTech = d.GoodForTech
+      //}); console.log(data[0])} )
+    .defer(d3.tsv, "../static/similarities.tsv")
+    .await(ready);
+
+
+    function ready(error, us, csv, sim) {
+        if (error) throw error;
+
+        var hasColor = {};
+        var pop = {};
+        var goodForTech = {};
+        var CBSA = {};
+        var diversity = {};
+        var medrent = {};
+        var isSimilar = {};
+        var similarity = {};
+        csv.forEach(function(d) {
+            if (d.GoodForTech == '' || d.TotalPeople == 0) {
+                hasColor[d.id] = 'No';
+            } else {
+                hasColor[d.id] = 'Yes';
+                pop[d.id] = +d.TotalPeople;
+            }
+            goodForTech[d.id] = d.GoodForTech;
+            CBSA[d.id] = d.CBSA;
+            diversity[d.id] = d.DiversityIndex;
+            medrent[d.id] = d.MedianRent;
+            isSimilar[d.CBSA] = 'No';
+        });
+
+        sim.forEach(function(d) {
+            similarity[d.CBSA2] = +d.distance;
+            isSimilar[d.CBSA2] = 'Yes';
+        });
+        console.log(similarity);
+        console.log(isSimilar);
+
+        svg.append("g")
+            .attr("class", "counties")
+            .selectAll("path")
+            .data(topojson.feature(us, us.objects.counties).features)
+            .enter().append("path")
+            .attr("fill", function(d) {
+                {% if not reccity %}
+                    return '#999';
+                {% else %}
+                    cbsa = CBSA[d.id]
+                    //if (isSimilar[cbsa] == 'Yes') {
+                    //    return color(similarity[cbsa]);
+                    //} else {
+                        return '#999';
+                   // }
+                {% endif %}
+                
+            })
+            .attr("d", path)
+            .append("title")
+            .text(function(d) {
+                if (hasColor[d.id] == 'Yes') {
+                    return CBSA[d.id] + "\nPopulation: " + pop[d.id] + "\nMedian rent: " +
+                        medrent[d.id] + "\nDiversity index: " + diversity[d.id];
+                }
+            });
+
+        svg.append("path")
+            .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+            .attr("class", "states")
+            .attr("d", path);
+    }
+
+</script>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
 
 
     <!-- Bootstrap core JavaScript

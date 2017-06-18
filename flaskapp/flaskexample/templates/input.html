@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Expand experience</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -58,7 +58,7 @@
 <div class="container">
 
 <div class="starter-template">
-<h2>Where to move?</h2>
+<h2>Where would be a good location to expand?</h2>
 <p>Find a similar city to...</p>
 </div>
 
@@ -96,8 +96,9 @@
 
 </div> <!-- /.container-->
 
-<p>map start</p>
-
+<p></p>
+<p>Good for tech: Orange</p>
+<p>Less good for tech: Blue</p>
 
     <!--- D3 map -->
     <style>
@@ -147,34 +148,6 @@ var x = d3.scaleLinear()
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
-//    g.selectAll("rect")
-//    .data(color.range().map(function(d) {
-//                d = color.invertExtent(d);
-//                if (d[0] == null) d[0] = x.domain()[0];
-//                if (d[1] == null) d[1] = x.domain()[1];
-//                return d;
-//                }))
-//.enter().append("rect")
-//.attr("height", 8)
-//.attr("x", function(d) { return x(d[0]); })
-//.attr("width", function(d) { return x(d[1]) - x(d[0]); })
-//.attr("fill", function(d) { return color(d[0]); });
-
-//g.append("text")
-//.attr("class", "caption")
-//.attr("x", x.range()[0])
-//.attr("y", -6)
-//.attr("fill", "#000")
-//.attr("text-anchor", "start")
-//.attr("font-weight", "bold")
-//.text("Unemployment rate");
-
-//    g.call(d3.axisBottom(x)
-//            .tickSize(13)
-//            .tickFormat(function(x, i) { return i ? x : x + "%"; })
-//            .tickValues(color.domain()))
-//    .select(".domain")
-//    .remove();
 
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
@@ -194,11 +167,13 @@ d3.queue()
 
     function ready(error, us, csv) {
         if (error) throw error;
-        console.log(csv);
 
         var hasColor = {};
         var pop = {};
         var goodForTech = {};
+        var CBSA = {};
+        var diversity = {};
+        var medrent = {};
         csv.forEach(function(d) {
             if (d.GoodForTech == '' || d.TotalPeople == 0) {
                 hasColor[d.id] = 'No';
@@ -207,9 +182,10 @@ d3.queue()
                 pop[d.id] = +d.TotalPeople;
             }
             goodForTech[d.id] = d.GoodForTech;
+            CBSA[d.id] = d.CBSA;
+            diversity[d.id] = d.DiversityIndex;
+            medrent[d.id] = d.MedianRent;
         });
-        console.log(hasColor);
-        console.log(pop);
 
         svg.append("g")
             .attr("class", "counties")
@@ -230,7 +206,12 @@ d3.queue()
             })
             .attr("d", path)
             .append("title")
-            .text(function(d) { return d.rate + "%"; });
+            .text(function(d) {
+                if (hasColor[d.id] == 'Yes') {
+                    return CBSA[d.id] + "\nPopulation: " + pop[d.id] + "\nMedian rent: " +
+                        medrent[d.id] + "\nDiversity index: " + diversity[d.id];
+                }
+            });
 
         svg.append("path")
             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
@@ -244,7 +225,6 @@ d3.queue()
 
 
 
-<p>map end</p>
 
 
     <!-- Bootstrap core JavaScript

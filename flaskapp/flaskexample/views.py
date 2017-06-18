@@ -52,19 +52,19 @@ def cities_output():
     c = request.args.get('cheaper')
     d = request.args.get('diversity')
 
+    query1 = "select * from metro_data where CBSA = %s"
     query2 = "select CBSA from metro_data" 
+    with connection.cursor() as cursor:
+        cursor.execute(query1, (city) )
+    city1_row = cursor.fetchone()
+    city2_row = None
     subqueries = []
     if c or d:
-        query1 = "select * from metro_data where CBSA = %s"
         row = []
-        with connection.cursor() as cursor:
-            cursor.execute(query1, (city) )
-            row = cursor.fetchone()
-
-            if c:
-                subqueries.append("MedianRent < %s" % row['MedianRent'])
-            if d:
-                subqueries.append("DiversityIndex > %s" % row['DiversityIndex'])
+        if c:
+            subqueries.append("MedianRent < %s" % city1_row['MedianRent'])
+        if d:
+            subqueries.append("DiversityIndex > %s" % city1_row['DiversityIndex'])
     if t:
         subqueries.append("GoodForTech = 'Yes'")
     if subqueries:
@@ -72,18 +72,28 @@ def cities_output():
         query2 += " and ".join(subqueries)
     
     query3 = "select * from city_distance where CBSA1 = %s and CBSA2 in (" +\
-        query2 + ") order by distance limit 1"
+        query2 + ") order by distance"
     with connection.cursor() as cursor:
+        print(query3)
         cursor.execute(query3, (city) )
         if not cursor.rowcount:
-            recommended_city = 'No cities found!'
+            recommended_city = None
         else:
-            row = cursor.fetchone()
+            df = pd.DataFrame(cursor.fetchall())
+            df.to_csv("flaskexample/static/similarities.tsv", sep="\t")
+
+            row = df.iloc[0, ]
             recommended_city = row['CBSA2']
+
+            cursor.execute(query1, recommended_city)
+            city2_row = cursor.fetchone()
+
 
 
     return render_template('output.html',
-        reccity = recommended_city)
+        reccity = recommended_city,
+        city1_row = city1_row,
+        city2_row = city2_row)
 
 
 
