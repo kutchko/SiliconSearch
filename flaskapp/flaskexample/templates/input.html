@@ -126,8 +126,15 @@ Less good for tech: Blue
         stroke-linejoin: round;
     }
 
-    .counties path:hovercraft {
-          fill: Steelblue;
+    div.tooltip {   
+        position: absolute;         
+                  text-align: center;         
+        padding: 2px;               
+        font: 12px sans-serif;      
+        background: ivory; 
+        border: 0px;        
+                border-radius: 8px;         
+                pointer-events: none;           
     }
 
 </style>
@@ -164,6 +171,11 @@ var color_no = d3.scaleLinear()
 var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
+
+// Define the div for the tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
 
 
 d3.queue()
@@ -228,7 +240,16 @@ d3.queue()
         svg.selectAll('.counties path')
             .on('mouseover', function(d) {
                 if (hasColor[d.id] == 'Yes' && d.id in CBSA) {
-                    showCaption(d);
+                    //showCaption(d);
+                    div.transition()        
+                        .duration(100)      
+                        .style("opacity", .9);      
+                    div .html(CBSA[d.id] + "<br>" +
+                        "Population: " + pop[d.id] + "<br>" +
+                        "Median rent: " + medrent[d.id] + "<br>" +
+                        "Diversity index: " + diversity[d.id])
+                        .style("left", (d3.event.pageX) + "px")     
+                        .style("top", (d3.event.pageY - 28) + "px");
                     d3.selectAll('path').filter(function(e) {
                         return CBSA[e.id] == CBSA[d.id];
                     }).style("fill", function() {
@@ -239,7 +260,9 @@ d3.queue()
                 }
             })
             .on('mouseout', function(d) {
-                caption.html(starter);
+                div.transition()        
+                    .duration(100)      
+                    .style("opacity", 0);   
                 if (hasColor[d.id] == 'Yes' && d.id in CBSA) {
                     d3.selectAll('path').filter(function(e) {
                         return CBSA[e.id] == CBSA[d.id];

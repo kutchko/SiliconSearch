@@ -113,6 +113,17 @@
         stroke-linejoin: round;
     }
 
+    div.tooltip {   
+        position: absolute;         
+                  text-align: center;         
+        padding: 2px;               
+        font: 12px sans-serif;      
+        background: ivory; 
+        border: 0px;        
+                border-radius: 8px;         
+                pointer-events: none;           
+    }
+
 </style>
 <svg width="960" height="600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -142,6 +153,10 @@ var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
+// Define the div for the tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
 
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
@@ -195,7 +210,6 @@ d3.queue()
             .style("fill", function(d) {
                 cbsa = CBSA[d.id];
                 if (isSimilar[cbsa] == 'Yes') {
-                    //console.log(similarity[cbsa]);
                     return color(similarity[cbsa]);
                 } else {
                     return '#666';
@@ -204,26 +218,17 @@ d3.queue()
             })
             .style("stroke", function(d) {
                 if (CBSA[d.id] == "{{ reccity }}") {
-                    console.log(CBSA[d.id]);
                     return("#300");
                 }
             })
             .style("stroke-width", function(d) {
                 if (CBSA[d.id] == "{{ reccity }}") {
-                    console.log(CBSA[d.id]);
                     return("1.5px");
                 }
             })
             .attr("d", path)
-            .append("title")
-            .text(function(d) {
-                if (hasColor[d.id] == 'Yes') {
-                    return CBSA[d.id] + "\nPopulation: " + pop[d.id] + "\nMedian rent: " +
-                        medrent[d.id] + "\nDiversity index: " + diversity[d.id];
-                }
-            });
+            .append("title");
 
-        console.log("{{ reccity }}");
 
 
         svg.selectAll('.counties path')
@@ -231,6 +236,17 @@ d3.queue()
                 cbsa = CBSA[d.id];
                 if (isSimilar[cbsa] == 'Yes' && d.id in CBSA) {
                     //showCaption(d);
+                    div.transition()        
+                        .duration(100)      
+                        .style("opacity", .9);      
+                    div .html(cbsa + "<br>" +
+                        "Population: " + pop[d.id] + "<br>" +
+                        "Median rent: " + medrent[d.id] + "<br>" +
+                        "Diversity index: " + diversity[d.id] + "<br>" +
+                        "Similarity score: " + similarity[cbsa] * 100)
+                        .style("left", (d3.event.pageX) + "px")     
+                        .style("top", (d3.event.pageY - 28) + "px");
+
                     d3.selectAll('path').filter(function(e) {
                         return CBSA[e.id] == CBSA[d.id];
                     }).style("fill", function() {
@@ -241,7 +257,9 @@ d3.queue()
                 }
             })
             .on('mouseout', function(d) {
-                //caption.html(starter);
+                div.transition()        
+                    .duration(100)      
+                    .style("opacity", 0);   
                 cbsa = CBSA[d.id];
                 if (isSimilar[cbsa] == 'Yes' && d.id in CBSA) {
                     d3.selectAll('path').filter(function(e) {
