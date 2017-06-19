@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Silicon Search</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Expand experience</a>
+          <a class="navbar-brand" href="#">Silicon Search</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -58,6 +58,13 @@
 <div class="container">
 
 <div class="starter-template">
+{% if nomatch %}
+<h2 style="color:#f00">No cities match criteria! Try again...</h2>
+<hr>
+{% endif %}
+
+
+
 <h2>Where would be a good location to expand?</h2>
 <p>Find a similar city to...</p>
 </div>
@@ -97,8 +104,14 @@
 </div> <!-- /.container-->
 
 <p></p>
-<p>Good for tech: Orange</p>
-<p>Less good for tech: Blue</p>
+<h4 id='caption'>
+Good for tech: Orange
+<br>
+Less good for tech: Blue
+<br>
+<br>
+<br>
+</h4>
 
     <!--- D3 map -->
     <style>
@@ -111,6 +124,10 @@
         fill: none;
         stroke: #fff;
         stroke-linejoin: round;
+    }
+
+    .counties path:hovercraft {
+          fill: Steelblue;
     }
 
 </style>
@@ -133,18 +150,18 @@ var x = d3.scaleLinear()
     .domain([1, 10])
     .rangeRound([600, 860]);
 
-    //var color = d3.scaleThreshold()
-    //.domain(d3.range(2, 10))
-    //.range(d3.schemeBlues[9]);
-    var color_yes = d3.scaleLinear()
-        .domain([1, 20000000])
-        .range(['#fee6ce','#e6550d'])
-    var color_no = d3.scaleLinear()
-        .domain([1, 20000000])
-        .range(['#deebf7','#3182bd'])
+//var color = d3.scaleThreshold()
+//.domain(d3.range(2, 10))
+//.range(d3.schemeBlues[9]);
+var color_yes = d3.scaleLinear()
+    .domain([1, 20000000])
+    .range(['#fee6ce','#e6550d'])
+var color_no = d3.scaleLinear()
+    .domain([1, 20000000])
+    .range(['#deebf7','#3182bd'])
 
 
-    var g = svg.append("g")
+var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
@@ -185,6 +202,8 @@ d3.queue()
             CBSA[d.id] = d.CBSA;
             diversity[d.id] = d.DiversityIndex;
             medrent[d.id] = d.MedianRent;
+
+
         });
 
         svg.append("g")
@@ -192,7 +211,7 @@ d3.queue()
             .selectAll("path")
             .data(topojson.feature(us, us.objects.counties).features)
             .enter().append("path")
-            .attr("fill", function(d) {
+            .style("fill", function(d) {
                 //return color(d.rate = unemployment.get(d.id));
                 if (hasColor[d.id] == 'Yes') {
                     if (goodForTech[d.id] == 'Yes') {
@@ -201,23 +220,60 @@ d3.queue()
                         return color_no(pop[d.id]);
                     }
                 } else {
-                    return '#999';
+                    return '#666';
                 }
             })
             .attr("d", path)
-            .append("title")
-            .text(function(d) {
-                if (hasColor[d.id] == 'Yes') {
-                    return CBSA[d.id] + "\nPopulation: " + pop[d.id] + "\nMedian rent: " +
-                        medrent[d.id] + "\nDiversity index: " + diversity[d.id];
+            .append("title");
+        svg.selectAll('.counties path')
+            .on('mouseover', function(d) {
+                if (hasColor[d.id] == 'Yes' && d.id in CBSA) {
+                    showCaption(d);
+                    d3.selectAll('path').filter(function(e) {
+                        return CBSA[e.id] == CBSA[d.id];
+                    }).style("fill", function() {
+                        return d3.rgb(d3.select(this).style("fill")).darker(1);
+                    });
+                } else {
+                    return '#666';
                 }
+            })
+            .on('mouseout', function(d) {
+                caption.html(starter);
+                if (hasColor[d.id] == 'Yes' && d.id in CBSA) {
+                    d3.selectAll('path').filter(function(e) {
+                        return CBSA[e.id] == CBSA[d.id];
+                    }).style("fill", function(f) {
+                        if (goodForTech[f.id] == 'Yes') {
+                            return color_yes(pop[f.id]);
+                        } else {
+                            return color_no(pop[f.id]);
+                        }
+                    });
+                } else {
+                    return '#666';
+                }
+
             });
 
         svg.append("path")
             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
             .attr("class", "states")
             .attr("d", path);
+
+        var caption = d3.select('#caption');
+        var starter = caption.html();
+
+        function showCaption(d) {
+            var name = CBSA[d.id] + "<br>" +
+                "Population: " + pop[d.id] + "<br>" +
+                "Median Rent: " + medrent[d.id] + "<br>" +
+                "Diversity index: " + diversity[d.id]
+            caption.html(name);
+        }
     }
+
+
 
 </script>
 

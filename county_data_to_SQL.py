@@ -63,6 +63,15 @@ try:
                 line['CBSA Title'], line['Metropolitan/Micropolitan Statistical Area'],
                 line['State Name'], line['County/County Equivalent']))
 
+        # save city data to TSV
+        data_query = "select t1.StateFIPS, t1.CountyFIPS, t1.CBSA, t2.* " +\
+            "from metro_counties t1 left join metro_data t2 on t1.CBSA=t2.CBSA"
+        cursor.execute(data_query)
+        df = pd.DataFrame(cursor.fetchall())
+        dfseries = df['StateFIPS'] * 1000 + df['CountyFIPS']
+        df['id'] = dfseries.apply(lambda x: "%05d" % x)
+        df.to_csv("flaskapp/flaskexample/static/county_data.tsv", sep="\t")
+
 finally:
     connection.commit()
     connection.close()

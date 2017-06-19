@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Silicon Search</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Expand experience</a>
+          <a class="navbar-brand" href="#">Silicon Search</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -78,13 +78,9 @@
 <p>Median rent: {{ city1_row['MedianRent'] }}</p>
 <p>Diversity index: {{ city1_row['DiversityIndex'] }}</p>
 
-{% if reccity %}
 <h4>Recommended city: {{ city2_row['CBSA'] }}</h4>
 <p>Median rent: {{ city2_row['MedianRent'] }}</p>
 <p>Diversity index: {{ city2_row['DiversityIndex'] }}</p>
-{% else %}
-<h4>No cities meet criteria!</h4>
-{% endif %}
 
 
 </div><!-- /.container -->
@@ -107,6 +103,8 @@
 
     .counties {
         fill: none;
+        stroke: none;
+        stroke-weight: none;
     }
 
     .states {
@@ -138,34 +136,22 @@ var x = d3.scaleLinear()
     //var color = d3.scaleThreshold()
     //.domain(d3.range(2, 10))
     //.range(d3.schemeBlues[9]);
-    var color = d3.scaleLinear()
-        .domain([0, .116])
-        .range(['#de2d26','#fee0d2']);
 
 
-    var g = svg.append("g")
+var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
 
 
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
-    //.defer(d3.tsv, "../static/county_data.tsv", function(d) {
-    //         county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
     .defer(d3.tsv, "../static/county_data.tsv")
-        //function(data) {
-        //      county_data.set(d.id, d.CBSA, +d.TotalPeople, d.GoodForTech); })
-        //data.forEach(function(d) {
-        //    d.id = d.id,
-        //    d.TotalPeople = +d.TotalPeople,
-        //    d.CBSA = d.CBSA,
-        //    d.GoodForTech = d.GoodForTech
-      //}); console.log(data[0])} )
-    .defer(d3.tsv, "../static/similarities.tsv")
+//    .defer(d3.json, {{ city_data_json | safe }})
     .await(ready);
 
 
-    function ready(error, us, csv, sim) {
+    //function ready(error, us, csv, sim) {
+    function ready(error, us, csv) {
         if (error) throw error;
 
         var hasColor = {};
@@ -187,33 +173,46 @@ d3.queue()
             CBSA[d.id] = d.CBSA;
             diversity[d.id] = d.DiversityIndex;
             medrent[d.id] = d.MedianRent;
-            isSimilar[d.CBSA] = 'No';
+            //isSimilar[d.CBSA] = 'No';
         });
-
-        sim.forEach(function(d) {
-            similarity[d.CBSA2] = +d.distance;
-            isSimilar[d.CBSA2] = 'Yes';
-        });
-        console.log(similarity);
-        console.log(isSimilar);
+        
+        sim = {{ city_data_json | safe }};
+        var similarityValues = [];
+        for (var i = 0; i < sim.length; i++) {
+            isSimilar[sim[i].CBSA2] = 'Yes';
+            similarity[sim[i].CBSA2] = sim[i].distance;
+            similarityValues.push(sim[i].distance);
+        };
+        var color = d3.scaleLinear()
+            .range(['#de2d26','#fee0d2'])
+            .domain([d3.min(similarityValues), d3.max(similarityValues)]);
 
         svg.append("g")
             .attr("class", "counties")
             .selectAll("path")
             .data(topojson.feature(us, us.objects.counties).features)
             .enter().append("path")
-            .attr("fill", function(d) {
-                {% if not reccity %}
-                    return '#999';
-                {% else %}
-                    cbsa = CBSA[d.id]
-                    //if (isSimilar[cbsa] == 'Yes') {
-                    //    return color(similarity[cbsa]);
-                    //} else {
-                        return '#999';
-                   // }
-                {% endif %}
+            .style("fill", function(d) {
+                cbsa = CBSA[d.id];
+                if (isSimilar[cbsa] == 'Yes') {
+                    //console.log(similarity[cbsa]);
+                    return color(similarity[cbsa]);
+                } else {
+                    return '#666';
+                }
                 
+            })
+            .style("stroke", function(d) {
+                if (CBSA[d.id] == "{{ reccity }}") {
+                    console.log(CBSA[d.id]);
+                    return("#300");
+                }
+            })
+            .style("stroke-width", function(d) {
+                if (CBSA[d.id] == "{{ reccity }}") {
+                    console.log(CBSA[d.id]);
+                    return("1.5px");
+                }
             })
             .attr("d", path)
             .append("title")
@@ -223,6 +222,47 @@ d3.queue()
                         medrent[d.id] + "\nDiversity index: " + diversity[d.id];
                 }
             });
+
+        console.log("{{ reccity }}");
+
+
+        svg.selectAll('.counties path')
+            .on('mouseover', function(d) {
+                cbsa = CBSA[d.id];
+                if (isSimilar[cbsa] == 'Yes' && d.id in CBSA) {
+                    //showCaption(d);
+                    d3.selectAll('path').filter(function(e) {
+                        return CBSA[e.id] == CBSA[d.id];
+                    }).style("fill", function() {
+                        return d3.rgb(d3.select(this).style("fill")).darker(1);
+                    })
+                } else {
+                    return '#666';
+                }
+            })
+            .on('mouseout', function(d) {
+                //caption.html(starter);
+                cbsa = CBSA[d.id];
+                if (isSimilar[cbsa] == 'Yes' && d.id in CBSA) {
+                    d3.selectAll('path').filter(function(e) {
+                        return CBSA[e.id] == CBSA[d.id];
+                    }).style("fill", function(f) {
+                        return color(similarity[cbsa]);
+                    });
+                } else {
+                    return '#666';
+                }
+
+            });
+
+        svg.append("path")
+            .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+            .attr("class", "states")
+            .attr("d", path);
+
+        //var caption = d3.select('#caption');
+        //var starter = caption.html();
+
 
         svg.append("path")
             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))

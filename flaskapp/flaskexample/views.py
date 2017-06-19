@@ -1,8 +1,10 @@
 from flask import render_template
 from flask import request
+from flask import Response
 from flaskexample import app
 import pymysql.cursors
 import pandas as pd
+import json
 
 user = 'kkutchko'
 passwd = 'password'
@@ -21,15 +23,6 @@ connection = pymysql.connect(host='localhost',
 @app.route('/index')
 @app.route('/input')
 def cities_input():
-    with connection.cursor() as cursor:  # TODO move this block to another file
-        data_query = "select t1.StateFIPS, t1.CountyFIPS, t1.CBSA, t2.* " +\
-            "from metro_counties t1 left join metro_data t2 on t1.CBSA=t2.CBSA"
-        cursor.execute(data_query)
-        df = pd.DataFrame(cursor.fetchall())
-        dfseries = df['StateFIPS'] * 1000 + df['CountyFIPS']
-        df['id'] = dfseries.apply(lambda x: "%05d" % x)
-        df.to_csv("flaskexample/static/county_data.tsv", sep="\t")
-
     with connection.cursor() as cursor:
         cities_query = "select distinct(CBSA) from metro_data";
         cursor.execute(cities_query)
@@ -37,15 +30,13 @@ def cities_input():
         
         cities = [r['CBSA'] for r in rows]
 
-        return render_template('input.html', cities = cities)
+        return render_template('input.html', cities = cities, nomatch = False)
 
-@app.route('/map')
-def mappage():
-    return render_template('map.html')
 
 @app.route('/output')
 def cities_output():
     recommended_city = ''
+    city_data_json = ''
     city = request.args.get('city')
 
     t = request.args.get('good_for_tech')
@@ -74,56 +65,30 @@ def cities_output():
     query3 = "select * from city_distance where CBSA1 = %s and CBSA2 in (" +\
         query2 + ") order by distance"
     with connection.cursor() as cursor:
-        print(query3)
         cursor.execute(query3, (city) )
+
+        # if no city matches criteria
         if not cursor.rowcount:
-            recommended_city = None
+            cities_query = "select distinct(CBSA) from metro_data";
+            cursor.execute(cities_query)
+            rows = cursor.fetchall()
+            
+            cities = [r['CBSA'] for r in rows]
+            return render_template('input.html', cities = cities, nomatch=True)
+        # if at least one city does match criteria
         else:
             df = pd.DataFrame(cursor.fetchall())
-            df.to_csv("flaskexample/static/similarities.tsv", sep="\t")
 
             row = df.iloc[0, ]
             recommended_city = row['CBSA2']
 
             cursor.execute(query1, recommended_city)
             city2_row = cursor.fetchone()
-
-
+            city_data_json = df.to_json(orient='records')
 
     return render_template('output.html',
         reccity = recommended_city,
         city1_row = city1_row,
-        city2_row = city2_row)
-
-
-
-@app.route('/db')
-def birth_page():
-    sql_query = """
-                select * from city_distance where CBSA1 like '%St. George, UT%';
-                """
-    query_results = pd.read_sql_query(sql_query, connection)
-    results = ""
-    for i in range(0, 10):
-        results += query_results.iloc[i]['CBSA2']
-        results += "<br>"
-    return results
-
-@app.route('/db_fancy')
-def birth_page_fancy():
-    sql_query = """
-                select * from city_distance where CBSA1 like '%St. George, UT%';
-                """
-    query_results = pd.read_sql_query(sql_query, connection)
-    res = []
-    for i in range(0, query_results.shape[0]):
-        res.append(dict(index = i,
-                        attendant = query_results.iloc[i]['CBSA2'],
-                        birth_month = query_results.iloc[i]['distance']))
-    return render_template('starter-template.html', births = res)
-
-
-
-
-
+        city2_row = city2_row,
+        city_data_json = city_data_json)
 
