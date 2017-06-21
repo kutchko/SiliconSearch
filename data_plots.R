@@ -9,6 +9,17 @@ str(metro.data)
 
 high.tech <- metro.data %>%
     filter(PercentTech > 3)
+LA <- metro.data %>%
+    filter(grepl('Los Angeles', CBSA))
+
+ggplot(metro.data, aes(x=PercentTech)) +
+    geom_histogram() +
+    geom_vline(xintercept=3, linetype='dotted') +
+    labs(x='Percent of jobs in tech industry',
+         y='Count',
+         title='Distribution of tech industry sizes by metro area') +
+    theme_bw()
+
 
 ggplot(metro.data, aes(x=TotalPeople, y=TotalTech)) +
     geom_point() +
@@ -45,7 +56,9 @@ metro.data %>% filter(PercentHighSchool < .8)
 metro.data %>%
     ggplot(aes(x=PercentCollege)) +
     geom_histogram() +
-    geom_vline(data = high.tech, aes(xintercept = PercentCollege), linetype='dotted')
+    geom_vline(data = high.tech, aes(xintercept = PercentCollege), linetype='dotted') +
+    geom_vline(data = LA, aes(xintercept = PercentCollege),
+               linetype='dotted', colour='red')
 
 ggplot(metro.data, aes(x=MedianIncome)) +
     geom_histogram(binwidth = 1000) +
@@ -94,6 +107,8 @@ metro.data %>%
 metro.data %>%
     ggplot(aes(x=Percent18to35)) +
     geom_histogram() +
-    geom_vline(data = high.tech, aes(xintercept = Percent18to35), linetype='dotted')
+    geom_vline(data = high.tech, aes(xintercept = Percent18to35), linetype='dotted') +
+    geom_vline(data = LA, aes(xintercept = Percent18to35),
+               linetype='dotted', colour='red')
 
 
