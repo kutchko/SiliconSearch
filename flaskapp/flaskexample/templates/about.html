@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Silicon Search</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/input">Silicon Search</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/input">Home</a></li>
+            <li class="active"><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<br><br>
+
+<div class="container">
+
+<div class="starter-template">
+
+<h2>About Silicon Search</h2>
+
+<p>Silicon Search is an application that provides suggestions to tech companies 
+for new cities to expand to.</p>
+
+<h4>Data</h4>
+<p>Data for about 250 metropolitan areas from the US Census's 2015 American Community Surveys was
+downloaded from <a href="https://usa.ipums.org/usa/">IPUMS.org</a>. The data, represented by county,
+were aggregated by metropolitan area.</p>
+
+<h4>Algorithm</h4>
+<p>Cities were labeled as "good for tech" vs. "less good for tech" using label propagation from
+Python's scikit-learn.
+Cities with over 3% of jobs in the tech industry were labeled as "Good for tech." The algorithm
+was validated through k-fold cross-validation. The features used for label propagation were
+percent of the population with a bachelor's degree and percent of the population between the
+ages of 18 and 35.</p>
+<p>The similarity between cities was calculated using the Euclidean distance derived from
+data from the American Community Survey, including the features used for the label propagation
+algorithm as well as the diversity and price of rent.</p>
+<p>The diversity index was calculated using the algorithm described <a href="https://fivethirtyeight.com/features/the-most-diverse-cities-are-often-the-most-segregated/">here</a>, from FiveThirtyEight.
+Diversity scores range from 0.0 to 0.8, with 0.8 being the most diverse.</p>
+
+<h4>Tools</h4>
+<p>For the back-end, I used Python (pandas) and R (dplyr, tidyr, ggplot2) to explore
+the data, and Python's scikit-learn for label propagation and calculating a distance
+matrix between the metropolitan areas. Aggregated data is stored in MySQL tables, using
+the pymysql package in Python for the interface.</p>
+<p>The web app is designed using HTML and Python's Flask and deployed on Amazon Web Services.
+Data is queried using a live MySQL call within the Flask app.
+D3 is used to visualize the data on a United States map.</p>
+
+</div>
+
+
+
+</div> <!-- /.container-->
+
+<p></p>
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+<script src="static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

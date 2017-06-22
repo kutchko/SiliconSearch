@@ -92,3 +92,16 @@ def cities_output():
         city2_row = city2_row,
         city_data_json = city_data_json)
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+
+
+
+
+

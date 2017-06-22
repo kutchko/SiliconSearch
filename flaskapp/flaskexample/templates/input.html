@@ -17,7 +17,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <!-- <link href="starter-template.css" rel="stylesheet"> -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -41,13 +41,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Silicon Search</a>
+          <a class="navbar-brand" href="/input">Silicon Search</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="/input">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -104,14 +104,6 @@
 </div> <!-- /.container-->
 
 <p></p>
-<h4 id='caption'>
-Good for tech: Orange
-<br>
-Less good for tech: Blue
-<br>
-<br>
-<br>
-</h4>
 
     <!--- D3 map -->
     <style>
@@ -130,7 +122,7 @@ Less good for tech: Blue
         position: absolute;         
                   text-align: center;         
         padding: 2px;               
-        font: 12px sans-serif;      
+        font: 14px sans-serif;      
         background: ivory; 
         border: 0px;        
                 border-radius: 8px;         
@@ -142,6 +134,7 @@ Less good for tech: Blue
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
 <script>
 
 var svg = d3.select("svg"),
@@ -160,12 +153,6 @@ var x = d3.scaleLinear()
 //var color = d3.scaleThreshold()
 //.domain(d3.range(2, 10))
 //.range(d3.schemeBlues[9]);
-var color_yes = d3.scaleLinear()
-    .domain([1, 20000000])
-    .range(['#fee6ce','#e6550d'])
-var color_no = d3.scaleLinear()
-    .domain([1, 20000000])
-    .range(['#deebf7','#3182bd'])
 
 
 var g = svg.append("g")
@@ -177,6 +164,12 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
 
+var moneyFormat = d3.format("$,");
+var popFormat = d3.format(",");
+
+var round = function(d) {
+    return Math.round(d/1000)*1000;
+};
 
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
@@ -203,20 +196,26 @@ d3.queue()
         var CBSA = {};
         var diversity = {};
         var medrent = {};
+        var populations = [];
         csv.forEach(function(d) {
             if (d.GoodForTech == '' || d.TotalPeople == 0) {
                 hasColor[d.id] = 'No';
             } else {
                 hasColor[d.id] = 'Yes';
-                pop[d.id] = +d.TotalPeople;
+                pop[d.id] = round(+d.TotalPeople);
+                populations.push(round(+d.TotalPeople));
             }
             goodForTech[d.id] = d.GoodForTech;
             CBSA[d.id] = d.CBSA;
             diversity[d.id] = d.DiversityIndex;
             medrent[d.id] = d.MedianRent;
-
-
         });
+        var color_yes = d3.scaleLog()
+            .domain([d3.min(populations), d3.max(populations)])
+            .range(['#fee6ce','#e6550d']).nice();
+        var color_no = d3.scaleLog()
+            .domain([d3.min(populations), d3.max(populations)])
+            .range(['#deebf7','#3182bd']).nice();
 
         svg.append("g")
             .attr("class", "counties")
@@ -242,13 +241,13 @@ d3.queue()
                 if (hasColor[d.id] == 'Yes' && d.id in CBSA) {
                     //showCaption(d);
                     div.transition()        
-                        .duration(100)      
+                        .duration(500)      
                         .style("opacity", .9);      
                     div .html(CBSA[d.id] + "<br>" +
-                        "Population: " + pop[d.id] + "<br>" +
-                        "Median rent: " + medrent[d.id] + "<br>" +
+                        "Population: " + popFormat(pop[d.id]) + "<br>" +
+                        "Median rent: " + moneyFormat(medrent[d.id]) + "<br>" +
                         "Diversity index: " + diversity[d.id])
-                        .style("left", (d3.event.pageX) + "px")     
+                        .style("left", (d3.event.pageX + 10) + "px")     
                         .style("top", (d3.event.pageY - 28) + "px");
                     d3.selectAll('path').filter(function(e) {
                         return CBSA[e.id] == CBSA[d.id];
@@ -284,16 +283,40 @@ d3.queue()
             .attr("class", "states")
             .attr("d", path);
 
-        var caption = d3.select('#caption');
-        var starter = caption.html();
+        // color scale
+        svg.append("g")
+            .attr("class", "legendLog")
+            .attr("transform", "translate(650,40)");
+        var logLegendYes = d3.legendColor()
+            .cells([10000, 100000, 1000000, 10000000])
+            .scale(color_yes)
+            .labelFormat(',');
+        svg.select(".legendLog")
+            .call(logLegendYes);
 
-        function showCaption(d) {
-            var name = CBSA[d.id] + "<br>" +
-                "Population: " + pop[d.id] + "<br>" +
-                "Median Rent: " + medrent[d.id] + "<br>" +
-                "Diversity index: " + diversity[d.id]
-            caption.html(name);
-        }
+        svg.append("g")
+            .attr("class", "legendLog2")
+            .attr("transform", "translate(750,40)");
+        var logLegendNo = d3.legendColor()
+            .cells([10000, 100000, 1000000, 10000000])
+            .scale(color_no)
+            .labelFormat(',');
+        svg.select(".legendLog2")
+            .call(logLegendNo);
+
+        svg.append('text')
+            .attr('x', 650)
+            .attr('y', 35)
+            .text('Good for tech');
+        svg.append('text')
+            .attr('x', 750)
+            .attr('y', 35)
+            .text('Less good for tech');
+        svg.append("text")
+            .attr('x', 650)
+            .attr('y', 20)
+            .text('Population')
+            .style("font-weight", "bold");
     }
 
 
@@ -311,9 +334,7 @@ d3.queue()
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 <script src="static/js/bootstrap.min.js"></script>
 

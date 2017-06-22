@@ -15,14 +15,11 @@
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -42,13 +39,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Silicon Search</a>
+          <a class="navbar-brand" href="/input">Silicon Search</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="/input">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -75,11 +72,11 @@
 </div>
 
 <h4>You selected: {{ city1_row['CBSA'] }}</h4>
-<p>Median rent: {{ city1_row['MedianRent'] }}</p>
+<p>Median rent: ${{ city1_row['MedianRent'] }}</p>
 <p>Diversity index: {{ city1_row['DiversityIndex'] }}</p>
 
 <h4>Recommended city: {{ city2_row['CBSA'] }}</h4>
-<p>Median rent: {{ city2_row['MedianRent'] }}</p>
+<p>Median rent: ${{ city2_row['MedianRent'] }}</p>
 <p>Diversity index: {{ city2_row['DiversityIndex'] }}</p>
 
 
@@ -117,7 +114,7 @@
         position: absolute;         
                   text-align: center;         
         padding: 2px;               
-        font: 12px sans-serif;      
+        font: 14px sans-serif;      
         background: ivory; 
         border: 0px;        
                 border-radius: 8px;         
@@ -129,6 +126,7 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
 <script>
 
 var svg = d3.select("svg"),
@@ -158,6 +156,14 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
 
+var moneyFormat = d3.format("$,");
+var popFormat = d3.format(",");
+var simFormat = d3.format(".3f");
+
+var round = function(d) {
+    return Math.round(d/1000)*1000;
+};
+
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
     .defer(d3.tsv, "../static/county_data.tsv")
@@ -182,7 +188,7 @@ d3.queue()
                 hasColor[d.id] = 'No';
             } else {
                 hasColor[d.id] = 'Yes';
-                pop[d.id] = +d.TotalPeople;
+                pop[d.id] = round(+d.TotalPeople);
             }
             goodForTech[d.id] = d.GoodForTech;
             CBSA[d.id] = d.CBSA;
@@ -195,8 +201,8 @@ d3.queue()
         var similarityValues = [];
         for (var i = 0; i < sim.length; i++) {
             isSimilar[sim[i].CBSA2] = 'Yes';
-            similarity[sim[i].CBSA2] = sim[i].distance;
-            similarityValues.push(sim[i].distance);
+            similarity[sim[i].CBSA2] = sim[i].distance * 100;
+            similarityValues.push(sim[i].distance * 100);
         };
         var color = d3.scaleLinear()
             .range(['#de2d26','#fee0d2'])
@@ -237,14 +243,13 @@ d3.queue()
                 if (isSimilar[cbsa] == 'Yes' && d.id in CBSA) {
                     //showCaption(d);
                     div.transition()        
-                        .duration(100)      
+                        .duration(500)      
                         .style("opacity", .9);      
                     div .html(cbsa + "<br>" +
-                        "Population: " + pop[d.id] + "<br>" +
-                        "Median rent: " + medrent[d.id] + "<br>" +
-                        "Diversity index: " + diversity[d.id] + "<br>" +
-                        "Similarity score: " + similarity[cbsa] * 100)
-                        .style("left", (d3.event.pageX) + "px")     
+                        "Population: " + popFormat(pop[d.id]) + "<br>" +
+                        "Median rent: " + moneyFormat(medrent[d.id]) + "<br>" +
+                        "Diversity index: " + diversity[d.id])
+                        .style("left", (d3.event.pageX + 10) + "px")     
                         .style("top", (d3.event.pageY - 28) + "px");
 
                     d3.selectAll('path').filter(function(e) {
@@ -278,14 +283,26 @@ d3.queue()
             .attr("class", "states")
             .attr("d", path);
 
-        //var caption = d3.select('#caption');
-        //var starter = caption.html();
-
-
         svg.append("path")
             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
             .attr("class", "states")
             .attr("d", path);
+
+        // color scale
+        svg.append("g")
+            .attr("class", "legendLog")
+            .attr("transform", "translate(700,80)");
+        var logLegend = d3.legendColor()
+            .scale(color)
+            .cells(2)
+            .labels(['Most similar', 'Least similar']);
+        svg.select(".legendLog")
+            .call(logLegend);
+        svg.append("text")
+            .attr('x', 700)
+            .attr('y', 75)
+            .text('Similarity')
+            .style("font-weight", "bold");
     }
 
 </script>
@@ -301,9 +318,7 @@ d3.queue()
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 <script src="static/js/bootstrap.min.js"></script>
 
@@ -312,16 +327,6 @@ d3.queue()
 
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-<script src="static/js/bootstrap.min.js"></script>
 
   </body>
 </html>
